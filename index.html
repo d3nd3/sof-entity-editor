@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoF Entity Editor</title>
+  </head>
+  <body>
+    <div id="app">
+      <aside class="sidebar">
+        <h1>SoF Entity Editor</h1>
+        <p class="hint">BSP v46 — load a <code>.bsp</code> (optional <code>.txt</code> entities).</p>
+        <div class="sof1maps">
+          <h2 class="subh">sof1maps (GitHub)</h2>
+          <p class="hint small">Zip path under <a href="https://github.com/plowsof/sof1maps" target="_blank" rel="noopener">plowsof/sof1maps</a> (e.g. <code>doom2sof</code> or <code>dm/doom2sof.zip</code>).</p>
+          <div class="row">
+            <label>Folder</label>
+            <select id="sof1maps-folder" aria-label="Map folder"></select>
+          </div>
+          <div class="row">
+            <label for="sof1maps-map">Map</label>
+            <input id="sof1maps-map" type="text" spellcheck="false" placeholder="doom2sof" title="Short name or full path like dm/foo.zip" />
+          </div>
+          <button id="sof1maps-fetch" type="button" class="btn primary">Download &amp; load</button>
+          <label class="inline"><input type="checkbox" id="sof1maps-autoload" checked /> Load default map on open</label>
+        </div>
+        <label class="btn"
+          >Open BSP
+          <input id="bsp-input" type="file" accept=".bsp" hidden />
+        </label>
+        <label class="btn secondary"
+          >Open entities .txt
+          <input id="ent-input" type="file" accept=".txt" hidden />
+        </label>
+        <button id="ent-clipboard" type="button" class="btn secondary">Use clipboard entities</button>
+        <button id="ent-internal" type="button" class="btn secondary">Use internal entities</button>
+        <button id="export-btn" type="button" class="btn primary">Export entities</button>
+        <p id="status" class="status"></p>
+        <h2 class="subh">Add entity</h2>
+        <p class="hint small">Classnames from <code>entities.txt</code> (type to filter).</p>
+        <input id="insert-class" class="insert-class" list="entity-classnames" type="text" spellcheck="false" placeholder="info_player_deathmatch" autocomplete="off" />
+        <datalist id="entity-classnames"></datalist>
+        <button id="insert-btn" type="button" class="btn secondary">Insert at view center</button>
+        <h2>Entities</h2>
+        <ul id="entity-list" class="entity-list"></ul>
+      </aside>
+      <div id="drop-zone" class="viewport-wrap" tabindex="0">
+        <div id="viewport"></div>
+        <div id="entity-inspector" class="entity-inspector is-hidden" aria-hidden="true">
+          <h2 class="entity-inspector-title">Entity</h2>
+          <p id="entity-inspector-summary" class="entity-inspector-meta"></p>
+          <button id="entity-goto" type="button" class="btn-inspector-goto" title="Move camera to this entity origin">
+            Goto
+          </button>
+          <div id="entity-fields" class="entity-fields"></div>
+          <button id="entity-add-field" type="button" class="btn-inspector-add">+ field</button>
+        </div>
+        <div id="camera-pos-hud" class="camera-pos-hud" aria-live="polite"></div>
+        <div id="view-hint" class="view-hint" aria-hidden="true"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "sof-entity-editor",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "^0.183.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "three": "^0.172.0"
+  }
+}
