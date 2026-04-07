@@ -1,0 +1,823 @@
+{
+"startmusic" "1"
+"musicset" "dm3"
+"message" "Map made by : PETER R'dam"
+"sky" "train"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"classname" "trigger_conquer"
+}
+{
+"angle" "270"
+"origin" "-323.72 -184.62 -52"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "89"
+"origin" "-462 63.72 -44"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "477.38 -364.9 100"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-318.62 166.14 -52"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "330 -163.86 -52"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "327.72 185.18 -52"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "271"
+"origin" "448.34 -63.72 -44"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "-477.38 364.34 100"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "316"
+"origin" "-477.66 446.06 293.71"
+"classname" "info_player_start"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "0 291.32 172"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "0 -291.32 172"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-218.48 345.94 172"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "218.48 345.94 172"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-218.48 -345.94 172"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "218.48 -345.94 172"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-455.18 0 172"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-455.18 0 44"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "446.06 0 44"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "446.06 0 172"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-478.9 460.14 324"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "474.48 468.14 316"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "218.48 0 316"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-3.52 260 322"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-3.52 -252 322"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-254.9 0 316"
+"classname" "light"
+}
+{
+"style" "11"
+"_color" "0.000000 1.000000 0.000000"
+"light" "300"
+"origin" "-327.72 0 44"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-264 0 44"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "264 0 44"
+"classname" "light"
+}
+{
+"style" "11"
+"_color" "0.000000 1.000000 0.000000"
+"light" "300"
+"origin" "327.72 0 44"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "-482.9 -464.14 316"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "474.48 -460.14 316"
+"classname" "light"
+}
+{
+"_color" "1.000000 .89 .466666"
+"light" "300"
+"origin" "0 0 176"
+"classname" "light"
+}
+{
+"model" "*2"
+"speed" "800"
+"height" "140"
+"classname" "func_plat"
+}
+{
+"model" "*3"
+"speed" "800"
+"height" "140"
+"classname" "func_plat"
+}
+{
+"model" "*4"
+"mass" "3"
+"count" "6"
+"health" "1"
+"material" "7"
+"surfaceType" "37"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*5"
+"mass" "3"
+"count" "6"
+"health" "1"
+"material" "7"
+"surfaceType" "37"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*6"
+"mass" "3"
+"count" "6"
+"health" "1"
+"material" "7"
+"surfaceType" "37"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*7"
+"mass" "3"
+"count" "6"
+"health" "1"
+"material" "7"
+"surfaceType" "37"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*8"
+"mass" "3"
+"count" "6"
+"health" "1"
+"material" "7"
+"surfaceType" "37"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*9"
+"mass" "3"
+"count" "6"
+"health" "1"
+"material" "7"
+"surfaceType" "37"
+"classname" "func_breakable_brush"
+}
+{
+"origin" "0 0 -76"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-466.56 -455.18 76"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "464.28 464.28 76"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "0 0 204"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "0 152 204"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"count" "3"
+"origin" "327.72 0 -66"
+"classname" "item_equip_c4"
+}
+{
+"count" "3"
+"origin" "-343.66 0 -66"
+"classname" "item_equip_c4"
+}
+{
+"count" "3"
+"origin" "411.94 464.28 86"
+"classname" "item_equip_c4"
+}
+{
+"count" "3"
+"origin" "352.76 0 -76"
+"classname" "item_equip_grenade"
+}
+{
+"count" "3"
+"origin" "-141.24 -168 248"
+"classname" "item_equip_grenade"
+}
+{
+"count" "3"
+"origin" "140.76 168 248"
+"classname" "item_equip_grenade"
+}
+{
+"count" "3"
+"origin" "-421.04 -455.18 76"
+"classname" "item_equip_grenade"
+}
+{
+"count" "3"
+"origin" "-355.04 0 -76"
+"classname" "item_equip_grenade"
+}
+{
+"count" "50"
+"origin" "-309.52 0 -76"
+"classname" "item_equip_armor"
+}
+{
+"count" "50"
+"origin" "0 26.28 202"
+"classname" "item_equip_armor"
+}
+{
+"count" "50"
+"origin" "309.52 0 -76"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-455.18 0 -78"
+"classname" "item_health_large"
+}
+{
+"origin" "0 -20 202"
+"classname" "item_health_large"
+}
+{
+"origin" "446.06 9.10 -78"
+"classname" "item_health_large"
+}
+{
+"soundName" "DistantWind"
+"origin" "0 0 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "-416 160 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "-416 -416 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "-416 416 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "-416 -160 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "0 160 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "448 160 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "256 160 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "-256 128 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "-256 -448 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "-256 384 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "-256 -192 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "256 -416 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "256 416 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "256 -160 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "448 -416 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "448 416 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "448 -160 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "0 -416 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "0 416 352"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "DistantWind"
+"origin" "0 -160 352"
+"classname" "environ_soundgen"
+}
+{
+"random" "8"
+"origin" "-448 0 448"
+"classname" "environ_lightning"
+}
+{
+"random" "4"
+"origin" "448 0 448"
+"classname" "environ_lightning"
+}
+{
+"random" "12"
+"origin" "0 -448 448"
+"classname" "environ_lightning"
+}
+{
+"random" "6"
+"origin" "0 448 448"
+"classname" "environ_lightning"
+}
+{
+"targetname" "onweer"
+"attenuation" "1"
+"volume" "1.0"
+"noise" "Ambient/Nature/Weather/Thnder1.wav"
+"origin" "-320 256 320"
+"classname" "target_speaker"
+}
+{
+"targetname" "onweer"
+"attenuation" "1"
+"volume" "1.0"
+"noise" "Ambient/Nature/Weather/Thnder1.wav"
+"origin" "320 256 320"
+"classname" "target_speaker"
+}
+{
+"model" "*10"
+"delay" "10"
+"wait" "20"
+"target" "onweer"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "onweer"
+"attenuation" "1"
+"volume" "1.0"
+"noise" "Ambient/Nature/Weather/Thnder1.wav"
+"origin" "-320 -320 320"
+"classname" "target_speaker"
+}
+{
+"targetname" "onweer"
+"attenuation" "1"
+"volume" "1.0"
+"noise" "Ambient/Nature/Weather/Thnder1.wav"
+"origin" "320 -320 320"
+"classname" "target_speaker"
+}
+{
+"delay" "2"
+"targetname" "onweer"
+"style" "0"
+"count" "40"
+"health" "800"
+"origin" "-320 320 424"
+"classname" "func_camerashake"
+}
+{
+"delay" "2"
+"targetname" "onweer"
+"style" "0"
+"count" "40"
+"health" "800"
+"origin" "320 320 424"
+"classname" "func_camerashake"
+}
+{
+"delay" "2"
+"targetname" "onweer"
+"style" "0"
+"count" "40"
+"health" "800"
+"origin" "-320 0 424"
+"classname" "func_camerashake"
+}
+{
+"delay" "2"
+"targetname" "onweer"
+"style" "0"
+"count" "40"
+"health" "800"
+"origin" "-320 -320 424"
+"classname" "func_camerashake"
+}
+{
+"delay" "2"
+"targetname" "onweer"
+"style" "0"
+"count" "40"
+"health" "800"
+"origin" "320 -320 424"
+"classname" "func_camerashake"
+}
+{
+"delay" "2"
+"targetname" "onweer"
+"style" "0"
+"count" "40"
+"health" "800"
+"origin" "320 0 424"
+"classname" "func_camerashake"
+}
+{
+"model" "*11"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*12"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*13"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*14"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*15"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*16"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*17"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*18"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*19"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*20"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*21"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*22"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*23"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*24"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*25"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*26"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*27"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*28"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*29"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*30"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*31"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*32"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*33"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*34"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*35"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*36"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*37"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*38"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*39"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*40"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*41"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*42"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*43"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*44"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*45"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*46"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*47"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*48"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*49"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*50"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*51"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*52"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*53"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*54"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*55"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*56"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*57"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*58"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*59"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*60"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*61"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*62"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*63"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*64"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*65"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*66"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*67"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*68"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*69"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*70"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*71"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*72"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*73"
+"classname" "environ_waterglobgen"
+}
+{
+"model" "*74"
+"classname" "environ_waterglobgen"
+}

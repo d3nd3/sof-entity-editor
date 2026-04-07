@@ -1,0 +1,132 @@
+{
+"ainame" "ger3"
+"light" "100"
+"classname" "worldspawn"
+}
+{
+"classname" "m_x_msam"
+"origin" "1408 -552 48"
+}
+{
+"classname" "m_x_mraiderboss1"
+"origin" "1400 312 48"
+}
+{
+"origin" "24 176 48"
+"angles" "10 180 10"
+"spawnflags" "134"
+"classname" "m_nyc_mskinhead1"
+}
+{
+"origin" "408 -400 32"
+"angle" "360"
+"classname" "info_player_deathmatch"
+"targetname" ""
+}
+{
+"targetname" ""
+"classname" "info_player_deathmatch"
+"angle" "360"
+"origin" "-304 -320 32"
+}
+{
+"classname" "m_nyc_mskinhead1"
+"spawnflags" "134"
+"angles" "30 180 -30"
+"origin" "-96 176 48"
+}
+{
+"Waitaction1" "CCH_TLOBGRENADE_N_A_N"
+"target" "t1004"
+"classname" "path_corner"
+"targetname" "t999"
+"origin" "920 -696 16"
+"Wait" "-1"
+"angle" "360"
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"angle" "360"
+"spawnflags" "852166"
+"origin" "880 -696 48"
+"classname" "m_cas_mraider2a"
+"target" "t999"
+"targetname" "mullins"
+}
+{
+"Waitaction1" "STD_EDROPGRENADE_N_A_N"
+"angle" "360"
+"Wait" "-1"
+"origin" "544 -696 16"
+"targetname" "t1000"
+"classname" "path_corner"
+"target" "t1000"
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"targetname" "t1001"
+"target" "t1000"
+"classname" "m_cas_mraider2a"
+"origin" "504 -696 48"
+"spawnflags" "852166"
+"angle" "360"
+}
+{
+"target" "t1002"
+"classname" "path_corner"
+"targetname" "t1002"
+"origin" "128 -696 16"
+"Wait" "-1"
+"angle" "360"
+"Waitaction1" "std_tgrenade_n_a_n"
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"angle" "360"
+"spawnflags" "852166"
+"origin" "88 -696 48"
+"classname" "m_cas_mraider2a"
+"target" "t1002"
+"targetname" "t1003"
+}
+{
+"Waitaction1" "std_tgrenade_n_a_n"
+"angle" "360"
+"Wait" "-1"
+"origin" "-312 -696 16"
+"targetname" "t1004v"
+"classname" "path_corner"
+"target" ""
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"targetname" "t1005"
+"target" "t1004v"
+"classname" "m_cas_mraider2a"
+"origin" "-352 -696 48"
+"spawnflags" "852166"
+"angle" "360"
+}
+{
+"target" ""
+"classname" "path_corner"
+"targetname" "t1006"
+"origin" "-432 -184 16"
+"Wait" "-1"
+"angle" "360"
+"Waitaction1" "STD_TRUN_N_A_N"
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"angle" "360"
+"spawnflags" "852166"
+"origin" "-472 -184 48"
+"classname" "m_cas_mraider2a"
+"target" "t1006"
+"targetname" "t1007"
+}

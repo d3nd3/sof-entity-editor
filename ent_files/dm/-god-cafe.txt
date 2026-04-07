@@ -1,0 +1,256 @@
+{
+"sky" "ny"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-144 0 -72"
+"classname" "info_player_start"
+}
+{
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"targetname" "s1"
+"volume" "1.0"
+"noise" "sing1.wav"
+"origin" "-64 160 0"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"soundname" "sing1.wav"
+"target" "s1"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"spawnflags" "3"
+"skin" "1"
+"origin" "31 63 -80"
+"classname" "misc_generic_table_round"
+}
+{
+"spawnflags" "3"
+"skin" "1"
+"origin" "-225 63 -80"
+"classname" "misc_generic_table_round"
+}
+{
+"spawnflags" "3"
+"skin" "1"
+"origin" "-225 -129 -80"
+"classname" "misc_generic_table_round"
+}
+{
+"spawnflags" "3"
+"skin" "1"
+"origin" "-97 -289 -80"
+"classname" "misc_generic_table_round"
+}
+{
+"spawnflags" "3"
+"skin" "1"
+"origin" "223 63 -80"
+"classname" "misc_generic_table_round"
+}
+{
+"spawnflags" "3"
+"skin" "1"
+"origin" "223 223 -80"
+"classname" "misc_generic_table_round"
+}
+{
+"_light" "255 255 255 300"
+"origin" "224 192 0"
+"classname" "light"
+}
+{
+"_light" "255 255 255 300"
+"origin" "-288 160 0"
+"classname" "light"
+}
+{
+"_light" "255 255 255 300"
+"origin" "32 -224 0"
+"classname" "light"
+}
+{
+"_light" "255 255 255 300"
+"origin" "-320 -256 0"
+"classname" "light"
+}
+{
+"angle" "360"
+"spawnflags" "3"
+"skin" "1"
+"origin" "-284 64 -77"
+"classname" "misc_generic_chair_legs"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"skin" "1"
+"origin" "228 160 -77"
+"classname" "misc_generic_chair_legs"
+}
+{
+"angle" "180"
+"spawnflags" "3"
+"skin" "1"
+"origin" "292 224 -77"
+"classname" "misc_generic_chair_legs"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"skin" "1"
+"origin" "36 0 -77"
+"classname" "misc_generic_chair_legs"
+}
+{
+"angle" "180"
+"spawnflags" "3"
+"skin" "1"
+"origin" "292 64 -77"
+"classname" "misc_generic_chair_legs"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"skin" "1"
+"origin" "-220 -192 -77"
+"classname" "misc_generic_chair_legs"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"skin" "1"
+"origin" "-92 -352 -77"
+"classname" "misc_generic_chair_legs"
+}
+{
+"angle" "180"
+"spawnflags" "3"
+"skin" "1"
+"origin" "-156 -128 -77"
+"classname" "misc_generic_chair_legs"
+}
+{
+"angle" "180"
+"spawnflags" "3"
+"origin" "148 -156 -43"
+"classname" "misc_generic_radio"
+}
+{
+"model" "*2"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"_light" "255 255 255 300"
+"origin" "-512 64 -64"
+"classname" "light"
+}
+{
+"angle" "360"
+"spawnflags" "3"
+"origin" "-577 64 -80"
+"classname" "misc_generic_toilet"
+}
+{
+"ANGLE" "90"
+"spawnflags" "3"
+"origin" "-516 11 -60"
+"classname" "misc_generic_sink"
+}
+{
+"spawnflags" "3"
+"origin" "-384 -192 -79"
+"classname" "misc_generic_trashcan_barrel"
+}
+{
+"spawnflags" "3"
+"origin" "353 320 -77"
+"classname" "misc_generic_plant_potted"
+}
+{
+"angle" "1"
+"spawnflags" "3"
+"origin" "162 -354 -42"
+"classname" "misc_generic_cash_register"
+}
+{
+"_light" "255 255 255 300"
+"origin" "256 -256 0"
+"classname" "light"
+}
+{
+"origin" "128 128 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-320 160 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"spawnflags" "3"
+"skin" "1"
+"origin" "223 -33 -80"
+"classname" "misc_generic_table_round"
+}
+{
+"angle" "180"
+"spawnflags" "3"
+"skin" "1"
+"origin" "292 -32 -77"
+"classname" "misc_generic_chair_legs"
+}
+{
+"origin" "-512 64 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-32 288 -32"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-128 320 -64"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-64 320 -64"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "0 320 -64"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "224 -224 -96"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "288 -224 -96"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-512 64 -96"
+"classname" "item_equip_grenade"
+}
+{
+"model" "*3"
+"target" "s2"
+"soundname" "free.wav"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"attenuation" "-1"
+"volume" "1.0"
+"noise" "free.wav"
+"targetname" "s2"
+"origin" "128 -160 0"
+"classname" "target_speaker"
+}

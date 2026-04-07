@@ -1,0 +1,402 @@
+{
+"message" "HIGHlandERs Desert Mayhem. Brought to you by =[V]=[R]="
+"_sun_color" "255 255 255"
+"_sun_angle" "315 -45"
+"_sun_diffuse" "32"
+"_sun_ambient" "10 10 10"
+"sun_light" "400"
+"chopsky" "512"
+"chop" "1024"
+"sky" "tut"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"dmg" "1"
+"spawnflags" "16"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"dmg" "1"
+"spawnflags" "16"
+"classname" "trigger_hurt"
+}
+{
+"model" "*3"
+"soundName" "DoorNormalMetalGarage"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"angle" "0"
+"count" "2"
+"origin" "-794 145 30"
+"classname" "item_ctf_flag"
+}
+{
+"angle" "0"
+"count" "2"
+"origin" "-794 145 40"
+"classname" "misc_ctf_base"
+}
+{
+"angle" "180"
+"count" "1"
+"origin" "672 147 30"
+"classname" "item_ctf_flag"
+}
+{
+"angle" "180"
+"count" "1"
+"origin" "672 147 40"
+"classname" "misc_ctf_base"
+}
+{
+"angle" "180"
+"origin" "753 407 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0"
+"origin" "-884 -165 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "313"
+"origin" "76 407 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "137"
+"origin" "-84 -169 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "748 -169 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "359"
+"origin" "-884 407 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "47"
+"origin" "92 -169 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "215"
+"origin" "-84 407 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "181"
+"origin" "748 135 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "359"
+"origin" "-884 135 -35"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "-298 286 -35"
+"classname" "info_player_team2"
+}
+{
+"angle" "90"
+"origin" "-298 -86 -35"
+"classname" "info_player_team2"
+}
+{
+"angle" "270"
+"origin" "-571 275 -35"
+"classname" "info_player_team2"
+}
+{
+"angle" "90"
+"origin" "-570 -72 -35"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "-35 275 -35"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "-36 -41 -35"
+"classname" "info_player_team2"
+}
+{
+"angle" "145"
+"origin" "-38 -166 -35"
+"classname" "info_player_team2"
+}
+{
+"angle" "225"
+"origin" "-35 408 -35"
+"classname" "info_player_team2"
+}
+{
+"model" "*4"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"_color" "0.000000 0.000000 1.000000"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "654 135 -150"
+"classname" "light"
+}
+{
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "194 135 -150"
+"classname" "light"
+}
+{
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "-396 135 -150"
+"classname" "light"
+}
+{
+"_color" "1.000000 0.000000 0.000000"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "-775 134 -150"
+"classname" "light"
+}
+{
+"_color" "0.000000 0.000000 1.000000"
+"Light" "200"
+"origin" "280 134 -72"
+"classname" "light_generic_caged"
+}
+{
+"style" "1"
+"Light" "200"
+"origin" "-38 134 -72"
+"classname" "light_generic_caged"
+}
+{
+"style" "1"
+"Light" "200"
+"origin" "-60 134 -72"
+"classname" "light_generic_caged"
+}
+{
+"_color" "1.000000 0.000000 0.000000"
+"Light" "200"
+"origin" "-457 134 -72"
+"classname" "light_generic_caged"
+}
+{
+"angle" "0"
+"origin" "284 186 -179"
+"classname" "item_health_small"
+}
+{
+"angle" "0"
+"origin" "284 84 -179"
+"classname" "item_health_small"
+}
+{
+"angle" "180"
+"origin" "-461 186 -179"
+"classname" "item_health_small"
+}
+{
+"angle" "180"
+"origin" "-461 84 -179"
+"classname" "item_health_small"
+}
+{
+"angle" "270"
+"count" "75"
+"origin" "-794 228 -58"
+"classname" "item_equip_armor"
+}
+{
+"angle" "270"
+"count" "75"
+"origin" "674 227 -58"
+"classname" "item_equip_armor"
+}
+{
+"angle" "90"
+"count" "75"
+"origin" "674 29 -58"
+"classname" "item_equip_armor"
+}
+{
+"angle" "90"
+"count" "75"
+"origin" "-794 29 -58"
+"classname" "item_equip_armor"
+}
+{
+"angle" "90"
+"origin" "-662 131 -56"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "180"
+"origin" "-499 24 -56"
+"classname" "item_weapon_machinegun"
+}
+{
+"angle" "0"
+"origin" "-493 215 -57"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"angle" "360"
+"origin" "471 215 -57"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"angle" "180"
+"origin" "473 24 -56"
+"classname" "item_weapon_machinegun"
+}
+{
+"angle" "90"
+"origin" "572 132 -56"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "270"
+"origin" "628 336 178"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "270"
+"origin" "628 -81 178"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "90"
+"origin" "-758 334 178"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "90"
+"origin" "-758 -75 178"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "180"
+"origin" "349 130 -35"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"origin" "36 -38 -35"
+"classname" "info_player_team1"
+}
+{
+"angle" "45"
+"origin" "36 -168 -35"
+"classname" "info_player_team1"
+}
+{
+"angle" "310"
+"origin" "36 407 -35"
+"classname" "info_player_team1"
+}
+{
+"angle" "0"
+"origin" "36 273 -35"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "531 -97 -35"
+"classname" "info_player_team1"
+}
+{
+"angle" "270"
+"origin" "532 286 -35"
+"classname" "info_player_team1"
+}
+{
+"angle" "270"
+"origin" "317 303 -35"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "316 -89 -35"
+"classname" "info_player_team1"
+}
+{
+"classname" "func_group"
+}
+{
+"style" "0"
+"light" "250"
+"origin" "8 160 504"
+"classname" "light"
+}
+{
+"angle" "270"
+"origin" "11 171 449"
+"classname" "info_player_intermission"
+}
+{
+"targetname" "dm1"
+"script" "sfolder/dm1"
+"origin" "-336 146 204"
+"classname" "script_runner"
+}
+{
+"model" "*6"
+"message" "There can Only be One..."
+"wait" ".1"
+"target" "dm1"
+"classname" "trigger_multiple"
+}
+{
+"count" "999"
+"angle" "270"
+"origin" "11 213 448"
+"classname" "item_equip_grenade"
+}
+{
+"targetname" "dm2"
+"script" "sfolder/dm2"
+"origin" "-164 159 451"
+"classname" "script_runner"
+}
+{
+"model" "*7"
+"wait" ".1"
+"target" "dm2"
+"classname" "trigger_multiple"
+}
+{
+"light" "200"
+"_color" "0.000000 0.000000 1.000000"
+"_light" "255 255 255 300"
+"origin" "-164 159 432"
+"classname" "light"
+}
+{
+"light" "200"
+"_color" "1.000000 0.000000 0.000000"
+"_light" "255 255 255 300"
+"origin" "12 214 456"
+"classname" "light"
+}

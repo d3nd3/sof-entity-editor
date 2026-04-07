@@ -1,0 +1,303 @@
+{
+"classname" "worldspawn"
+"sky" "sib"
+"light" "500"
+"message" "Vertigo map by Shrubber"
+}
+{
+"classname" "info_player_start"
+"angle" "225"
+"origin" "1192 536 272"
+}
+{
+"classname" "info_player_start"
+"angle" "45"
+"origin" "1080 -104 272"
+}
+{
+"classname" "info_player_start"
+"origin" "3120 520 216"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "135"
+"origin" "2800 -112 240"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "360"
+"origin" "2632 520 240"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "45"
+"origin" "2928 240 216"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "-1016 128 -16"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-824 320 8"
+}
+{
+"classname" "misc_siberia_snowcat"
+"angle" "90"
+"spawnflags" "2"
+"origin" "3075 290 225"
+}
+{
+"classname" "misc_bosnia_truck_old"
+"angle" "90"
+"skin" "2"
+"spawnflags" "2"
+"origin" "-1120 119 5"
+}
+{
+"classname" "item_equip_armor"
+"origin" "-1213 193 -39"
+}
+{
+"classname" "item_weapon_pistol2"
+"origin" "-656 -75 -14"
+}
+{
+"classname" "item_ammo_shotgun"
+"origin" "-475 397 -34"
+}
+{
+"classname" "item_weapon_shotgun"
+"origin" "-940 196 -37"
+}
+{
+"classname" "item_equip_c4"
+"origin" "-470 196 -29"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "-659 397 -34"
+}
+{
+"classname" "item_health_small"
+"origin" "-185 247 -40"
+}
+{
+"classname" "item_weapon_machinegun"
+"origin" "579 531 195"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "1091 516 248"
+}
+{
+"classname" "item_ammo_pistol2"
+"origin" "2669 301 198"
+}
+{
+"classname" "item_weapon_pistol2"
+"origin" "2872 317 194"
+}
+{
+"classname" "item_health_large"
+"origin" "3170 252 192"
+}
+{
+"classname" "item_equip_armor"
+"origin" "2131 241 193"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "2669 405 198"
+}
+{
+"classname" "item_weapon_rocketlauncher"
+"origin" "575 -123 203"
+}
+{
+"classname" "item_weapon_assault_rifle"
+"origin" "2168 527 218"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "-228 536 -14"
+}
+{
+"model" "*1"
+"origin" "2836 420 264"
+"distance" "90"
+"speed" "150"
+"angle" "180"
+"classname" "func_door_rotating"
+"spawnflags" "2"
+"health" "10"
+}
+{
+"model" "*2"
+"classname" "func_breakable_brush"
+"health" "10"
+"material" "11"
+}
+{
+"classname" "item_health_large"
+"origin" "1098 532 248"
+}
+{
+"classname" "item_equip_armor"
+"origin" "1147 529 249"
+}
+{
+"classname" "item_weapon_assault_rifle"
+"origin" "1128 -105 250"
+}
+{
+"model" "*3"
+"angle" "270"
+"classname" "func_button"
+"target" "gon"
+}
+{
+"classname" "path_corner"
+"origin" "-752 224 -24"
+"targetname" "p2"
+"target" "p3"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "45"
+"origin" "-848 -112 8"
+}
+{
+"model" "*4"
+"classname" "func_train"
+"targetname" "gon"
+"target" "p1"
+"speed" "150"
+}
+{
+"origin" "-312 224 -24"
+"classname" "path_corner"
+"target" "p4"
+"targetname" "p3"
+}
+{
+"classname" "path_corner"
+"origin" "1992 224 208"
+"targetname" "p4"
+"target" "p5"
+}
+{
+"origin" "2360 224 208"
+"classname" "path_corner"
+"targetname" "p5"
+"target" "p6"
+}
+{
+"classname" "path_corner"
+"origin" "2360 -8 208"
+"targetname" "p6"
+"target" "p7"
+}
+{
+"origin" "1992 -8 208"
+"classname" "path_corner"
+"targetname" "p7"
+"target" "p8"
+}
+{
+"classname" "path_corner"
+"origin" "-312 -8 -24"
+"targetname" "p8"
+"target" "p1"
+}
+{
+"origin" "-752 -8 -24"
+"classname" "path_corner"
+"targetname" "p1"
+"target" "p2"
+}
+{
+"origin" "1098 -76 248"
+"classname" "item_health_large"
+}
+{
+"model" "*5"
+"target" "p3"
+"targetname" "gon"
+"classname" "func_train"
+"speed" "150"
+}
+{
+"model" "*6"
+"classname" "func_train"
+"targetname" "gon"
+"target" "p5"
+"speed" "150"
+}
+{
+"model" "*7"
+"target" "p7"
+"targetname" "gon"
+"classname" "func_train"
+"speed" "150"
+}
+{
+"model" "*8"
+"target" "gon"
+"classname" "func_button"
+"angle" "270"
+}
+{
+"model" "*9"
+"material" "11"
+"health" "10"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*10"
+"origin" "-884 4 32"
+"classname" "func_door_rotating"
+"angle" "360"
+"speed" "150"
+"distance" "90"
+"spawnflags" "2"
+"health" "10"
+}
+{
+"origin" "1107 516 248"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "1075 516 248"
+}
+{
+"origin" "-518 196 -29"
+"classname" "item_equip_c4"
+}
+{
+"classname" "item_equip_c4"
+"origin" "-494 244 -29"
+}
+{
+"model" "*11"
+"origin" "-884 -132 32"
+"health" "10"
+"spawnflags" "2"
+"distance" "90"
+"speed" "150"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"model" "*12"
+"origin" "2836 556 264"
+"health" "10"
+"spawnflags" "2"
+"classname" "func_door_rotating"
+"angle" "180"
+"speed" "150"
+"distance" "90"
+}

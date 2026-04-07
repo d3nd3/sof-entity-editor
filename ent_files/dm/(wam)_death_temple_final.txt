@@ -1,0 +1,936 @@
+{
+"sky" "ny"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "236 300 544"
+"classname" "info_player_start"
+}
+{
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"model" "*1"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"classname" "trigger_hurt"
+}
+{
+"model" "*3"
+"classname" "trigger_hurt"
+}
+{
+"model" "*4"
+"speed" "225"
+"wait" "1"
+"targetname" "door1"
+"spawnflags" "0"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"target" "door1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"dmg" "20"
+"classname" "trigger_hurt"
+}
+{
+"model" "*7"
+"targetname" "door2"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"target" "door2"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*9"
+"targetname" "door3"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*10"
+"target" "door3"
+"angle" "89"
+"classname" "func_button"
+}
+{
+"model" "*11"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*12"
+"classname" "trigger_hurt"
+}
+{
+"model" "*13"
+"speed" "200"
+"targetname" "door4"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*14"
+"target" "door4"
+"classname" "trigger_multiple"
+}
+{
+"model" "*15"
+"dmg" "10"
+"classname" "trigger_hurt"
+}
+{
+"model" "*16"
+"speed" "250"
+"targetname" "door5"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*17"
+"target" "door5"
+"classname" "trigger_multiple"
+}
+{
+"model" "*18"
+"target" "door6"
+"classname" "trigger_multiple"
+}
+{
+"model" "*19"
+"speed" "250"
+"targetname" "door6"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*20"
+"target" "door7"
+"classname" "trigger_multiple"
+}
+{
+"model" "*21"
+"speed" "250"
+"targetname" "door7"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"origin" "996 288 324"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*22"
+"targetname" "door8"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*23"
+"target" "door8"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*24"
+"targetname" "door9"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*25"
+"target" "door9"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*26"
+"targetname" "door0"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*27"
+"target" "door0"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*28"
+"speed" "300"
+"targetname" "door11"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*29"
+"target" "door11"
+"angle" "91"
+"classname" "func_button"
+}
+{
+"model" "*30"
+"speed" "200"
+"targetname" "door12"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*31"
+"target" "door12"
+"classname" "trigger_multiple"
+}
+{
+"model" "*32"
+"targetname" "door13"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*33"
+"target" "door13"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*34"
+"speed" "400"
+"targetname" "door14"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*35"
+"target" "door14"
+"classname" "trigger_multiple"
+}
+{
+"model" "*36"
+"speed" "400"
+"targetname" "door15"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*37"
+"target" "door15"
+"classname" "trigger_multiple"
+}
+{
+"model" "*38"
+"speed" "400"
+"targetname" "door16"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*39"
+"target" "door16"
+"classname" "trigger_multiple"
+}
+{
+"model" "*40"
+"targetname" "door17"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*41"
+"target" "door17"
+"classname" "trigger_multiple"
+}
+{
+"model" "*42"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"origin" "404 712 -312"
+"classname" "misc_generic_palette_jack"
+}
+{
+"origin" "-368 36 -304"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-368 588 -304"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "36 724 -308"
+"classname" "info_player_deathmatch"
+}
+{
+"_light" "255 255 255 300"
+"origin" "-558 -465 -261"
+"classname" "light"
+}
+{
+"origin" "-692 588 -200"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-956 588 -204"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1192 588 -204"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1320 352 -204"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1320 -160 -204"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1320 96 -204"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1024 36 -204"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-716 36 -200"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1036 -360 -84"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-36 908 -216"
+"classname" "light_generic_emergency_blue"
+}
+{
+"origin" "108 908 -216"
+"classname" "light_generic_emergency"
+}
+{
+"origin" "-716 920 -200"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-456 920 -200"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-608 -304 52"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-312 -224 56"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-48 -100 56"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-288 40 52"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-560 112 56"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-844 188 52"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-844 504 52"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-736 928 56"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-600 1124 56"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-736 1340 56"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-848 1576 56"
+"classname" "light_generic_lamp_hang"
+}
+{
+"spawnflags" "0"
+"origin" "-788 1932 -16"
+"classname" "light_generic_candelabra"
+}
+{
+"origin" "584 504 -196"
+"classname" "light_generic_caged"
+}
+{
+"origin" "584 688 -196"
+"classname" "light_generic_caged"
+}
+{
+"_light" "255 255 255 300"
+"origin" "316 -120 404"
+"classname" "light"
+}
+{
+"origin" "692 -312 612"
+"classname" "light_generic_caged"
+}
+{
+"origin" "692 -12 612"
+"classname" "light_generic_caged"
+}
+{
+"origin" "580 -620 572"
+"classname" "light_generic_candelabra"
+}
+{
+"origin" "580 -520 572"
+"classname" "light_generic_candelabra"
+}
+{
+"origin" "972 -576 612"
+"classname" "light_generic_caged"
+}
+{
+"origin" "1112 -576 384"
+"classname" "light_generic_caged"
+}
+{
+"origin" "1964 -620 276"
+"classname" "light_generic_candelabra"
+}
+{
+"origin" "1964 -520 276"
+"classname" "light_generic_candelabra"
+}
+{
+"origin" "1336 -576 380"
+"classname" "light_generic_caged"
+}
+{
+"origin" "1496 -576 380"
+"classname" "light_generic_caged"
+}
+{
+"_light" "255 255 255 300"
+"origin" "1592 -212 336"
+"classname" "light"
+}
+{
+"origin" "1752 244 328"
+"classname" "light_generic_caged"
+}
+{
+"origin" "2072 244 328"
+"classname" "light_generic_caged"
+}
+{
+"_light" "255 255 255 300"
+"origin" "1392 800 80"
+"classname" "light"
+}
+{
+"_light" "255 255 255 300"
+"origin" "1236 800 80"
+"classname" "light"
+}
+{
+"_light" "255 255 255 300"
+"origin" "1556 800 80"
+"classname" "light"
+}
+{
+"origin" "2224 1396 444"
+"classname" "light_generic_caged"
+}
+{
+"origin" "2224 1572 444"
+"classname" "light_generic_caged"
+}
+{
+"origin" "2224 1744 444"
+"classname" "light_generic_caged"
+}
+{
+"origin" "1992 1904 444"
+"classname" "light_generic_caged"
+}
+{
+"origin" "1632 1424 228"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "1448 1424 268"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "1224 1364 412"
+"classname" "light_generic_hanging"
+}
+{
+"origin" "1224 1248 536"
+"classname" "light_generic_hanging"
+}
+{
+"origin" "1224 760 624"
+"classname" "light_generic_caged"
+}
+{
+"origin" "1228 332 536"
+"classname" "light_generic_hanging"
+}
+{
+"origin" "1228 208 416"
+"classname" "light_generic_hanging"
+}
+{
+"origin" "1000 100 272"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "284 36 280"
+"classname" "light_generic_caged"
+}
+{
+"origin" "604 36 280"
+"classname" "light_generic_caged"
+}
+{
+"origin" "316 1480 424"
+"classname" "light_generic_caged"
+}
+{
+"origin" "316 1732 424"
+"classname" "light_generic_caged"
+}
+{
+"origin" "596 1908 440"
+"classname" "light_generic_caged"
+}
+{
+"_light" "255 255 255 300"
+"origin" "-12 1904 396"
+"classname" "light"
+}
+{
+"origin" "316 1908 464"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-864 1896 408"
+"classname" "light_generic_hanging"
+}
+{
+"origin" "-304 1904 432"
+"classname" "light_generic_hanging"
+}
+{
+"origin" "-536 1904 432"
+"classname" "light_generic_hanging"
+}
+{
+"origin" "-496 1664 424"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-744 1664 424"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-1016 1664 424"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-1024 1464 424"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-1024 1272 424"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-1024 960 424"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-600 796 428"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-792 796 428"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-1000 796 428"
+"classname" "light_generic_caged"
+}
+{
+"origin" "372 300 644"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-720 -608 -292"
+"classname" "item_health_large"
+}
+{
+"origin" "-720 -572 -292"
+"classname" "item_health_large"
+}
+{
+"origin" "-720 -536 -288"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-720 -496 -288"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-376 -600 -288"
+"classname" "item_equip_light_goggles"
+}
+{
+"origin" "-732 -308 -288"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-732 -336 -288"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-732 -368 -288"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-696 -308 -288"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-696 -336 -288"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-696 -368 -288"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-660 -308 -288"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-620 -308 -288"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-660 -348 -288"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-620 -348 -288"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-408 -308 -288"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-388 -352 -288"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-388 -396 -288"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-384 -440 -288"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "-492 -596 -288"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-264 1084 -324"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-264 1112 -320"
+"classname" "item_health_large"
+}
+{
+"origin" "416 1056 -276"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-120 716 -320"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "8 1108 -320"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "44 1108 -320"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "224 1108 -320"
+"classname" "item_equip_c4"
+}
+{
+"origin" "180 1108 -320"
+"classname" "item_equip_c4"
+}
+{
+"origin" "1836 892 236"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "1848 704 232"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "2132 244 232"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2072 244 232"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2012 244 232"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1952 -552 228"
+"classname" "item_health_large"
+}
+{
+"origin" "1952 -584 232"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1676 -520 232"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1676 -552 232"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1716 -520 232"
+"classname" "item_equip_c4"
+}
+{
+"origin" "1756 -520 232"
+"classname" "item_equip_c4"
+}
+{
+"origin" "1872 -616 232"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "1804 -616 228"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "1820 -524 228"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "588 -572 524"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "348 36 180"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "416 36 180"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "492 36 180"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "932 216 176"
+"classname" "item_health_large"
+}
+{
+"origin" "932 184 482"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1064 0 180"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "1156 536 224"
+"classname" "light_generic_candelabra"
+}
+{
+"origin" "1316 88 224"
+"classname" "light_generic_candelabra"
+}
+{
+"origin" "1136 88 224"
+"classname" "light_generic_candelabra"
+}
+{
+"origin" "1136 1484 224"
+"classname" "light_generic_candelabra"
+}
+{
+"origin" "1148 1056 216"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "1280 1484 176"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-1328 32 -320"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-1328 116 -320"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-1328 204 -320"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-1348 616 -320"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-1324 284 -320"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-1324 -48 -320"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-1360 -404 -320"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "436 1256 308"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "300 1256 308"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "160 1256 308"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-412 1332 308"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "1012 1328 308"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "372 300 524"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "368 876 308"
+"classname" "item_health_large"
+}
+{
+"origin" "368 716 308"
+"classname" "item_equip_armor"
+}
+{
+"origin" "460 828 308"
+"classname" "item_equip_c4"
+}
+{
+"origin" "460 772 308"
+"classname" "item_equip_c4"
+}
+{
+"origin" "1320 1900 308"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "2224 1688 356"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1992 1904 308"
+"classname" "item_health_small"
+}
+{
+"origin" "544 1908 308"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "452 1908 308"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "364 1908 308"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-964 2032 308"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-976 1768 308"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-708 1768 308"
+"classname" "item_health_small"
+}
+{
+"origin" "-652 1664 308"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-744 1664 308"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-852 1664 308"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-552 1392 -64"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "-552 884 -64"
+"classname" "item_weapon_machinepistol"
+}

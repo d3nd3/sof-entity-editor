@@ -1,0 +1,829 @@
+{
+"sky" "train"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"wait" "0.1"
+"targetname" "scjmp1"
+"speed" "250"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"angle" "-1"
+"speed" "60"
+"spawnflags" "0"
+"classname" "trigger_push"
+}
+{
+"model" "*3"
+"wait" "1"
+"message" "!!! J U M P !!!"
+"target" "scjmp1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"origin" "-704 -704 44"
+"speed" "40"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"model" "*5"
+"wait" "0.1"
+"targetname" "scjmp1"
+"speed" "250"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"angle" "-1"
+"speed" "60"
+"spawnflags" "0"
+"classname" "trigger_push"
+}
+{
+"model" "*7"
+"wait" "1"
+"message" "!!! J U M P !!!"
+"target" "scjmp1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*8"
+"origin" "-672 -144 -180"
+"speed" "40"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"model" "*9"
+"wait" "0.1"
+"targetname" "scjmp1"
+"speed" "250"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"scale" "2"
+"angle" "220"
+"spawnflags" "3"
+"origin" "-90 686 106"
+"classname" "misc_castle_armor"
+}
+{
+"angle" "270"
+"origin" "-210 734 17"
+"classname" "misc_generic_sofa"
+}
+{
+"angle" "270"
+"origin" "-317 731 15"
+"classname" "misc_generic_sofa"
+}
+{
+"model" "*10"
+"angle" "-1"
+"speed" "60"
+"spawnflags" "0"
+"classname" "trigger_push"
+}
+{
+"model" "*11"
+"wait" "1"
+"message" "!!! J U M P !!!"
+"target" "scjmp1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"origin" "-80 -712 44"
+"speed" "40"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"origin" "-384 152 -180"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-384 104 -180"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "-736 104 -184"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-704 104 -184"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-736 24 -184"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "-736 40 -184"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "-736 192 -160"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-688 144 -160"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-720 184 -152"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-720 152 -152"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-352 304 -160"
+"classname" "item_health_large"
+}
+{
+"origin" "-352 280 -160"
+"classname" "item_health_large"
+}
+{
+"origin" "-736 144 -160"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-688 192 -160"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-386 204 -182"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-140 728 428"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "-102 724 428"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "-544 -336 432"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"origin" "-179 -107 413"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "-638 650 45"
+"count" "1"
+"angle" "90"
+"classname" "item_ctf_flag"
+}
+{
+"origin" "-640 632 64"
+"count" "1"
+"classname" "misc_ctf_base"
+}
+{
+"origin" "672 -640 128"
+"classname" "info_player_team1"
+}
+{
+"origin" "-416 688 432"
+"classname" "item_health_large"
+}
+{
+"origin" "-384 688 432"
+"classname" "item_health_large"
+}
+{
+"origin" "-572 444 410"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-636 444 410"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-200 -616 0"
+"classname" "item_health_large"
+}
+{
+"origin" "-200 -720 8"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-96 -616 0"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-72 -616 0"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-64 440 -192"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "-64 408 -192"
+"classname" "item_equip_medkit"
+}
+{
+"spawnflags" "3"
+"skin" "1"
+"angle" "180"
+"origin" "-60 356 -189"
+"classname" "misc_generic_desk_phone"
+}
+{
+"origin" "-240 282 -180"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-212 284 -190"
+"classname" "item_equip_grenade"
+}
+{
+"angle" "144"
+"spawnflags" "3"
+"origin" "-64 296 -180"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "143"
+"spawnflags" "3"
+"origin" "-80 312 -190"
+"classname" "misc_generic_comp_keyboard"
+}
+{
+"angle" "91"
+"style" "1"
+"spawnflags" "3"
+"origin" "-208 280 -60"
+"classname" "misc_generic_tv_ceiling"
+}
+{
+"angle" "91"
+"style" "0"
+"spawnflags" "3"
+"origin" "-152 280 -60"
+"classname" "misc_generic_tv_ceiling"
+}
+{
+"spawnflags" "1"
+"origin" "-144 360 -206"
+"classname" "misc_generic_chair_office"
+}
+{
+"model" "*13"
+"speed" "32"
+"soundName" "DoorNormalMetalGarage"
+"targetname" "BlueDoor"
+"spawnflags" "32"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*14"
+"lip" "8"
+"target" "BlueDoor"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"style" "32"
+"targetname" "RedDoor"
+"spawnflags" "1"
+"origin" "-286 728 -38"
+"classname" "light_generic_emergency"
+}
+{
+"origin" "-78 -296 58"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "180"
+"origin" "-288 -160 10"
+"classname" "item_equip_c4"
+}
+{
+"angle" "180"
+"origin" "-288 -130 10"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-728 744 -504"
+"classname" "item_health_large"
+}
+{
+"origin" "-424 -616 -448"
+"classname" "item_health_large"
+}
+{
+"origin" "-544 -520 -504"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-528 -520 -504"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-208 152 -504"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-687 696 216"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-712 70 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "-648 70 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "-582 70 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "-518 70 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "-454 70 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "-390 70 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "-326 70 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "-712 182 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "-518 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-454 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-390 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-326 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-582 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-646 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-710 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-710 182 92"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*15"
+"wait" "0.1"
+"targetname" "scjmp1"
+"speed" "250"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*16"
+"angle" "-1"
+"speed" "60"
+"spawnflags" "0"
+"classname" "trigger_push"
+}
+{
+"model" "*17"
+"wait" "1"
+"message" "!!! J U M P !!!"
+"target" "scjmp1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*18"
+"origin" "704 -704 44"
+"speed" "40"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"model" "*19"
+"wait" "0.1"
+"targetname" "scjmp1"
+"speed" "250"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*20"
+"angle" "-1"
+"speed" "60"
+"spawnflags" "0"
+"classname" "trigger_push"
+}
+{
+"model" "*21"
+"wait" "1"
+"message" "!!! J U M P !!!"
+"target" "scjmp1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*22"
+"origin" "672 -144 -180"
+"speed" "40"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"model" "*23"
+"wait" "0.1"
+"targetname" "scjmp1"
+"speed" "250"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*24"
+"angle" "-1"
+"speed" "60"
+"spawnflags" "0"
+"classname" "trigger_push"
+}
+{
+"model" "*25"
+"wait" "1"
+"message" "!!! J U M P !!!"
+"target" "scjmp1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*26"
+"origin" "80 -712 44"
+"speed" "40"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"origin" "736 104 -184"
+"classname" "item_equip_armor"
+}
+{
+"origin" "384 152 -180"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "384 104 -180"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "704 104 -184"
+"classname" "item_equip_armor"
+}
+{
+"origin" "736 24 -184"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "736 40 -184"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "736 192 -160"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "688 144 -160"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "720 184 -152"
+"classname" "item_equip_c4"
+}
+{
+"origin" "720 152 -152"
+"classname" "item_equip_c4"
+}
+{
+"origin" "352 304 -160"
+"classname" "item_health_large"
+}
+{
+"origin" "352 280 -160"
+"classname" "item_health_large"
+}
+{
+"origin" "736 144 -160"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "688 192 -160"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "386 204 -182"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "140 728 428"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "102 724 428"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "544 -336 432"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"origin" "179 -107 413"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "638 650 45"
+"count" "2"
+"angle" "90"
+"classname" "item_ctf_flag"
+}
+{
+"origin" "640 632 64"
+"count" "2"
+"classname" "misc_ctf_base"
+}
+{
+"origin" "-672 -640 128"
+"classname" "info_player_team1"
+}
+{
+"origin" "416 688 432"
+"classname" "item_health_large"
+}
+{
+"origin" "384 688 432"
+"classname" "item_health_large"
+}
+{
+"origin" "572 444 410"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "636 444 410"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "200 -616 0"
+"classname" "item_health_large"
+}
+{
+"origin" "200 -720 8"
+"classname" "item_equip_armor"
+}
+{
+"origin" "96 -616 0"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "72 -616 0"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "64 440 -192"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "64 408 -192"
+"classname" "item_equip_medkit"
+}
+{
+"spawnflags" "3"
+"skin" "1"
+"angle" "360"
+"origin" "60 356 -189"
+"classname" "misc_generic_desk_phone"
+}
+{
+"origin" "240 282 -180"
+"classname" "item_equip_c4"
+}
+{
+"origin" "212 284 -190"
+"classname" "item_equip_grenade"
+}
+{
+"angle" "36"
+"spawnflags" "3"
+"origin" "64 296 -180"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "37"
+"spawnflags" "3"
+"origin" "80 312 -190"
+"classname" "misc_generic_comp_keyboard"
+}
+{
+"angle" "89"
+"style" "1"
+"spawnflags" "3"
+"origin" "208 280 -60"
+"classname" "misc_generic_tv_ceiling"
+}
+{
+"angle" "89"
+"style" "0"
+"spawnflags" "3"
+"origin" "152 280 -60"
+"classname" "misc_generic_tv_ceiling"
+}
+{
+"spawnflags" "1"
+"origin" "144 360 -206"
+"classname" "misc_generic_chair_office"
+}
+{
+"model" "*27"
+"speed" "32"
+"soundName" "DoorNormalMetalGarage"
+"targetname" "RedDoor"
+"spawnflags" "32"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*28"
+"lip" "8"
+"target" "RedDoor"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"style" "33"
+"spawnflags" "1"
+"targetname" "BlueDoor"
+"origin" "288 730 -38"
+"classname" "light_generic_emergency_blue"
+}
+{
+"origin" "78 -296 58"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "360"
+"origin" "288 -160 10"
+"classname" "item_equip_c4"
+}
+{
+"angle" "360"
+"origin" "288 -130 10"
+"classname" "item_equip_c4"
+}
+{
+"origin" "728 744 -504"
+"classname" "item_health_large"
+}
+{
+"origin" "424 -616 -448"
+"classname" "item_health_large"
+}
+{
+"origin" "544 -520 -504"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "528 -520 -504"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "208 152 -504"
+"classname" "item_equip_armor"
+}
+{
+"origin" "712 70 32"
+"classname" "info_player_team2"
+}
+{
+"origin" "648 70 32"
+"classname" "info_player_team2"
+}
+{
+"origin" "582 70 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "582 70 32"
+"classname" "info_player_team2"
+}
+{
+"origin" "518 70 32"
+"classname" "info_player_team2"
+}
+{
+"origin" "454 70 32"
+"classname" "info_player_team2"
+}
+{
+"origin" "390 70 32"
+"classname" "info_player_team2"
+}
+{
+"origin" "326 70 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "326 70 32"
+"classname" "info_player_team2"
+}
+{
+"origin" "710 136 32"
+"classname" "info_player_team1"
+}
+{
+"origin" "712 182 32"
+"classname" "info_player_team2"
+}
+{
+"origin" "518 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "582 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "646 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "710 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "454 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "390 70 92"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "326 70 108"
+"classname" "info_player_deathmatch"
+}
+{
+"scale" "2"
+"angle" "320"
+"spawnflags" "3"
+"origin" "90 686 106"
+"classname" "misc_castle_armor"
+}
+{
+"angle" "270"
+"origin" "210 734 17"
+"classname" "misc_generic_sofa"
+}
+{
+"angle" "270"
+"origin" "317 731 15"
+"classname" "misc_generic_sofa"
+}
+{
+"angle" "166"
+"origin" "692 -450 -386"
+"classname" "info_player_start"
+}
+{
+"origin" "687 696 216"
+"classname" "item_weapon_machinegun"
+}

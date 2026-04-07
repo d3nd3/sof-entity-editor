@@ -1,0 +1,657 @@
+{
+"material" "37"
+"musicset" "tsr1"
+"target" "dogmaker"
+"classname" "worldspawn"
+"sky" "train"
+}
+{
+"origin" "-96 -1056 8"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "984 -504 -200"
+"angle" "180"
+}
+{
+"model" "*1"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*2"
+"origin" "404 504 -124"
+"soundName" "DoorNormalWoodSlide1"
+"spawnflags" "192"
+"classname" "func_door_rotating"
+}
+{
+"classname" "item_health_small"
+"origin" "-233 199 -456"
+}
+{
+"classname" "item_equip_light_goggles"
+"angle" "270"
+"origin" "429 439 -236"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "80 384 -48"
+"angle" "180"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-152 440 -224"
+"angle" "315"
+}
+{
+"classname" "item_ammo_rocket"
+"origin" "-291 -1467 -170"
+}
+{
+"classname" "item_weapon_shotgun"
+"origin" "-1196 -228 -229"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "837 -227 -378"
+}
+{
+"origin" "-592 -672 -224"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "item_equip_armor"
+"origin" "75 345 -151"
+}
+{
+"classname" "item_ammo_gas"
+"origin" "-3 341 -146"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "429 429 14"
+}
+{
+"classname" "item_equip_c4"
+"origin" "-406 -684 -237"
+"angle" "180"
+}
+{
+"classname" "item_ammo_slug"
+"origin" "-123 -1443 -170"
+}
+{
+"classname" "item_ammo_shotgun"
+"origin" "-91 -1011 -10"
+}
+{
+"classname" "item_equip_c4"
+"origin" "-358 100 -21"
+}
+{
+"classname" "item_equip_c4"
+"origin" "994 -540 -181"
+"angle" "180"
+}
+{
+"classname" "item_equip_armor"
+"origin" "827 -519 -383"
+}
+{
+"classname" "item_weapon_assault_rifle"
+"angle" "90"
+"origin" "-848 -881 -198"
+}
+{
+"classname" "item_weapon_shotgun"
+"origin" "628 548 -221"
+}
+{
+"origin" "525 -934 -239"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"classname" "item_health_large"
+"origin" "506 436 -240"
+}
+{
+"model" "*3"
+"target" "ship"
+"classname" "func_button"
+}
+{
+"model" "*4"
+"spawnflags" "32"
+"targetname" "ship"
+"soundName" "DoorNormalWoodSlide1"
+"classname" "func_door"
+}
+{
+"origin" "-540 236 -420"
+"classname" "environ_smokegen"
+}
+{
+"model" "*5"
+"spawnflags" "1"
+"classname" "func_breakable_brush"
+"targetname" "explosion"
+}
+{
+"model" "*6"
+"classname" "func_breakable_brush"
+"material" "37"
+}
+{
+"classname" "light_generic_alley_wall"
+"light" "500"
+"origin" "648 145 45"
+}
+{
+"origin" "-695 -167 -257"
+"spawnflags" "7"
+"targetname" "explosion"
+"classname" "misc_generic_barrel_chemical"
+}
+{
+"model" "*7"
+"classname" "func_breakable_brush"
+"targetname" "explosion"
+"spawnflags" "3"
+"count" "5"
+"mass" "1"
+"dmg" "5"
+"material" "10"
+"surfacetype" "28"
+}
+{
+"classname" "misc_generic_barrel_chemical"
+"spawnflags" "7"
+"targetname" "explosion"
+"origin" "89 265 -273"
+}
+{
+"model" "*8"
+"classname" "func_breakable_brush"
+"spawnflags" "3"
+"count" "5"
+"mass" "1"
+"dmg" "5"
+"volume" "5"
+"material" "15"
+"surfaceType" "28"
+"targetname" "explosion"
+}
+{
+"origin" "744 272 -216"
+"targetname" "explosion"
+"count" "5"
+"speed" "200"
+"classname" "target_earthquake"
+}
+{
+"classname" "misc_bosnia_searchlight"
+"spawnflags" "8"
+"origin" "-864 -1000 -8"
+}
+{
+"classname" "item_equip_light_goggles"
+"origin" "-99 455 -108"
+}
+{
+"classname" "misc_generic_barrel_chemical"
+"targetname" "explosion"
+"spawnflags" "4"
+"origin" "833 -1103 -305"
+}
+{
+"model" "*9"
+"classname" "func_breakable_brush"
+"spawnflags" "1"
+"targetname" "explosion"
+}
+{
+"origin" "761 361 -153"
+"targetname" "explosion"
+"spawnflags" "6"
+"classname" "misc_generic_barrel_chemical"
+}
+{
+"model" "*10"
+"health" "800"
+"target" "explosion"
+"classname" "func_trigger_brush"
+}
+{
+"model" "*11"
+"targetname" "explosion"
+"surfacetype" "17"
+"material" "3"
+"mass" "3"
+"count" "15"
+"spawnflags" "1"
+"classname" "func_breakable_brush"
+}
+{
+"origin" "-309 -1405 -326"
+"style" "10"
+"light" "250"
+"classname" "light_generic_caged"
+}
+{
+"origin" "-450 -1273 -198"
+"classname" "light_generic_lamp_hang"
+"light" "300"
+}
+{
+"classname" "item_weapon_machinegun"
+"origin" "-613 -1405 -445"
+}
+{
+"model" "*12"
+"surfaceType" "28"
+"material" "10"
+"message" "damn, you really wanted in..."
+"dmg" "100"
+"health" "500"
+"mass" "1"
+"count" "8"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"origin" "-1253 -196 -136"
+"classname" "item_equip_grenade"
+}
+{
+"model" "*13"
+"classname" "func_door"
+"spawnflags" "32"
+"angle" "-1"
+"speed" "50"
+"soundName" "DoorNormalMetalGarage"
+}
+{
+"model" "*14"
+"origin" "-644 -452 -4"
+"spawnflags" "34"
+"speed" "25"
+"classname" "func_door_rotating"
+"targetname" "watergates"
+}
+{
+"model" "*15"
+"origin" "-644 -636 -4"
+"spawnflags" "32"
+"soundName" "DoorNormalSwingMetalRusty"
+"SPEED" "25"
+"classname" "func_door_rotating"
+"targetname" "watergates"
+}
+{
+"classname" "light_generic_caged"
+"_color" "1.000000 1.000000 0.584314"
+"origin" "-541 -181 -334"
+}
+{
+"classname" "light_generic_lamp_hang"
+"light" "400"
+"origin" "-1138 -161 -158"
+}
+{
+"model" "*16"
+"classname" "func_breakable_brush"
+"material" "37"
+}
+{
+"classname" "light_generic_caged"
+"origin" "-285 -1709 -62"
+"light" "400"
+}
+{
+"model" "*17"
+"classname" "func_breakable_brush"
+}
+{
+"classname" "item_weapon_flamethrower"
+"origin" "-5 369 -151"
+}
+{
+"origin" "-834 -223 -165"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"origin" "488 -752 -224"
+"angle" "270"
+"target" "m_x_rottweiler"
+"targetname" "dogmaker"
+"classname" "target_spawner"
+}
+{
+"origin" "368 -752 -224"
+"targetname" "dogmaker"
+"target" "m_x_rottweiler"
+"angle" "270"
+"classname" "target_spawner"
+}
+{
+"model" "*18"
+"target" "watergates"
+"classname" "trigger_once"
+"message" "You got the Gates...."
+}
+{
+"origin" "-289 -227 -229"
+"angle" "90"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"classname" "misc_iraq_tree_palm"
+"origin" "-554 505 -181"
+"angle" "45"
+}
+{
+"spawnflags" "4"
+"classname" "light_generic_hanging"
+"origin" "476 476 114"
+"light" "200"
+}
+{
+"classname" "light_generic_shop"
+"light" "125"
+"origin" "475 479 -28"
+}
+{
+"model" "*19"
+"wait" "5"
+"target" "dogmaker"
+"spawnflags" "0"
+"classname" "trigger_multiple"
+}
+{
+"model" "*20"
+"classname" "func_breakable_brush"
+}
+{
+"classname" "misc_generic_bunk"
+"origin" "33 509 -218"
+"Skin" "1"
+"spawnflags" "3"
+}
+{
+"origin" "-208 -183 -83"
+"classname" "light_generic_alley_wall"
+}
+{
+"classname" "light_generic_caged"
+"origin" "-61 -645 -142"
+"_color" "1.000000 1.000000 0.682353"
+"light" "175"
+}
+{
+"message" "Dumb Ass!!"
+"origin" "-193 -229 -223"
+"angle" "90"
+"classname" "misc_generic_barbwire_coil"
+}
+{
+"origin" "204 128 -294"
+"angle" "90"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"classname" "light_generic_alley_wall"
+"origin" "336 481 5"
+"angle" "180"
+}
+{
+"model" "*21"
+"material" "37"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*22"
+"material" "37"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*23"
+"classname" "func_breakable_brush"
+}
+{
+"classname" "light_generic_lamp_hang"
+"light" "125"
+"origin" "102 175 -238"
+}
+{
+"Light" "150"
+"origin" "-274 -89 -70"
+"classname" "light_generic_lamp_hang"
+}
+{
+"Light" "150"
+"origin" "-274 175 -62"
+"classname" "light_generic_lamp_hang"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-288 -112 -128"
+"angle" "180"
+}
+{
+"classname" "light_generic_shop"
+"origin" "-109 439 -116"
+}
+{
+"origin" "480 337 5"
+"classname" "light_generic_alley_wall"
+"angle" "270"
+}
+{
+"message" "Dumb Ass!!"
+"classname" "misc_generic_barbwire_coil"
+"angle" "90"
+"origin" "-73 -229 -223"
+}
+{
+"message" "Dumb Ass!!"
+"origin" "199 -229 -223"
+"angle" "90"
+"classname" "misc_generic_barbwire_coil"
+}
+{
+"message" "Dumb Ass!!"
+"classname" "misc_generic_barbwire_coil"
+"angle" "90"
+"origin" "319 -229 -223"
+}
+{
+"style" "5"
+"light" "125"
+"classname" "light_generic_caged"
+"origin" "99 -549 -150"
+}
+{
+"classname" "m_x_tank"
+"origin" "-416 -995 -204"
+}
+{
+"model" "*24"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "5"
+"mass" "1"
+"health" "200"
+"dmg" "20"
+"material" "10"
+"surfacetype" "28"
+}
+{
+"origin" "78 535 -94"
+"classname" "light_generic_lamp_hang"
+}
+{
+"light" "175"
+"_color" "1.000000 1.000000 0.682353"
+"origin" "-61 -445 -142"
+"classname" "light_generic_caged"
+}
+{
+"light" "175"
+"_color" "1.000000 1.000000 0.682353"
+"classname" "light_generic_caged"
+"origin" "235 -445 -142"
+}
+{
+"origin" "161 509 -218"
+"classname" "misc_generic_bunk"
+"Skin" "1"
+"spawnflags" "3"
+}
+{
+"classname" "misc_generic_barrel_chemical"
+"origin" "-263 521 -233"
+"message" "Dumb Ass!!"
+}
+{
+"origin" "408 -936 -225"
+"classname" "m_x_rottweiler"
+}
+{
+"origin" "245 -27 -238"
+"classname" "misc_bosnia_landmine"
+}
+{
+"classname" "misc_bosnia_landmine"
+"origin" "-115 -51 -246"
+}
+{
+"classname" "misc_bosnia_landmine"
+"origin" "125 -67 -246"
+}
+{
+"origin" "93 -163 -246"
+"classname" "misc_bosnia_landmine"
+}
+{
+"angle" "270"
+"classname" "light_generic_alley_wall"
+"origin" "96 257 -115"
+}
+{
+"origin" "-176 257 -115"
+"classname" "light_generic_alley_wall"
+"angle" "270"
+}
+{
+"origin" "427 -861 -134"
+"_color" "1.000000 0.000000 0.000000"
+"light" "200"
+"classname" "light_generic_caged"
+}
+{
+"classname" "light_generic_caged"
+"origin" "-397 -861 -102"
+"_color" "1.000000 1.000000 0.690196"
+"light" "175"
+}
+{
+"angle" "180"
+"classname" "light_generic_alley_wall"
+"origin" "-344 497 -115"
+}
+{
+"origin" "-538 545 -181"
+"classname" "misc_iraq_tree_palm"
+"angle" "180"
+}
+{
+"origin" "342 -415 -181"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"classname" "misc_iraq_tree_palm"
+"origin" "-722 -335 -165"
+}
+{
+"classname" "light_generic_caged"
+"origin" "-525 -1101 -62"
+}
+{
+"origin" "-261 -1101 -62"
+"classname" "light_generic_caged"
+}
+{
+"classname" "light_generic_caged"
+"origin" "371 -1101 -62"
+}
+{
+"origin" "-1272 -1399 -19"
+"angle" "360"
+"classname" "light_generic_alley_wall"
+"light" "500"
+}
+{
+"model" "*25"
+"classname" "func_breakable_brush"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-1245 -180 -136"
+}
+{
+"origin" "-1261 -180 -136"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "misc_generic_barrel_chemical"
+"spawnflags" "6"
+"targetname" "explosion"
+"origin" "913 473 -201"
+}
+{
+"origin" "-541 219 -350"
+"_color" "1.000000 1.000000 0.584314"
+"classname" "light_generic_caged"
+}
+{
+"classname" "light_generic_caged"
+"_color" "1.000000 1.000000 0.584314"
+"origin" "75 179 -358"
+}
+{
+"model" "*26"
+"material" "37"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*27"
+"origin" "572 -636 -28"
+"targetname" "watergates"
+"classname" "func_door_rotating"
+"soundName" "DoorNormalSwingMetalRusty"
+"speed" "25"
+"spawnflags" "32"
+}
+{
+"model" "*28"
+"origin" "572 -452 -28"
+"targetname" "watergates"
+"classname" "func_door_rotating"
+"SPEED" "25"
+"soundName" "DoorNormalSwingMetalRusty"
+"spawnflags" "34"
+}
+{
+"classname" "item_health_small"
+"origin" "-545 127 -456"
+}
+{
+"origin" "-545 55 -456"
+"classname" "item_health_small"
+}
+{
+"model" "*29"
+"classname" "func_button"
+"target" "ship"
+}

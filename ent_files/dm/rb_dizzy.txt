@@ -1,0 +1,298 @@
+{
+"message" "MAP MAKING BY [R&B]BEA"
+"gravity" "800"
+"sky" "fullmoon"
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "-384 0 -228.3"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "384 0 -224"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "16 -320 312"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"classname" "func_plat"
+}
+{
+"model" "*2"
+"classname" "func_plat"
+}
+{
+"model" "*3"
+"spawnflags" "0"
+"classname" "func_plat"
+}
+{
+"origin" "0 0 -288"
+"classname" "item_health_large"
+}
+{
+"model" "*4"
+"classname" "func_plat"
+}
+{
+"count" "2"
+"origin" "-64 -32 160"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "64 32 160"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "0 -32 160"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "64 -32 160"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "-64 32 160"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "0 32 160"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "-64 -32 32"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "64 32 32"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "0 -32 32"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "64 -32 32"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "-64 32 32"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "0 32 32"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "-160 -128 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "160 128 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "0 -128 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "160 -128 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "-160 128 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "0 128 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "-128 96 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "128 96 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "0 0 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "128 -96 -96"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "-128 -96 -96"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-128 -96 -288"
+"classname" "item_health_large"
+}
+{
+"origin" "128 96 -288"
+"classname" "item_health_large"
+}
+{
+"origin" "128 -96 -288"
+"classname" "item_health_large"
+}
+{
+"origin" "-128 96 -288"
+"classname" "item_health_large"
+}
+{
+"model" "*5"
+"origin" "-9 -2 444"
+"speed" "-50"
+"spawnflags" "17"
+"classname" "func_rotating"
+}
+{
+"model" "*6"
+"speed" "30"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"model" "*7"
+"speed" "-50"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"model" "*8"
+"speed" "70"
+"spawnflags" "1"
+"classname" "func_rotating"
+}
+{
+"angle" "90"
+"origin" "384 224 -240"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-384 224 -240"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "384 -96 -240"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "384 -224 -240"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-384 -224 -240"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-384 -96 -240"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-384 96 -240"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "384 128 -240"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*9"
+"target" "BEA"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"spawnflags" "5"
+"targetname" "BEA"
+"attenuation" "1"
+"volume" "1"
+"noise" "wtf10.wav"
+"origin" "-404 328 268"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"targetname" "BEA"
+"attenuation" "1"
+"volume" "1"
+"noise" "wtf10.wav"
+"origin" "396 328 268"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"targetname" "BEA"
+"attenuation" "1"
+"volume" "1"
+"noise" "wtf10.wav"
+"origin" "-404 -344 268"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"targetname" "BEA"
+"attenuation" "1"
+"volume" "1"
+"noise" "wtf10.wav"
+"origin" "396 -312 268"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"targetname" "BEA"
+"attenuation" "1"
+"volume" "1"
+"noise" "wtf10.wav"
+"origin" "12 8 -244"
+"classname" "target_speaker"
+}
+{
+"spawnflags" "5"
+"targetname" "BEA"
+"attenuation" "1"
+"volume" "1"
+"noise" "wtf10.wav"
+"origin" "12 8 460"
+"classname" "target_speaker"
+}

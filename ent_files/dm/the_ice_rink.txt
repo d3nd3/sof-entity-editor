@@ -1,0 +1,177 @@
+{
+"sky" "ny"
+"classname" "worldspawn"
+}
+{
+"count" "9000000"
+"origin" "1792 -1222 -452"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1938 -1335 -444"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-2249 456 -476"
+"classname" "info_player_start"
+}
+{
+"origin" "-2283 -1339 -457"
+"classname" "info_player_deathmatch"
+}
+{
+"count" "9000000"
+"origin" "1788 2246 -450"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1950 2347 -444"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1880 2344 -456"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1861 -1301 -446"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-2235 -1268 -467"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-2306 2349 -452"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-2207 2362 -457"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-2232 2316 -457"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-2329 2306 -457"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-2263 2270 -457"
+"classname" "item_weapon_pistol1"
+}
+{
+"origin" "-2316 -1273 -457"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-2220 -1304 -457"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-2202 -1360 -457"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-2318 -1385 -457"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "1872 -1253 -457"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "1839 -1365 -457"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "1946 -1268 -457"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "1796 -1261 -457"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "1801 2324 -457"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "1824 2275 -457"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "1920 2301 -457"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "1915 2247 -457"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "-169 476 -460"
+"classname" "item_weapon_shotgun"
+}
+{
+"light" "5000"
+"_light" "255 255 255 300"
+"origin" "-184 460 -460"
+"classname" "light"
+}
+{
+"count" "9000000"
+"origin" "-2191 -1253 -472"
+"classname" "item_equip_grenade"
+}
+{
+"count" "9000000"
+"origin" "-2184 2265 -474"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-2322 2356 -452"
+"classname" "info_player_deathmatch"
+}
+{
+"count" "8000"
+"origin" "-2341 -1229 -475"
+"classname" "item_equip_c4"
+}
+{
+"count" "8000"
+"origin" "1795 -1326 -475"
+"classname" "item_equip_c4"
+}
+{
+"count" "8000"
+"origin" "1852 2242 -475"
+"classname" "item_equip_c4"
+}
+{
+"count" "8000"
+"origin" "-2333 2261 -475"
+"classname" "item_equip_c4"
+}
+{
+"targetname" "minefield"
+"delay" ".1"
+"dmg" "100"
+"origin" "-172 477 -538"
+"classname" "target_explosion"
+}
+{
+"targetname" "minefield"
+"volume" "1.0"
+"noise" "/weapons/rocket/bigexplode.wav"
+"attenuation" "-1"
+"origin" "-167 475 -521"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"target" "minefield"
+"message" "A Shotgun eh???? Not So Fast Nigga"
+"sounds" "2"
+"classname" "trigger_multiple"
+}

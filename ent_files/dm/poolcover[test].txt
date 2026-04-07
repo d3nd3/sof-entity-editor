@@ -1,0 +1,44 @@
+{
+"startmusic" "2"
+"musicset" "ger4"
+"message" "Just a Test!"
+"sky" "bos2"
+"classname" "worldspawn"
+}
+{
+"angle" "54"
+"origin" "-603 -6 -449"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"spawnflags" "32"
+"targetname" "poolcover"
+"speed" "150"
+"dmg" "400"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"target" "poolcover"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"light" "8000"
+"_light" "255 255 255 300"
+"origin" "55 17 -637"
+"classname" "light"
+}
+{
+"light" "8000"
+"_light" "255 255 255 300"
+"origin" "23 1 -323"
+"classname" "light"
+}
+{
+"angle" "225"
+"origin" "761 581 -323"
+"classname" "info_player_start"
+}

@@ -1,0 +1,2038 @@
+{
+"_sun_diffuse" "40"
+"_sun_ambient" "30"
+"_sun_color" "1 1 1"
+"_sun_angle" "330 250"
+"_sun_light" "400"
+"chopsky" "256"
+"chop" "256"
+"sky" "dt"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-912 0 -72"
+"classname" "info_player_start"
+}
+{
+"angles" "15.75 179.99 0"
+"origin" "-440 1408 -224"
+"classname" "info_player_intermission"
+}
+{
+"angle" "0"
+"origin" "-1024 0 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0"
+"origin" "-1024 512 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0"
+"origin" "-1024 -512 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-512 -1024 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "0 -1024 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "512 -1024 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "1024 -512 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "1024 0 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "1024 512 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "512 1024 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "0 1024 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "-512 1024 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*1"
+"message" "Landmine!"
+"target" "1"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "1"
+"origin" "-384 512 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*2"
+"message" "Landmine!"
+"target" "2"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "2"
+"origin" "-128 512 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*3"
+"message" "Landmine!"
+"target" "3"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "3"
+"origin" "128 512 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*4"
+"message" "Landmine!"
+"target" "4"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "4"
+"origin" "384 512 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*5"
+"message" "Landmine!"
+"target" "5"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "5"
+"origin" "512 384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*6"
+"message" "Landmine!"
+"target" "6"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "6"
+"origin" "512 128 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*7"
+"message" "Landmine!"
+"target" "7"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "7"
+"origin" "512 -128 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*8"
+"message" "Landmine!"
+"target" "8"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "8"
+"origin" "512 -384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*9"
+"message" "Landmine!"
+"target" "9"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "9"
+"origin" "384 -512 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*10"
+"message" "Landmine!"
+"target" "10"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "10"
+"origin" "128 -512 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*11"
+"message" "Landmine!"
+"target" "11"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "11"
+"origin" "-128 -512 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*12"
+"message" "Landmine!"
+"target" "12"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "12"
+"origin" "-384 -512 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*13"
+"message" "Landmine!"
+"target" "13"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "13"
+"origin" "-512 -384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*14"
+"message" "Landmine!"
+"target" "14"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "14"
+"origin" "-512 -128 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*15"
+"message" "Landmine!"
+"target" "15"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "15"
+"origin" "-512 128 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*16"
+"message" "Landmine!"
+"target" "16"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "16"
+"origin" "-512 384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*17"
+"message" "Landmine!"
+"target" "17"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "17"
+"origin" "-256 384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*18"
+"message" "Landmine!"
+"target" "18"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "18"
+"origin" "0 384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*19"
+"message" "Landmine!"
+"target" "19"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "19"
+"origin" "256 384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*20"
+"message" "Landmine!"
+"target" "20"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "20"
+"origin" "384 256 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*21"
+"message" "Landmine!"
+"target" "21"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "21"
+"origin" "384 0 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*22"
+"message" "Landmine!"
+"target" "22"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "22"
+"origin" "384 -256 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*23"
+"message" "Landmine!"
+"target" "23"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "23"
+"origin" "256 -384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*24"
+"message" "Landmine!"
+"target" "24"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "24"
+"origin" "0 -384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*25"
+"message" "Landmine!"
+"target" "25"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "25"
+"origin" "-256 -384 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*26"
+"message" "Landmine!"
+"target" "26"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "26"
+"origin" "-384 -256 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*27"
+"message" "Landmine!"
+"target" "27"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "27"
+"origin" "-384 0 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*28"
+"message" "Landmine!"
+"target" "28"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "28"
+"origin" "-384 256 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*29"
+"message" "Landmine!"
+"target" "29"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "29"
+"origin" "-128 256 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*30"
+"message" "Landmine!"
+"target" "30"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "30"
+"origin" "128 256 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*31"
+"message" "Landmine!"
+"target" "31"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "31"
+"origin" "256 128 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*32"
+"message" "Landmine!"
+"target" "32"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "32"
+"origin" "256 -128 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*33"
+"message" "Landmine!"
+"target" "33"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "33"
+"origin" "128 -256 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*34"
+"message" "Landmine!"
+"target" "34"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "34"
+"origin" "-128 -256 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*35"
+"message" "Landmine!"
+"target" "35"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "35"
+"origin" "-256 -128 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*36"
+"message" "Landmine!"
+"target" "36"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "36"
+"origin" "-256 128 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*37"
+"message" "Landmine!"
+"target" "37"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "37"
+"origin" "-128 0 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*38"
+"message" "Landmine!"
+"target" "38"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "38"
+"origin" "128 0 -88"
+"classname" "environ_explosion"
+}
+{
+"model" "*39"
+"message" "Landmine!"
+"target" "39"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "39"
+"origin" "-712 1032 -264"
+"classname" "environ_explosion"
+}
+{
+"model" "*40"
+"message" "Landmine!"
+"target" "40"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "40"
+"origin" "-1160 1048 -264"
+"classname" "environ_explosion"
+}
+{
+"model" "*41"
+"message" "Landmine!"
+"target" "41"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "41"
+"origin" "-904 1160 -264"
+"classname" "environ_explosion"
+}
+{
+"model" "*42"
+"message" "Landmine!"
+"target" "42"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "42"
+"origin" "-776 1288 -264"
+"classname" "environ_explosion"
+}
+{
+"model" "*43"
+"message" "Landmine!"
+"target" "43"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "43"
+"origin" "-776 1480 -264"
+"classname" "environ_explosion"
+}
+{
+"model" "*44"
+"message" "Landmine!"
+"target" "44"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "44"
+"origin" "-1144 1432 -264"
+"classname" "environ_explosion"
+}
+{
+"model" "*45"
+"message" "Landmine!"
+"target" "45"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "45"
+"origin" "-1288 1608 -264"
+"classname" "environ_explosion"
+}
+{
+"model" "*46"
+"message" "Landmine!"
+"target" "46"
+"speed" "100"
+"wait" "5"
+"lip" "-1"
+"spawnflags" "1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"targetname" "46"
+"origin" "1344 -800 -248"
+"classname" "environ_explosion"
+}
+{
+"targetname" "score"
+"count" "500"
+"origin" "-1408 1408 -192"
+"classname" "func_score"
+}
+{
+"model" "*47"
+"soundname" "ButtonBleep2"
+"wait" "-1"
+"speed" "200"
+"message" "Congratulations Warrior!  You have earned the 500pt bonus!"
+"target" "score"
+"spawnflags" "0"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-144 32 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "144 32 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "0 496 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-64 688 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "352 416 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "1344 448 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "704 416 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "704 64 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "1344 -128 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "1344 -800 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "1344 -1184 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "352 64 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "352 -288 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "704 -288 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "512 -928 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "704 -640 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "816 -1184 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "352 -640 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-208 -608 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-560 -320 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-512 -1024 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-832 128 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-896 928 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-480 1056 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-480 1344 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-1312 1408 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-480 1632 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-224 1632 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "64 1632 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "64 1344 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-224 1344 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "-224 1056 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "64 1056 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "1216 1344 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "1216 1600 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "1216 1344 -1160"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "0 1344 -1160"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "656 1232 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "656 1040 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "464 1040 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"Light" "50"
+"_light" "255 255 255 50"
+"origin" "464 1232 -136"
+"classname" "light_generic_lantern3"
+}
+{
+"model" "*48"
+"speed" "150"
+"soundName" "DoorHiTechBlastSmall"
+"lip" "4"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*49"
+"speed" "150"
+"soundName" "DoorHiTechBlastSmall"
+"lip" "4"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*50"
+"speed" "150"
+"soundName" "DoorHiTechBlastSmall"
+"lip" "4"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*51"
+"speed" "150"
+"soundName" "DoorHiTechBlastSmall"
+"lip" "4"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*52"
+"speed" "150"
+"soundName" "DoorHiTechBlastSmall"
+"lip" "4"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*53"
+"soundName" "DoorHiTechBlastSmall"
+"speed" "25"
+"targetname" "t1"
+"spawnflags" "1"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*54"
+"lip" "-2"
+"message" "Wrong way!"
+"spawnflags" "1"
+"speed" "200"
+"target" "t1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*55"
+"soundName" "DoorPounder"
+"lip" "-4"
+"speed" "500"
+"wait" "0"
+"spawnflags" "128"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*56"
+"soundName" "DoorPounder"
+"lip" "-4"
+"speed" "500"
+"wait" "0"
+"spawnflags" "128"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*57"
+"soundName" "DoorPounder"
+"lip" "-4"
+"speed" "500"
+"wait" "0"
+"spawnflags" "128"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*58"
+"soundName" "DoorPounder"
+"lip" "-4"
+"speed" "500"
+"wait" "0"
+"spawnflags" "128"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*59"
+"soundName" "DoorHiTechBlastSmall"
+"speed" "200"
+"lip" "-4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*60"
+"lip" "-2"
+"spawnflags" "0"
+"soundName" "DoorHiTechBlastSmall"
+"wait" "6"
+"targetname" "elevator"
+"speed" "75"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*61"
+"targetname" "door"
+"speed" "100"
+"soundName" "DoorHiTechBlastSmall"
+"lip" "4"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*62"
+"targetname" "door2"
+"speed" "100"
+"soundName" "DoorHiTechBlastSmall"
+"lip" "4"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*63"
+"soundname" "ButtonBleep2"
+"target" "door"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*64"
+"message" "Out of Order!"
+"soundname" "ButtonBleep2"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*65"
+"soundname" "ButtonBleep2"
+"target" "elevator"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*66"
+"message" "HA!  You're stuck down here!"
+"soundname" "ButtonBleep2"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*67"
+"spawnflags" "1"
+"target" "door2"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"origin" "513 0 -63"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-511 0 -63"
+"classname" "item_equip_armor"
+}
+{
+"count" "300"
+"origin" "0 1381 -1274"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "-11 1342 -1269"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "36 1316 -1280"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "20 1316 -1280"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "4 1316 -1280"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-12 1316 -1280"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-28 1316 -1280"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-44 1316 -1280"
+"classname" "item_equip_grenade"
+}
+{
+"count" "300"
+"origin" "-107 622 -250"
+"classname" "item_ammo_auto"
+}
+{
+"count" "300"
+"origin" "-63 622 -250"
+"classname" "item_ammo_battery"
+}
+{
+"count" "300"
+"origin" "-19 622 -250"
+"classname" "item_ammo_gas"
+}
+{
+"count" "300"
+"origin" "25 622 -250"
+"classname" "item_ammo_pistol"
+}
+{
+"count" "300"
+"origin" "69 622 -250"
+"classname" "item_ammo_pistol2"
+}
+{
+"count" "300"
+"origin" "69 650 -250"
+"classname" "item_ammo_rocket"
+}
+{
+"count" "300"
+"origin" "25 650 -250"
+"classname" "item_ammo_shotgun"
+}
+{
+"count" "300"
+"origin" "-19 650 -250"
+"classname" "item_ammo_slug"
+}
+{
+"origin" "-205 786 -254"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-149 786 -247"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "-100 784 -253"
+"classname" "item_weapon_flamethrower"
+}
+{
+"origin" "-41 789 -253"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-205 761 -253"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "22 783 -247"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"origin" "-168 759 -254"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "28 751 -245"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "-128 758 -253"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "-52 752 -249"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "89 793 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "89 777 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "89 761 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "89 745 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "73 745 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "73 761 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "73 777 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "73 793 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "78 720 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "78 688 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "54 688 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "54 720 -245"
+"classname" "item_equip_c4"
+}
+{
+"count" "100"
+"origin" "-504 616 -256"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "-504 632 -255"
+"classname" "item_equip_armor"
+}
+{
+"count" "100"
+"origin" "-1256 504 -256"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "-928 -232 -256"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "-584 -1192 -256"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "512 -936 -256"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "1504 336 -256"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "1344 -1200 -256"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "-1320 1185 -272"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "-1320 1201 -271"
+"classname" "item_equip_armor"
+}
+{
+"count" "100"
+"origin" "1344 -1184 -255"
+"classname" "item_equip_armor"
+}
+{
+"count" "100"
+"origin" "1504 352 -255"
+"classname" "item_equip_armor"
+}
+{
+"count" "100"
+"origin" "512 -920 -255"
+"classname" "item_equip_armor"
+}
+{
+"count" "100"
+"origin" "-584 -1176 -255"
+"classname" "item_equip_armor"
+}
+{
+"count" "100"
+"origin" "-928 -216 -255"
+"classname" "item_equip_armor"
+}
+{
+"count" "100"
+"origin" "-1256 520 -255"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-532 619 -252"
+"classname" "item_equip_light_goggles"
+}
+{
+"origin" "-490 823 -247"
+"classname" "item_equip_flashpack"
+}
+{
+"origin" "-490 807 -247"
+"classname" "item_equip_flashpack"
+}
+{
+"origin" "-490 791 -247"
+"classname" "item_equip_flashpack"
+}
+{
+"origin" "-490 775 -247"
+"classname" "item_equip_flashpack"
+}
+{
+"origin" "-490 759 -247"
+"classname" "item_equip_flashpack"
+}
+{
+"count" "300"
+"origin" "-512 284 -26"
+"classname" "item_ammo_pistol2"
+}
+{
+"origin" "-509 255 -30"
+"classname" "item_weapon_pistol2"
+}
+{
+"count" "300"
+"origin" "511 -237 -26"
+"classname" "item_ammo_pistol2"
+}
+{
+"origin" "514 -266 -30"
+"classname" "item_weapon_pistol2"
+}
+{
+"count" "300"
+"origin" "512 288 -26"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "512 251 -30"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"count" "300"
+"origin" "-512 -230 -26"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-512 -267 -30"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"count" "300"
+"origin" "-1 -542 70"
+"classname" "item_ammo_shotgun"
+}
+{
+"origin" "2 -511 67"
+"classname" "item_weapon_shotgun"
+}
+{
+"count" "300"
+"origin" "-4 497 70"
+"classname" "item_ammo_shotgun"
+}
+{
+"origin" "-1 528 67"
+"classname" "item_weapon_shotgun"
+}
+{
+"count" "25"
+"origin" "-592 0 -96"
+"classname" "item_health_small"
+}
+{
+"count" "25"
+"origin" "0 592 -96"
+"classname" "item_health_small"
+}
+{
+"count" "25"
+"origin" "592 0 -96"
+"classname" "item_health_small"
+}
+{
+"count" "25"
+"origin" "0 -592 -96"
+"classname" "item_health_small"
+}
+{
+"origin" "-133 -2 -85"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "-88 -248 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -232 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -216 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -200 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -184 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -168 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -152 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -136 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -120 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -104 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 56 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -200 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1560 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1576 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1592 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1608 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1624 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1640 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1656 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1672 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1688 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "152 1704 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -184 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -168 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -152 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -136 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -120 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -104 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -88 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -72 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1528 -56 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 72 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 88 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 104 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 120 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 136 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 152 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 168 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 184 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-648 200 -256"
+"classname" "item_equip_grenade"
+}
+{
+"count" "300"
+"origin" "-560 -308 -250"
+"classname" "item_ammo_shotgun"
+}
+{
+"origin" "-558 -337 -253"
+"classname" "item_weapon_shotgun"
+}
+{
+"count" "300"
+"origin" "703 426 -250"
+"classname" "item_ammo_shotgun"
+}
+{
+"count" "300"
+"origin" "452 -921 -250"
+"classname" "item_ammo_shotgun"
+}
+{
+"origin" "454 -950 -253"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "705 397 -253"
+"classname" "item_weapon_shotgun"
+}
+{
+"count" "25"
+"origin" "-64 -368 -256"
+"classname" "item_health_small"
+}
+{
+"count" "25"
+"origin" "64 -368 -256"
+"classname" "item_health_small"
+}
+{
+"count" "25"
+"origin" "176 -368 -256"
+"classname" "item_health_small"
+}
+{
+"count" "25"
+"origin" "-176 -368 -256"
+"classname" "item_health_small"
+}
+{
+"origin" "85 -241 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "85 -209 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "85 -177 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "85 -145 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "85 -113 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "85 -81 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "85 -49 -245"
+"classname" "item_equip_c4"
+}
+{
+"origin" "296 120 -336"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "424 1080 -336"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "616 1272 -336"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-280 1400 -336"
+"classname" "item_equip_grenade"
+}
+{
+"count" "300"
+"origin" "1220 1363 -250"
+"classname" "item_ammo_slug"
+}
+{
+"origin" "1226 1335 -247"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"count" "300"
+"origin" "816 -1198 -250"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "811 -1170 -253"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "352 -277 -250"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "352 -310 -254"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"count" "300"
+"origin" "-512 -1042 -250"
+"classname" "item_ammo_auto"
+}
+{
+"count" "300"
+"origin" "64 1334 -250"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "64 1359 -254"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-512 -1017 -254"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"count" "300"
+"origin" "-207 -558 -250"
+"classname" "item_ammo_pistol"
+}
+{
+"count" "300"
+"origin" "1345 -110 -250"
+"classname" "item_ammo_pistol"
+}
+{
+"origin" "1345 -143 -253"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-207 -591 -253"
+"classname" "item_weapon_machinepistol"
+}
+{
+"count" "300"
+"origin" "-836 148 -250"
+"classname" "item_ammo_gas"
+}
+{
+"origin" "-840 118 -253"
+"classname" "item_weapon_flamethrower"
+}
+{
+"count" "300"
+"origin" "351 -613 -250"
+"classname" "item_ammo_pistol2"
+}
+{
+"origin" "355 -639 -254"
+"classname" "item_weapon_pistol2"
+}
+{
+"count" "300"
+"origin" "-1298 1442 -266"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "-1308 1407 -261"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"count" "300"
+"origin" "-1160 1822 -266"
+"classname" "item_ammo_battery"
+}
+{
+"origin" "-1171 1788 -263"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"origin" "1344 -800 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1352 -792 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1336 -792 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1328 -784 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1360 -784 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1368 -776 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1320 -776 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1320 -824 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1328 -816 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1336 -808 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1352 -808 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1360 -816 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1368 -824 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1368 -824 -256"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-88 -89 -252"
+"classname" "item_equip_light_goggles"
+}
+{
+"count" "300"
+"origin" "-1079 623 -410"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-1140 619 -414"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"count" "25"
+"origin" "-1188 623 -416"
+"classname" "item_health_small"
+}
+{
+"origin" "-1205 623 -416"
+"classname" "item_equip_grenade"
+}
+{
+"attenuation" "-1"
+"noise" "deathtrap/500pt.wav"
+"spawnflags" "0"
+"targetname" "score"
+"volume" "1"
+"origin" "0 -256 -160"
+"classname" "target_speaker"
+}

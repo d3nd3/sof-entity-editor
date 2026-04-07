@@ -1,0 +1,521 @@
+{
+"light" "70"
+"sky" "tut"
+"classname" "worldspawn"
+}
+{
+"origin" "-2653 460 96"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_health_small"
+"origin" "959 -337 200"
+}
+{
+"classname" "item_weapon_shotgun"
+"origin" "-212 -356 3"
+}
+{
+"origin" "1480 125 202"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "1477 -43 206"
+"classname" "item_ammo_pistol2"
+}
+{
+"origin" "1255 -609 56"
+"classname" "item_health_small"
+}
+{
+"origin" "1248 -456 72"
+"light" "180"
+"classname" "light"
+}
+{
+"origin" "541 -242 73"
+"classname" "item_equip_flashpack"
+}
+{
+"origin" "485 157 70"
+"classname" "item_ammo_gas"
+}
+{
+"origin" "580 286 67"
+"classname" "item_weapon_flamethrower"
+}
+{
+"origin" "-43 -187 6"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-544 -281 2"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-419 -211 6"
+"classname" "item_ammo_shotgun"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-1293 52 0"
+}
+{
+"classname" "item_weapon_assault_rifle"
+"origin" "-2208 -9 26"
+}
+{
+"origin" "-648 -8 88"
+"angle" "360"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "func_score"
+"targetname" "defpoint"
+"count" "5"
+"origin" "944 -136 336"
+}
+{
+"classname" "script_runner"
+"script" "defuse/explo"
+"targetname" "explo"
+"origin" "976 -136 336"
+}
+{
+"origin" "-2976 528 184"
+"targetname" "s1"
+"script" "defuse/start1"
+"classname" "script_runner"
+}
+{
+"origin" "-1622 -161 27"
+"spawnflags" "3"
+"angle" "270"
+"classname" "misc_generic_tank_gas"
+}
+{
+"origin" "-1292 88 2"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-24 112 104"
+"_color" "1.000000 1.000000 0.501961"
+"light" "600"
+"classname" "light"
+}
+{
+"classname" "func_score"
+"count" "15"
+"targetname" "explo"
+"origin" "952 -296 344"
+}
+{
+"classname" "script_runner"
+"targetname" "boom"
+"script" "defuse/plant2"
+"origin" "1328 -272 312"
+}
+{
+"model" "*1"
+"classname" "trigger_countdown"
+"spawnflags" "6"
+"targetname" "count"
+"target" "explo"
+"count" "90"
+"parm1" "1"
+}
+{
+"light" "450"
+"origin" "-2552 0 152"
+"classname" "light"
+}
+{
+"origin" "964 -220 227"
+"angle" "90"
+"spawnflags" "3"
+"classname" "misc_uganda_rocket_engine"
+}
+{
+"classname" "environ_explosion"
+"health" "450"
+"targetname" "explo"
+"origin" "856 0 208"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "1093 -203 206"
+}
+{
+"classname" "item_equip_c4"
+"origin" "1090 28 211"
+}
+{
+"classname" "item_weapon_machinepistol"
+"origin" "903 -138 3"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "963 4 0"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "604 0 194"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "-2299 -131 30"
+}
+{
+"classname" "item_weapon_pistol2"
+"origin" "-2432 197 26"
+}
+{
+"classname" "item_health_small"
+"origin" "-1121 15 0"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "-811 -99 6"
+}
+{
+"classname" "item_weapon_machinepistol"
+"origin" "-553 262 3"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-221 -180 0"
+}
+{
+"classname" "item_weapon_machinegun"
+"origin" "-21 243 3"
+}
+{
+"classname" "misc_bosnia_truck_old"
+"angle" "270"
+"skin" "1"
+"spawnflags" "3"
+"origin" "-488 215 45"
+}
+{
+"classname" "misc_iraq_tree_palm"
+"spawnflags" "3"
+"origin" "-922 57 67"
+}
+{
+"classname" "misc_uganda_rocket_core"
+"spawnflags" "3"
+"origin" "1087 -354 214"
+}
+{
+"classname" "misc_uganda_nuke"
+"angle" "180"
+"spawnflags" "3"
+"origin" "1303 -124 224"
+}
+{
+"model" "*2"
+"classname" "trigger_useable"
+"target" "boom"
+}
+{
+"light" "500"
+"classname" "light"
+"origin" "960 0 296"
+}
+{
+"classname" "info_player_team2"
+"angle" "180"
+"origin" "1248 288 88"
+}
+{
+"classname" "info_player_team1"
+"angle" "360"
+"origin" "-3024 584 208"
+}
+{
+"origin" "1248 -288 88"
+"angle" "180"
+"classname" "info_player_team2"
+}
+{
+"light" "500"
+"origin" "1152 0 296"
+"classname" "light"
+}
+{
+"origin" "-834 129 67"
+"spawnflags" "3"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"classname" "misc_iraq_tree_palm"
+"spawnflags" "3"
+"origin" "-714 -7 67"
+}
+{
+"origin" "-930 1 67"
+"spawnflags" "3"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"origin" "-245 -180 0"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1155 4 0"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1223 126 3"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "1090 -36 211"
+"classname" "item_equip_c4"
+}
+{
+"classname" "item_equip_c4"
+"origin" "1090 100 211"
+}
+{
+"origin" "840 184 104"
+"targetname" "explo"
+"health" "180"
+"classname" "environ_explosion"
+}
+{
+"classname" "environ_explosion"
+"health" "240"
+"targetname" "explo"
+"origin" "976 -200 104"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "s2"
+}
+{
+"model" "*4"
+"target" "s1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1160 264 88"
+"script" "defuse/start2"
+"targetname" "s2"
+"classname" "script_runner"
+}
+{
+"classname" "info_player_team2"
+"angle" "180"
+"origin" "1272 176 88"
+}
+{
+"origin" "1256 8 88"
+"angle" "180"
+"classname" "info_player_team2"
+}
+{
+"classname" "info_player_team2"
+"angle" "180"
+"origin" "1280 -128 88"
+}
+{
+"classname" "misc_generic_tank_gas"
+"angle" "270"
+"spawnflags" "3"
+"origin" "-1550 -161 27"
+}
+{
+"origin" "-1470 -161 27"
+"spawnflags" "2"
+"angle" "270"
+"classname" "misc_generic_tank_gas"
+}
+{
+"model" "*5"
+"target" "t7"
+"classname" "trigger_multiple"
+}
+{
+"classname" "script_runner"
+"targetname" "t7"
+"script" "defuse/start2"
+"origin" "1184 152 88"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "t8"
+}
+{
+"origin" "1168 -16 88"
+"script" "defuse/start2"
+"targetname" "t8"
+"classname" "script_runner"
+}
+{
+"model" "*7"
+"target" "t9"
+"classname" "trigger_multiple"
+}
+{
+"classname" "script_runner"
+"targetname" "t9"
+"script" "defuse/start2"
+"origin" "1192 -152 88"
+}
+{
+"model" "*8"
+"classname" "trigger_multiple"
+"target" "t10"
+}
+{
+"origin" "1160 -312 88"
+"script" "defuse/start2"
+"targetname" "t10"
+"classname" "script_runner"
+}
+{
+"origin" "-1285 20 0"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "613 -330 73"
+}
+{
+"classname" "light"
+"light" "600"
+"_color" "1.000000 1.000000 0.501961"
+"origin" "16 112 104"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "1248 -544 96"
+}
+{
+"origin" "1344 -608 128"
+"light" "180"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "1472 -544 136"
+}
+{
+"origin" "1472 -432 168"
+"light" "180"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "1472 -328 216"
+}
+{
+"origin" "1472 -200 256"
+"light" "180"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "1480 -40 256"
+}
+{
+"origin" "1480 104 256"
+"light" "180"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "1488 240 256"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-2653 -484 96"
+}
+{
+"classname" "script_runner"
+"script" "defuse/start1"
+"targetname" "t11"
+"origin" "-2848 528 184"
+}
+{
+"origin" "-2896 584 208"
+"angle" "360"
+"classname" "info_player_team1"
+}
+{
+"model" "*9"
+"classname" "trigger_multiple"
+"target" "t11"
+}
+{
+"origin" "-2736 528 184"
+"targetname" "t12"
+"script" "defuse/start1"
+"classname" "script_runner"
+}
+{
+"classname" "info_player_team1"
+"angle" "360"
+"origin" "-2784 584 208"
+}
+{
+"model" "*10"
+"target" "t12"
+"classname" "trigger_multiple"
+}
+{
+"classname" "script_runner"
+"script" "defuse/start1"
+"targetname" "t13"
+"origin" "-2984 -624 184"
+}
+{
+"origin" "-3032 -568 208"
+"angle" "360"
+"classname" "info_player_team1"
+}
+{
+"model" "*11"
+"classname" "trigger_multiple"
+"target" "t13"
+}
+{
+"origin" "-2888 -624 184"
+"targetname" "t14"
+"script" "defuse/start1"
+"classname" "script_runner"
+}
+{
+"classname" "info_player_team1"
+"angle" "360"
+"origin" "-2936 -568 208"
+}
+{
+"model" "*12"
+"target" "t14"
+"classname" "trigger_multiple"
+}
+{
+"classname" "script_runner"
+"script" "defuse/start1"
+"targetname" "t15"
+"origin" "-2784 -632 184"
+}
+{
+"origin" "-2832 -576 208"
+"angle" "360"
+"classname" "info_player_team1"
+}
+{
+"model" "*13"
+"classname" "trigger_multiple"
+"target" "t15"
+}

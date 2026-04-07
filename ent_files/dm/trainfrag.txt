@@ -1,0 +1,479 @@
+{
+"classname" "worldspawn"
+"message" "a stupid idea from warmongr fragtrain lev2"
+"screeneffect" "1"
+"terrainset" "train"
+"_sun_color" "0.466667 0.89 1"
+"_sun_diffuse" "45"
+"script" "trn1/precache"
+"distcull" "1224"
+"sky" "train"
+"_sun_angle" "245 -65"
+"_sun_light" "100"
+"_sun_ambient" "7 7 14"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-3856 8 352"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "793 -74 73"
+}
+{
+"classname" "item_weapon_machinepistol"
+"origin" "511 -2 3"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "2815 0 208"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-2689 0 208"
+}
+{
+"classname" "item_equip_armor"
+"origin" "-2965 1 169"
+}
+{
+"classname" "item_equip_armor"
+"origin" "3091 1 169"
+}
+{
+"classname" "item_health_small"
+"origin" "-729 -1 0"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-21 -68 0"
+}
+{
+"classname" "item_equip_armor"
+"origin" "-469 -79 1"
+}
+{
+"classname" "item_health_small"
+"origin" "-3609 -33 160"
+}
+{
+"model" "*1"
+"classname" "trigger_hurt"
+"spawnflags" "64"
+"message" "oops did you slip"
+}
+{
+"model" "*2"
+"classname" "trigger_hurt"
+"spawnflags" "64"
+"message" "oops did you slip"
+}
+{
+"model" "*3"
+"classname" "trigger_hurt"
+"spawnflags" "64"
+"message" "oops did you slip"
+}
+{
+"classname" "item_ammo_auto"
+"angle" "90"
+"count" "40"
+"origin" "3953 1 6"
+}
+{
+"classname" "item_weapon_machinegun"
+"angle" "270"
+"origin" "3983 7 3"
+}
+{
+"classname" "item_ammo_auto"
+"angle" "90"
+"count" "40"
+"origin" "-3823 1 6"
+}
+{
+"classname" "item_weapon_machinegun"
+"angle" "90"
+"origin" "-3853 -5 3"
+}
+{
+"classname" "item_equip_c4"
+"origin" "1106 -28 19"
+}
+{
+"classname" "item_ammo_auto"
+"count" "40"
+"origin" "2149 -67 70"
+}
+{
+"classname" "item_weapon_assault_rifle"
+"origin" "2256 -73 66"
+}
+{
+"classname" "info_player_team2"
+"origin" "3776 0 184"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "2695 -104 80"
+}
+{
+"classname" "item_equip_c4"
+"origin" "-1222 0 203"
+}
+{
+"classname" "item_equip_armor"
+"angle" "90"
+"origin" "267 -71 1"
+}
+{
+"model" "*4"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "15"
+"mass" "2"
+"health" "10"
+"material" "17"
+"surfaceType" "14"
+}
+{
+"classname" "target_speaker"
+"volume" "0.2"
+"noise" "ambient/locs/subway/train/move.wav"
+"targetname" "1"
+"attenuation" "-1"
+"origin" "-3456 200 312"
+}
+{
+"classname" "func_timer"
+"spawnflags" "1"
+"target" "1"
+"origin" "-3520 200 312"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "-2131 -75 70"
+}
+{
+"classname" "item_weapon_assault_rifle"
+"origin" "-2028 -73 66"
+}
+{
+"model" "*5"
+"classname" "func_door"
+"angle" "360"
+}
+{
+"model" "*6"
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "8192"
+}
+{
+"model" "*7"
+"classname" "func_door"
+"angle" "360"
+}
+{
+"model" "*8"
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "8192"
+}
+{
+"model" "*9"
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "8192"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-2569 -100 80"
+}
+{
+"classname" "item_ammo_shotgun"
+"angle" "90"
+"count" "20"
+"origin" "-3167 65 6"
+}
+{
+"classname" "item_weapon_shotgun"
+"angle" "270"
+"origin" "-3168 0 3"
+}
+{
+"classname" "misc_ctf_base"
+"count" "1"
+"origin" "-3488 0 216"
+}
+{
+"classname" "item_ctf_flag"
+"count" "1"
+"origin" "-3488 1 198"
+}
+{
+"classname" "info_player_team1"
+"origin" "-3296 0 184"
+}
+{
+"classname" "info_player_start"
+"origin" "-3808 72 24"
+}
+{
+"classname" "misc_uganda_train_coupling"
+"origin" "-3081 -1 -7"
+}
+{
+"classname" "item_ammo_shotgun"
+"angle" "90"
+"count" "20"
+"origin" "-3167 -67 6"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-2457 -100 80"
+}
+{
+"classname" "misc_uganda_train_coupling"
+"origin" "-2257 -1 -7"
+}
+{
+"classname" "misc_uganda_train_coupling"
+"origin" "-657 -1 -7"
+}
+{
+"model" "*10"
+"classname" "func_door"
+"angle" "360"
+}
+{
+"model" "*11"
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "8192"
+}
+{
+"model" "*12"
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "8192"
+}
+{
+"model" "*13"
+"classname" "func_door"
+"angle" "360"
+}
+{
+"model" "*14"
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "8192"
+}
+{
+"model" "*15"
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "8192"
+}
+{
+"classname" "target_speaker"
+"attenuation" "-1"
+"targetname" "t1"
+"noise" "ambient/locs/subway/train/moveback.wav"
+"volume" "0.1"
+"origin" "-3456 256 312"
+}
+{
+"classname" "func_timer"
+"spawnflags" "1"
+"target" "t1"
+"origin" "-3520 256 312"
+}
+{
+"classname" "target_speaker"
+"volume" "0.3"
+"noise" "ambient/locs/subway/train/horn2.wav"
+"targetname" "t2"
+"attenuation" "-1"
+"origin" "-3672 232 312"
+}
+{
+"classname" "func_timer"
+"spawnflags" "1"
+"wait" "80"
+"target" "t2"
+"origin" "-3736 232 312"
+}
+{
+"classname" "misc_uganda_train_coupling"
+"origin" "-1457 -1 -7"
+}
+{
+"classname" "misc_uganda_train_coupling"
+"origin" "143 -1 -7"
+}
+{
+"classname" "misc_uganda_train_coupling"
+"origin" "863 -1 -7"
+}
+{
+"classname" "item_equip_c4"
+"origin" "-902 0 203"
+}
+{
+"model" "*16"
+"classname" "func_door"
+"angle" "360"
+}
+{
+"model" "*17"
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "8192"
+}
+{
+"model" "*18"
+"classname" "func_door"
+"angle" "360"
+}
+{
+"model" "*19"
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "8192"
+}
+{
+"model" "*20"
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "8192"
+}
+{
+"classname" "misc_uganda_train_coupling"
+"origin" "1583 -1 -7"
+}
+{
+"classname" "misc_uganda_train_coupling"
+"origin" "2383 -1 -7"
+}
+{
+"classname" "misc_uganda_train_coupling"
+"origin" "3207 -1 -7"
+}
+{
+"classname" "misc_ctf_base"
+"count" "2"
+"origin" "3616 0 216"
+}
+{
+"classname" "item_ctf_flag"
+"count" "2"
+"origin" "3616 1 198"
+}
+{
+"classname" "item_ammo_shotgun"
+"angle" "90"
+"count" "20"
+"origin" "3297 65 6"
+}
+{
+"classname" "item_weapon_shotgun"
+"angle" "90"
+"origin" "3296 0 3"
+}
+{
+"classname" "item_ammo_shotgun"
+"angle" "90"
+"count" "20"
+"origin" "3297 -67 6"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "2587 -104 80"
+}
+{
+"classname" "info_player_team1"
+"origin" "-3648 0 184"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2840 -96 24"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2728 -96 24"
+}
+{
+"classname" "info_player_team1"
+"origin" "-2792 120 24"
+}
+{
+"classname" "info_player_team2"
+"origin" "3456 0 184"
+}
+{
+"classname" "info_player_team2"
+"origin" "2856 -96 24"
+}
+{
+"classname" "info_player_team2"
+"origin" "2968 -96 24"
+}
+{
+"classname" "info_player_team2"
+"origin" "2920 112 24"
+}
+{
+"classname" "item_equip_c4"
+"origin" "1258 -36 19"
+}
+{
+"model" "*21"
+"classname" "trigger_hurt"
+"spawnflags" "64"
+"message" "oops did you slip"
+}
+{
+"model" "*22"
+"classname" "trigger_hurt"
+"spawnflags" "64"
+"message" "oops did you slip"
+}
+{
+"model" "*23"
+"classname" "trigger_hurt"
+"spawnflags" "64"
+"message" "oops did you slip"
+}
+{
+"classname" "item_health_small"
+"origin" "-3609 31 160"
+}
+{
+"classname" "item_health_small"
+"origin" "3735 -33 160"
+}
+{
+"classname" "item_health_small"
+"origin" "3735 31 160"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-21 -84 0"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-37 -76 0"
+}
+{
+"classname" "item_health_small"
+"origin" "-1385 -1 0"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "793 -46 73"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "793 -22 73"
+}

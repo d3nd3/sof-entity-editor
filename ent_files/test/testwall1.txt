@@ -1,0 +1,51 @@
+{
+"sky" "ny"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-144 0 -72"
+"classname" "info_player_start"
+}
+{
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"model" "*1"
+"targetname" "box1"
+"spawnflags" "4"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"targetname" "box1"
+"spawnflags" "0"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"target" "box1"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"targetname" "box1"
+"delay" "0.8"
+"health" "500"
+"origin" "228 -164 0"
+"classname" "func_camerashake"
+}
+{
+"spawnflags" "2"
+"attenuation" "-1"
+"targetname" "box1"
+"noise" "ambient/doors/metal/swngrsty1/Mid.wav"
+"volume" "1"
+"origin" "196 -144 0"
+"classname" "target_speaker"
+}
+{
+"origin" "60 -164 -72"
+"classname" "info_player_deathmatch"
+}

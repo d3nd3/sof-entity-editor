@@ -1,0 +1,538 @@
+{
+"sky" "ny"
+"classname" "worldspawn"
+"sunlight" "50"
+"sunambience" "40"
+"suncolor" "1.000000 1.000000 1.000000"
+"sun diffuse" "50"
+}
+{
+"classname" "light"
+"light" "400"
+"angle" "-2"
+"origin" "928 752 8"
+}
+{
+"origin" "1139 1368 64"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "949 203 42"
+"classname" "item_ammo_gas"
+}
+{
+"origin" "253 1573 134"
+"classname" "item_ammo_battery"
+}
+{
+"origin" "1429 597 14"
+"count" "60"
+"angle" "90"
+"classname" "item_ammo_pistol"
+}
+{
+"origin" "961 1165 -58"
+"count" "8"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "1541 1517 70"
+"count" "20"
+"classname" "item_ammo_slug"
+}
+{
+"count" "20"
+"origin" "1301 645 70"
+"angle" "90"
+"classname" "item_ammo_pistol2"
+}
+{
+"origin" "1517 606 233"
+"classname" "item_equip_flashpack"
+}
+{
+"origin" "1629 741 342"
+"count" "30"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "853 1053 -50"
+"count" "30"
+"angle" "90"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "749 1301 38"
+"count" "12"
+"classname" "item_ammo_shotgun"
+}
+{
+"origin" "501 21 14"
+"count" "12"
+"classname" "item_ammo_shotgun"
+}
+{
+"origin" "1020 892 452"
+"targetname" "spot1"
+"classname" "info_null"
+}
+{
+"origin" "840 1144 0"
+"light" "100"
+"classname" "light"
+}
+{
+"model" "*1"
+"classname" "func_wall"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"origin" "1643 743 156"
+"skin" "1"
+"light" "300"
+"classname" "light_generic_shop"
+}
+{
+"model" "*3"
+"_color" "0.501961 1.000000 1.000000"
+"classname" "func_wall"
+}
+{
+"model" "*4"
+"_color" "0.501961 1.000000 1.000000"
+"classname" "func_wall"
+}
+{
+"origin" "317 175 116"
+"classname" "item_equip_light_goggles"
+}
+{
+"origin" "579 1508 80"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1218 1044 75"
+"classname" "item_equip_c4"
+}
+{
+"origin" "666 1140 235"
+"classname" "item_equip_c4"
+}
+{
+"origin" "1835 492 34"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "964 1294 35"
+"classname" "item_weapon_flamethrower"
+}
+{
+"origin" "966 1068 -55"
+"angle" "90"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"model" "*5"
+"origin" "928 1020 -24"
+"soundname" "DoorNormalSwingMetalNorm1"
+"angle" "270"
+"classname" "func_door_rotating"
+"spawnflags" "2"
+}
+{
+"origin" "170 78 25"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "1863 597 235"
+"angle" "90"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "899 1299 363"
+"classname" "item_weapon_machinegun"
+}
+{
+"classname" "misc_generic_plant_potted"
+"angle" "360"
+"skin" "3"
+"spawnflags" "3"
+"origin" "1162 1243 83"
+}
+{
+"origin" "1303 663 336"
+"classname" "item_health_small"
+}
+{
+"origin" "610 924 16"
+"classname" "item_health_large"
+}
+{
+"origin" "739 1241 337"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1375 1057 84"
+"classname" "item_health_small"
+}
+{
+"origin" "695 1087 -64"
+"classname" "item_health_small"
+}
+{
+"origin" "1747 553 9"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1367 870 11"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "1072 559 -62"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "520 221 10"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "1796 592 338"
+"angle" "90"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "324 1472 82"
+"angle" "90"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1068 788 91"
+"angle" "90"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "944 1184 88"
+"angle" "360"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "616 1248 32"
+"angle" "225"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "856 1208 -8"
+"angle" "225"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1744 864 32"
+"angle" "225"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1176 560 88"
+"angle" "225"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1752 480 32"
+"angle" "180"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "496 1568 32"
+"angle" "270"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*6"
+"classname" "trigger_conquer"
+}
+{
+"origin" "956 837 390"
+"message" "ROOF TOP"
+"angle" "225"
+"classname" "item_control_flag"
+}
+{
+"origin" "868 1316 356"
+"height" "60"
+"classname" "environ_smokegen"
+}
+{
+"origin" "944 1112 64"
+"spawnflags" "3"
+"angle" "90"
+"classname" "misc_generic_bookshelf"
+}
+{
+"origin" "1387 1250 83"
+"angle" "180"
+"spawnflags" "1"
+"skin" "0"
+"classname" "misc_generic_chair_legs"
+}
+{
+"origin" "1385 1132 81"
+"angle" "180"
+"spawnflags" "3"
+"skin" "1"
+"classname" "misc_generic_sofa"
+}
+{
+"model" "*7"
+"origin" "652 1160 56"
+"soundname" "DoorNormalSwingMetalNorm1"
+"dmg" "10"
+"angle" "180"
+"classname" "func_door_rotating"
+}
+{
+"model" "*8"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "8"
+"mass" "2"
+"health" "30"
+"dmg" "10"
+"volume" "10"
+"material" "9"
+"surfacetype" "28"
+}
+{
+"angle" "135"
+"origin" "656 1264 360"
+"classname" "info_player_start"
+}
+{
+"angle" "90"
+"origin" "392 24 32"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*9"
+"surfacetype" "28"
+"material" "9"
+"volume" "10"
+"dmg" "10"
+"health" "30"
+"mass" "2"
+"count" "8"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*10"
+"material" "7"
+"dmg" "10"
+"volume" "10"
+"health" "10"
+"surfacetype" "37"
+"count" "8"
+"mass" "1"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*11"
+"mass" "1"
+"count" "8"
+"spawnflags" "2"
+"volume" "10"
+"dmg" "10"
+"health" "10"
+"surfacetype" "37"
+"material" "7"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*12"
+"material" "7"
+"volume" "10"
+"dmg" "10"
+"health" "10"
+"mass" "1"
+"count" "16"
+"surfacetype" "37"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*13"
+"surfacetype" "37"
+"material" "7"
+"volume" "10"
+"dmg" "10"
+"mass" "1"
+"count" "16"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"classname" "misc_generic_chair_legs"
+"skin" "0"
+"spawnflags" "1"
+"angle" "360"
+"origin" "1387 1298 83"
+}
+{
+"classname" "misc_generic_chair_legs"
+"skin" "0"
+"spawnflags" "1"
+"angle" "180"
+"origin" "1387 1346 83"
+}
+{
+"classname" "misc_generic_sofa"
+"skin" "1"
+"spawnflags" "3"
+"angle" "360"
+"origin" "1145 1316 81"
+}
+{
+"classname" "item_control_flag"
+"angle" "225"
+"message" "MORGUE"
+"origin" "773 645 -26"
+}
+{
+"classname" "item_control_flag"
+"angle" "225"
+"message" "LOBBY"
+"origin" "1212 1445 118"
+}
+{
+"classname" "environ_smokegen"
+"height" "60"
+"origin" "940 1316 356"
+}
+{
+"classname" "item_health_small"
+"origin" "1255 663 336"
+}
+{
+"classname" "misc_generic_sofa"
+"skin" "1"
+"spawnflags" "3"
+"angle" "90"
+"origin" "1299 1046 81"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "1849 492 36"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "1867 492 40"
+}
+{
+"classname" "item_equip_c4"
+"origin" "698 1140 235"
+}
+{
+"classname" "item_equip_c4"
+"origin" "730 1140 235"
+}
+{
+"classname" "item_equip_c4"
+"origin" "1186 1044 75"
+}
+{
+"classname" "item_equip_c4"
+"origin" "1154 1044 75"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "579 1468 80"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "579 1428 80"
+}
+{
+"cone" "20000"
+"target" "spot1"
+"classname" "light"
+"_color" "0.501961 1.000000 1.000000"
+"light" "5000"
+"origin" "888 760 400"
+}
+{
+"model" "*14"
+"classname" "func_wall"
+"_color" "0.501961 1.000000 1.000000"
+}
+{
+"model" "*15"
+"_color" "0.501961 1.000000 1.000000"
+"classname" "func_wall"
+}
+{
+"model" "*16"
+"classname" "func_wall"
+"_color" "0.501961 1.000000 1.000000"
+}
+{
+"model" "*17"
+"classname" "func_wall"
+"_color" "0.501961 1.000000 1.000000"
+}
+{
+"model" "*18"
+"classname" "func_wall"
+"_color" "0.501961 1.000000 1.000000"
+}
+{
+"model" "*19"
+"_color" "0.501961 1.000000 1.000000"
+"classname" "func_wall"
+}
+{
+"classname" "light_generic_shop"
+"light" "300"
+"skin" "1"
+"origin" "1491 743 156"
+}
+{
+"model" "*20"
+"_color" "1.000000 1.000000 1.000000"
+"classname" "func_wall"
+}
+{
+"model" "*21"
+"classname" "func_wall"
+"_color" "1.000000 1.000000 1.000000"
+}
+{
+"model" "*22"
+"_color" "1.000000 1.000000 1.000000"
+"classname" "func_wall"
+}
+{
+"model" "*23"
+"classname" "func_wall"
+}
+{
+"model" "*24"
+"classname" "func_wall"
+}
+{
+"model" "*25"
+"classname" "func_wall"
+}
+{
+"model" "*26"
+"classname" "func_wall"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "1517 622 233"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "1501 622 233"
+}

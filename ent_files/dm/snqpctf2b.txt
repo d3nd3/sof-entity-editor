@@ -1,0 +1,368 @@
+{
+"musicset" "dm4"
+"startmusic" "1"
+"sky" "ugan"
+"classname" "worldspawn"
+"message" "SNQPCTF2-B by GåµÐ£®ïØSNQP - 2006  BRASIL"
+"_sun_color" "1.000000 0.885246 0.688525"
+"_sun_light" "90"
+"_sun_ambient" "90"
+}
+{
+"model" "*1"
+"target" "p1"
+"classname" "trigger_multiple"
+}
+{
+"angle" "360"
+"origin" "-374 676 -29"
+"count" "2"
+"classname" "item_equip_c4"
+}
+{
+"classname" "item_health_large"
+"origin" "42 -284 8"
+}
+{
+"origin" "288 61 10"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "0 -208 144"
+"classname" "light"
+}
+{
+"origin" "-288 80 32"
+"angle" "360"
+"classname" "info_player_team1"
+}
+{
+"origin" "-53 -279 9"
+"count" "50"
+"classname" "item_equip_armor"
+}
+{
+"origin" "4 84 11"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "-261 292 144"
+"count" "4"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "220 216 146"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "219 -261 107"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-84 -136 162"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "32 168 32"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*2"
+"targetname" "p1"
+"soundName" "DoorNormalWoodDouble"
+"team" "blah"
+"target" "t8"
+"classname" "func_door"
+"speed" "128"
+"lip" "16"
+"angle" "360"
+}
+{
+"model" "*3"
+"targetname" "p1"
+"soundName" "DoorNormalWoodDouble"
+"team" "blah"
+"classname" "func_door"
+"speed" "128"
+"lip" "16"
+"angle" "180"
+}
+{
+"model" "*4"
+"targetname" "p1b"
+"angle" "360"
+"lip" "16"
+"speed" "128"
+"classname" "func_door"
+"target" "t9"
+"team" "blah2"
+"soundName" "DoorNormalWoodDouble"
+}
+{
+"model" "*5"
+"targetname" "p1b"
+"angle" "180"
+"lip" "16"
+"speed" "128"
+"classname" "func_door"
+"team" "blah2"
+"soundName" "DoorNormalWoodDouble"
+}
+{
+"classname" "item_ctf_flag"
+"count" "1"
+"origin" "-253 -180 30"
+}
+{
+"classname" "misc_ctf_base"
+"count" "1"
+"origin" "-254 -191 40"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "84 -136 162"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "-284 216 146"
+}
+{
+"classname" "item_equip_grenade"
+"count" "4"
+"origin" "195 284 144"
+}
+{
+"classname" "info_player_team1"
+"angle" "360"
+"origin" "-248 0 32"
+}
+{
+"origin" "-96 -40 32"
+"angle" "90"
+"classname" "info_player_team1"
+}
+{
+"classname" "info_player_team1"
+"angle" "90"
+"origin" "48 -40 32"
+}
+{
+"origin" "200 32 32"
+"angle" "180"
+"classname" "info_player_team1"
+}
+{
+"classname" "info_player_team1"
+"angle" "180"
+"origin" "200 120 32"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-200 136 32"
+}
+{
+"origin" "-80 24 32"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "144 40 32"
+}
+{
+"classname" "light"
+"origin" "0 1552 144"
+}
+{
+"classname" "info_player_team2"
+"angle" "180"
+"origin" "288 1264 32"
+}
+{
+"classname" "item_equip_armor"
+"count" "50"
+"origin" "53 1623 9"
+}
+{
+"classname" "item_weapon_shotgun"
+"origin" "36 1260 11"
+}
+{
+"classname" "item_equip_grenade"
+"count" "4"
+"origin" "260 1052 144"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "292 1120 146"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "-229 1131 147"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "84 1472 162"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-32 1176 32"
+}
+{
+"model" "*6"
+"targetname" "p2"
+"angle" "180"
+"lip" "16"
+"speed" "128"
+"classname" "func_door"
+"target" "t10"
+"team" "blah3"
+"soundName" "DoorNormalWoodDouble"
+}
+{
+"model" "*7"
+"targetname" "p2"
+"angle" "360"
+"lip" "16"
+"speed" "128"
+"classname" "func_door"
+"team" "blah3"
+"soundName" "DoorNormalWoodDouble"
+}
+{
+"model" "*8"
+"targetname" "p2b"
+"soundName" "DoorNormalWoodDouble"
+"team" "blah4"
+"target" "t11"
+"classname" "func_door"
+"speed" "128"
+"lip" "16"
+"angle" "180"
+}
+{
+"model" "*9"
+"targetname" "p2b"
+"soundName" "DoorNormalWoodDouble"
+"team" "blah4"
+"classname" "func_door"
+"speed" "128"
+"lip" "16"
+"angle" "360"
+}
+{
+"origin" "-84 1472 162"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-220 1592 107"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-196 1060 144"
+"count" "4"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "248 1344 32"
+"angle" "180"
+"classname" "info_player_team2"
+}
+{
+"classname" "info_player_team2"
+"angle" "270"
+"origin" "96 1384 32"
+}
+{
+"origin" "-48 1384 32"
+"angle" "270"
+"classname" "info_player_team2"
+}
+{
+"classname" "info_player_team2"
+"angle" "360"
+"origin" "-200 1312 32"
+}
+{
+"origin" "-200 1224 32"
+"angle" "360"
+"classname" "info_player_team2"
+}
+{
+"origin" "200 1208 32"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "80 1320 32"
+}
+{
+"origin" "-144 1304 32"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "item_ctf_flag"
+"count" "2"
+"origin" "254 1550 30"
+}
+{
+"classname" "misc_ctf_base"
+"count" "2"
+"origin" "250 1545 40"
+}
+{
+"classname" "item_weapon_pistol2"
+"origin" "-280 1285 10"
+}
+{
+"origin" "-46 1628 8"
+"classname" "item_health_large"
+}
+{
+"angle" "180"
+"classname" "item_equip_c4"
+"count" "2"
+"origin" "354 668 -45"
+}
+{
+"origin" "72 1600 184"
+"angle" "270"
+"classname" "info_player_team2"
+}
+{
+"classname" "info_player_team2"
+"angle" "270"
+"origin" "-72 1600 184"
+}
+{
+"classname" "item_weapon_shotgun"
+"origin" "12 1544 162"
+}
+{
+"classname" "info_player_team1"
+"angle" "90"
+"origin" "-72 -256 184"
+}
+{
+"origin" "72 -256 184"
+"angle" "90"
+"classname" "info_player_team1"
+}
+{
+"origin" "4 -200 162"
+"classname" "item_weapon_shotgun"
+}
+{
+"model" "*10"
+"classname" "trigger_multiple"
+"target" "p2"
+}
+{
+"model" "*11"
+"classname" "trigger_multiple"
+"target" "p1b"
+}
+{
+"model" "*12"
+"target" "p2b"
+"classname" "trigger_multiple"
+}

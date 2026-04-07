@@ -1,0 +1,540 @@
+{
+"sounds" "Ambient/Locs/CaveBase/TunnelLP.wav"
+"message" "RÈÐ & ßLÄÇK NOTTMOTO MAP"
+"chopsky" "266"
+"chop" "266"
+"sky" "ugan"
+"classname" "worldspawn"
+}
+{
+"style" "1"
+"light" "600"
+"origin" "0 0 240"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "700"
+"origin" "0 0 -208"
+"classname" "light"
+}
+{
+"_color" "1.000000 0.000000 0.000000"
+"Light" "50"
+"origin" "0 0 -560"
+"classname" "light_generic_emergency"
+}
+{
+"model" "*1"
+"wait" "60"
+"message" "! ! ! ! ! ! !  LET'S ROCK  ! ! ! ! ! ! !"
+"delay" "1"
+"target" "boom"
+"classname" "trigger_multiple"
+}
+{
+"count" "20"
+"speed" "300"
+"targetname" "boom"
+"origin" "0 0 32"
+"classname" "target_earthquake"
+}
+{
+"count" "20"
+"speed" "300"
+"targetname" "boom"
+"origin" "-704 704 32"
+"classname" "target_earthquake"
+}
+{
+"count" "20"
+"speed" "300"
+"targetname" "boom"
+"origin" "-704 -704 32"
+"classname" "target_earthquake"
+}
+{
+"count" "20"
+"speed" "300"
+"targetname" "boom"
+"origin" "704 -704 32"
+"classname" "target_earthquake"
+}
+{
+"count" "20"
+"speed" "300"
+"targetname" "boom"
+"origin" "704 704 32"
+"classname" "target_earthquake"
+}
+{
+"model" "*2"
+"classname" "trigger_conquer"
+}
+{
+"style" "0"
+"light" "500"
+"origin" "736 -736 368"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "500"
+"origin" "-736 -736 368"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "500"
+"origin" "-736 736 368"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "500"
+"origin" "736 736 368"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "400"
+"_light" "255 255 255 300"
+"origin" "-576 0 -256"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "400"
+"_light" "255 255 255 300"
+"origin" "576 0 -256"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "400"
+"_light" "255 255 255 300"
+"origin" "0 576 -256"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "400"
+"_light" "255 255 255 300"
+"origin" "0 -576 -256"
+"classname" "light"
+}
+{
+"angle" "90"
+"origin" "-1648 -128 -40"
+"classname" "info_player_start"
+}
+{
+"light" "700"
+"style" "0"
+"_light" "255 255 255 300"
+"origin" "-1520 -16 0"
+"classname" "light"
+}
+{
+"light" "700"
+"style" "0"
+"_light" "255 255 255 300"
+"origin" "-1776 -16 0"
+"classname" "light"
+}
+{
+"count" "2"
+"origin" "-344 192 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "-272 264 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "-200 336 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "196 340 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "264 272 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "336 200 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "336 -200 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "264 -272 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "196 -340 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "-200 -336 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "-272 -264 16"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"origin" "-344 -192 16"
+"classname" "item_equip_c4"
+}
+{
+"health" "50"
+"origin" "-192 192 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "-256 128 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "-128 256 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "192 192 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "256 128 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "128 256 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "192 -192 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "128 -256 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "256 -128 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "-192 -192 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "-128 -256 4"
+"classname" "environ_fire"
+}
+{
+"health" "50"
+"origin" "-256 -128 4"
+"classname" "environ_fire"
+}
+{
+"count" "100"
+"origin" "0 192 -656"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "0 -192 -656"
+"classname" "item_health_large"
+}
+{
+"count" "100"
+"origin" "-192 0 -656"
+"classname" "item_equip_armor"
+}
+{
+"count" "100"
+"origin" "192 0 -656"
+"classname" "item_equip_armor"
+}
+{
+"angle" "162"
+"origin" "1119 -533 28"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "743 -357 -632"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "335"
+"origin" "-1121 531 28"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-745 371 -632"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "213"
+"origin" "1119 523 28"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "743 371 -632"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "26"
+"origin" "-1121 -533 28"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-745 -357 -632"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "375 1123 28"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-377 -1125 28"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-1121 368 28"
+"classname" "info_player_team1"
+}
+{
+"angle" "360"
+"origin" "-745 264 -632"
+"classname" "info_player_team1"
+}
+{
+"angle" "360"
+"origin" "-1121 -384 28"
+"classname" "info_player_team1"
+}
+{
+"angle" "360"
+"origin" "-745 -264 -632"
+"classname" "info_player_team1"
+}
+{
+"angle" "318"
+"origin" "-841 808 28"
+"classname" "info_player_team1"
+}
+{
+"angle" "360"
+"origin" "-745 160 -632"
+"classname" "info_player_team1"
+}
+{
+"angle" "360"
+"origin" "-841 -816 28"
+"classname" "info_player_team1"
+}
+{
+"angle" "360"
+"origin" "-745 -160 -632"
+"classname" "info_player_team1"
+}
+{
+"angle" "180"
+"origin" "1119 -376 28"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "743 -264 -632"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "1119 384 28"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "743 264 -632"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "831 -816 28"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "743 -160 -632"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "831 816 28"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "743 160 -632"
+"classname" "info_player_team2"
+}
+{
+"origin" "672 672 4"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "672 -672 4"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-672 672 4"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "-672 -672 4"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "-960 0 4"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "992 0 4"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "0 992 4"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "0 -992 4"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-518 0 -654"
+"classname" "item_weapon_machinegun"
+}
+{
+"angle" "180"
+"origin" "506 0 -654"
+"classname" "item_weapon_machinegun"
+}
+{
+"soundName" "FishTank"
+"origin" "-192 -96 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "-96 -192 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "96 -192 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "192 -96 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "192 96 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "96 192 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "-96 192 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "-192 96 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "-288 160 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "-160 288 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "160 288 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "288 160 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "288 -160 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "160 -288 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "-160 -288 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "-288 -160 64"
+"classname" "environ_soundgen"
+}
+{
+"soundName" "FishTank"
+"origin" "0 0 128"
+"classname" "environ_soundgen"
+}

@@ -1,0 +1,434 @@
+{
+"_sun_target" "moon"
+"message" "Acid Dreams. Brought to you by =[V]=[R]="
+"_sun_color" "255 255 255"
+"_sun_angle" "135 -80"
+"_sun_diffuse" "75"
+"_sun_ambient" "7 14 14"
+"sun_light" "400"
+"chopsky" "512"
+"chop" "1024"
+"sky" "train"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"speed" "200"
+"wait" "1"
+"target" "m1"
+"classname" "func_train"
+}
+{
+"targetname" "m1"
+"Target" "m2"
+"origin" "304 750 -24"
+"classname" "path_corner"
+}
+{
+"targetname" "m2"
+"Target" "m1"
+"origin" "304 -640 -24"
+"classname" "path_corner"
+}
+{
+"model" "*2"
+"speed" "350"
+"wait" "1"
+"target" "p1"
+"classname" "func_train"
+}
+{
+"targetname" "p1"
+"Target" "p2"
+"origin" "328 -696 -40"
+"classname" "path_corner"
+}
+{
+"targetname" "p2"
+"Target" "p1"
+"origin" "328 696 -40"
+"classname" "path_corner"
+}
+{
+"model" "*3"
+"speed" "350"
+"wait" "1"
+"target" "v1"
+"classname" "func_train"
+}
+{
+"targetname" "v1"
+"Target" "v2"
+"origin" "-456 568 -40"
+"classname" "path_corner"
+}
+{
+"targetname" "v2"
+"Target" "v1"
+"origin" "-456 -824 -40"
+"classname" "path_corner"
+}
+{
+"model" "*4"
+"wait" "1"
+"target" "o1"
+"speed" "200"
+"classname" "func_train"
+}
+{
+"targetname" "o1"
+"Target" "o2"
+"origin" "-480 -769 -24"
+"classname" "path_corner"
+}
+{
+"targetname" "o2"
+"Target" "o1"
+"origin" "-480 639 -24"
+"classname" "path_corner"
+}
+{
+"model" "*5"
+"target" "song1"
+"wait" "125"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "song1"
+"volume" "1.0"
+"noise" "acid1.wav"
+"attenuation" "-1"
+"spawnflags" "0"
+"origin" "0 0 192"
+"classname" "target_speaker"
+}
+{
+"model" "*6"
+"dmg" "90000"
+"spawnflags" "104"
+"classname" "trigger_hurt"
+}
+{
+"style" "2"
+"_wait" ".7"
+"light" "500"
+"_color" "0.000000 1.000000 0.000000"
+"_light" "255 255 255 300"
+"origin" "512 -808 -170"
+"classname" "light"
+}
+{
+"style" "5"
+"_wait" ".4"
+"light" "500"
+"_color" "0.800000 1.000000 0.901961"
+"_light" "255 255 255 300"
+"origin" "0 -808 -170"
+"classname" "light"
+}
+{
+"style" "2"
+"_wait" ".7"
+"light" "500"
+"_color" "0.000000 1.000000 0.000000"
+"_light" "255 255 255 300"
+"origin" "-512 -808 -170"
+"classname" "light"
+}
+{
+"style" "2"
+"_wait" ".7"
+"light" "500"
+"_color" "0.800000 1.000000 0.901961"
+"_light" "255 255 255 300"
+"origin" "512 0 -170"
+"classname" "light"
+}
+{
+"style" "5"
+"_wait" ".4"
+"light" "500"
+"_color" "0.000000 1.000000 0.000000"
+"_light" "255 255 255 300"
+"origin" "0 0 -170"
+"classname" "light"
+}
+{
+"style" "2"
+"_wait" ".7"
+"light" "500"
+"_color" "0.800000 1.000000 0.901961"
+"_light" "255 255 255 300"
+"origin" "-512 0 -170"
+"classname" "light"
+}
+{
+"style" "2"
+"_wait" ".7"
+"light" "500"
+"_color" "0.000000 1.000000 0.000000"
+"_light" "255 255 255 300"
+"origin" "512 808 -170"
+"classname" "light"
+}
+{
+"style" "5"
+"_wait" ".4"
+"light" "500"
+"_color" "0.800000 1.000000 0.901961"
+"_light" "255 255 255 300"
+"origin" "0 808 -170"
+"classname" "light"
+}
+{
+"style" "2"
+"_wait" ".7"
+"light" "500"
+"_color" "0.000000 1.000000 0.000000"
+"_light" "255 255 255 300"
+"origin" "-512 808 -170"
+"classname" "light"
+}
+{
+"angle" "0"
+"count" "100"
+"origin" "-701 0 9"
+"classname" "item_equip_armor"
+}
+{
+"angle" "180"
+"origin" "-684 48 8"
+"classname" "item_weapon_shotgun"
+}
+{
+"count" "100"
+"origin" "701 0 9"
+"classname" "item_equip_armor"
+}
+{
+"angle" "0"
+"origin" "688 -48 11"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "180"
+"origin" "-140 -940 16"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "360"
+"origin" "148 -940 16"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "360"
+"origin" "-48 -944 -104"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "180"
+"origin" "657.9 -1004.9 -151"
+"classname" "item_weapon_machinegun"
+}
+{
+"angle" "180"
+"origin" "-668.9 -1005.1 -151"
+"classname" "item_weapon_machinegun"
+}
+{
+"angle" "180"
+"origin" "-140 936 16"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "360"
+"origin" "148 936 16"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "180"
+"origin" "-48 936 -104"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "180"
+"origin" "657.8 1009 -151"
+"classname" "item_weapon_machinegun"
+}
+{
+"angle" "180"
+"origin" "-668.9 1008.9 -151"
+"classname" "item_weapon_machinegun"
+}
+{
+"angle" "90"
+"origin" "0 -1016 38"
+"classname" "info_player_start"
+}
+{
+"angle" "90"
+"origin" "0 -384 46"
+"classname" "info_player_intermission"
+}
+{
+"count" "2"
+"origin" "0 992 38"
+"classname" "misc_ctf_base"
+}
+{
+"angle" "290"
+"count" "2"
+"origin" "0 992 20"
+"classname" "item_ctf_flag"
+}
+{
+"angle" "0"
+"origin" "-224 992 38"
+"classname" "info_player_team2"
+}
+{
+"angle" "270"
+"origin" "-160 984 38"
+"classname" "info_player_team2"
+}
+{
+"angle" "270"
+"origin" "-88 984 38"
+"classname" "info_player_team2"
+}
+{
+"angle" "270"
+"origin" "88 984 38"
+"classname" "info_player_team2"
+}
+{
+"angle" "270"
+"origin" "160 984 38"
+"classname" "info_player_team2"
+}
+{
+"angle" "180"
+"origin" "224 992 38"
+"classname" "info_player_team2"
+}
+{
+"angle" "270"
+"origin" "-192 1028 38"
+"classname" "info_player_team2"
+}
+{
+"angle" "270"
+"origin" "-128 1028 38"
+"classname" "info_player_team2"
+}
+{
+"angle" "270"
+"origin" "128 1028 38"
+"classname" "info_player_team2"
+}
+{
+"angle" "270"
+"origin" "192 1028 38"
+"classname" "info_player_team2"
+}
+{
+"count" "1"
+"origin" "0 -992 38"
+"classname" "misc_ctf_base"
+}
+{
+"angle" "110"
+"count" "1"
+"origin" "0 -992 20"
+"classname" "item_ctf_flag"
+}
+{
+"angle" "90"
+"origin" "-191.9 -1028.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "-127.9 -1028.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "360"
+"origin" "-223.9 -992.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "-160 -984.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "-87.8 -984.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "88.1 -984.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "128.1 -1028.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "160.1 -984.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "192 -1028.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "180"
+"origin" "224.1 -992.3 38"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "0 -1016 38"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "0 1016 38"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-160 -1016 38"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "160 1016 38"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-672 0 32"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "160 -1016 38"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "672 0 32"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-160 1016 38"
+"classname" "info_player_deathmatch"
+}

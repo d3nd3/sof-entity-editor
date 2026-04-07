@@ -1,0 +1,533 @@
+{
+"classname" "worldspawn"
+}
+{
+"origin" "-472 344 72"
+"angle" "315"
+"classname" "info_player_start"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "152 -152 96"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"origin" "-152 152 96"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "472 -312 72"
+}
+{
+"classname" "item_equip_armor"
+"origin" "555 -31 569"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"target" "secret2"
+}
+{
+"model" "*2"
+"classname" "func_door_secret"
+"targetname" "secret2"
+"spawnflags" "2"
+}
+{
+"model" "*3"
+"classname" "trigger_multiple"
+"target" "secret1"
+}
+{
+"classname" "item_ammo_pistol2"
+"origin" "573 -3 -250"
+}
+{
+"classname" "item_ammo_pistol"
+"origin" "453 -3 -250"
+}
+{
+"classname" "item_ammo_shotgun"
+"origin" "341 -3 -250"
+}
+{
+"classname" "item_weapon_autoshotgun"
+"angle" "90"
+"origin" "693 2 -247"
+}
+{
+"classname" "item_weapon_rocketlauncher"
+"origin" "-681 -11 -245"
+"angle" "90"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"origin" "-1 -1 -248"
+"classname" "item_health_small"
+}
+{
+"origin" "5 -83 -242"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "5 77 -242"
+"classname" "item_ammo_slug"
+}
+{
+"origin" "-473 -74 51"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "472 -25 50"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-477 6 66"
+"classname" "misc_generic_bench"
+}
+{
+"light" "60"
+"origin" "0 0 -72"
+"classname" "light"
+}
+{
+"model" "*4"
+"dmg" "100"
+"classname" "trigger_hurt"
+}
+{
+"model" "*5"
+"dmg" "100"
+"classname" "trigger_hurt"
+}
+{
+"model" "*6"
+"dmg" "100"
+"classname" "trigger_hurt"
+}
+{
+"model" "*7"
+"dmg" "100"
+"classname" "trigger_hurt"
+}
+{
+"model" "*8"
+"classname" "func_button"
+"target" "water"
+}
+{
+"model" "*9"
+"classname" "func_door_secret"
+"spawnflags" "4"
+"targetname" "water"
+}
+{
+"origin" "-493 4 472"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-467 -35 446"
+"angle" "90"
+"classname" "item_ammo_shotgun"
+}
+{
+"origin" "-20 508 547"
+"classname" "item_weapon_shotgun"
+}
+{
+"model" "*10"
+"classname" "trigger_conquer"
+}
+{
+"model" "*11"
+"pathtarget" "2p2"
+"target" "elevator2"
+"classname" "func_button"
+}
+{
+"model" "*12"
+"pathtarget" "1p2"
+"target" "elevator"
+"classname" "func_button"
+}
+{
+"model" "*13"
+"target" "elevator"
+"pathtarget" "1p1"
+"classname" "func_button"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*14"
+"classname" "func_button"
+"target" "elevator"
+"pathtarget" "1p2"
+}
+{
+"model" "*15"
+"speed" "300"
+"classname" "func_train"
+"target" "1p1"
+"targetname" "train1"
+}
+{
+"classname" "trigger_elevator"
+"targetname" "elevator"
+"target" "train1"
+"origin" "480 -392 376"
+}
+{
+"classname" "path_corner"
+"origin" "408 -488 40"
+"targetname" "1p1"
+"pathtarget" "stop1"
+}
+{
+"classname" "path_corner"
+"targetname" "1p2"
+"origin" "408 -488 432"
+"pathtarget" "stop2"
+}
+{
+"model" "*16"
+"classname" "func_button"
+"target" "elevator"
+"pathtarget" "1p1"
+}
+{
+"origin" "-141 3 227"
+"classname" "item_weapon_machinegun"
+}
+{
+"angle" "180"
+"origin" "-135 0 210"
+"classname" "misc_generic_table1"
+}
+{
+"classname" "func_group"
+}
+{
+"origin" "2 2 270"
+"light" "100"
+"classname" "light_generic_hanging"
+}
+{
+"model" "*17"
+"classname" "func_breakable_brush"
+"material" "7"
+}
+{
+"origin" "240 -151 285"
+"Light" "50"
+"classname" "light_generic_alley_wall"
+}
+{
+"angle" "90"
+"origin" "211 -175 105"
+"classname" "item_equip_armor"
+}
+{
+"origin" "177 217 72"
+"classname" "item_health_small"
+}
+{
+"angle" "180"
+"origin" "-214 172 83"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-189 -204 72"
+"classname" "item_equip_grenade"
+}
+{
+"spawnflags" "4"
+"origin" "-334 -46 60"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"angle" "315"
+"origin" "-472 304 88"
+"classname" "info_player_deathmatch"
+}
+{
+"Light" "100"
+"classname" "light_generic_lamp_hang"
+"origin" "-2 23 170"
+}
+{
+"spawnflags" "4"
+"classname" "misc_generic_barrel_burning"
+"origin" "-334 58 60"
+}
+{
+"classname" "misc_generic_barrel_burning"
+"origin" "-86 -198 84"
+"spawnflags" "4"
+}
+{
+"spawnflags" "4"
+"origin" "58 -334 60"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"origin" "-54 338 60"
+"classname" "misc_generic_barrel_burning"
+"spawnflags" "4"
+}
+{
+"spawnflags" "4"
+"classname" "misc_generic_barrel_burning"
+"origin" "58 338 60"
+}
+{
+"origin" "338 58 60"
+"classname" "misc_generic_barrel_burning"
+"spawnflags" "4"
+}
+{
+"spawnflags" "4"
+"classname" "misc_generic_barrel_burning"
+"origin" "338 -54 60"
+}
+{
+"spawnflags" "4"
+"origin" "82 -206 84"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-173 -204 72"
+}
+{
+"origin" "-157 -204 72"
+"classname" "item_equip_grenade"
+}
+{
+"spawnflags" "4"
+"origin" "-214 -78 84"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"classname" "misc_generic_barrel_burning"
+"origin" "-214 82 84"
+"spawnflags" "4"
+}
+{
+"angle" "180"
+"classname" "item_equip_c4"
+"origin" "-214 156 83"
+}
+{
+"origin" "-214 140 83"
+"classname" "item_equip_c4"
+"angle" "180"
+}
+{
+"spawnflags" "4"
+"origin" "210 106 84"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"classname" "misc_generic_barrel_burning"
+"origin" "82 218 84"
+"spawnflags" "4"
+}
+{
+"classname" "item_health_small"
+"origin" "153 217 72"
+}
+{
+"classname" "misc_generic_barrel_burning"
+"origin" "210 -70 84"
+"spawnflags" "4"
+}
+{
+"spawnflags" "4"
+"origin" "-86 226 84"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"classname" "misc_generic_barrel_burning"
+"origin" "-54 -334 60"
+"spawnflags" "4"
+}
+{
+"classname" "light_generic_alley_wall"
+"Light" "50"
+"origin" "240 153 285"
+}
+{
+"angle" "90"
+"origin" "144 241 285"
+"Light" "50"
+"classname" "light_generic_alley_wall"
+}
+{
+"classname" "light_generic_alley_wall"
+"Light" "50"
+"origin" "-152 241 285"
+"angle" "90"
+}
+{
+"angle" "180"
+"origin" "-240 153 285"
+"Light" "50"
+"classname" "light_generic_alley_wall"
+}
+{
+"classname" "light_generic_alley_wall"
+"Light" "50"
+"origin" "-240 -151 285"
+"angle" "180"
+}
+{
+"angle" "270"
+"origin" "-152 -239 285"
+"Light" "50"
+"classname" "light_generic_alley_wall"
+}
+{
+"classname" "light_generic_alley_wall"
+"Light" "50"
+"origin" "152 -239 285"
+"angle" "270"
+}
+{
+"model" "*18"
+"material" "7"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*19"
+"material" "7"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*20"
+"classname" "func_breakable_brush"
+"material" "7"
+}
+{
+"model" "*21"
+"material" "7"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*22"
+"classname" "func_breakable_brush"
+"material" "7"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"model" "*23"
+"classname" "func_button"
+"pathtarget" "2p1"
+"target" "elevator2"
+}
+{
+"model" "*24"
+"pathtarget" "2p2"
+"target" "elevator2"
+"classname" "func_button"
+}
+{
+"model" "*25"
+"speed" "300"
+"targetname" "train2"
+"target" "2p1"
+"classname" "func_train"
+}
+{
+"origin" "-480 392 376"
+"target" "train2"
+"targetname" "elevator2"
+"classname" "trigger_elevator"
+}
+{
+"pathtarget" "stp1"
+"targetname" "2p1"
+"origin" "-488 408 40"
+"classname" "path_corner"
+}
+{
+"pathtarget" "stp2"
+"origin" "-488 408 432"
+"targetname" "2p2"
+"classname" "path_corner"
+}
+{
+"model" "*26"
+"pathtarget" "2p1"
+"target" "elevator2"
+"classname" "func_button"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-493 -36 472"
+}
+{
+"origin" "-493 -68 472"
+"classname" "item_equip_grenade"
+}
+{
+"light" "60"
+"classname" "light"
+"origin" "0 0 -8"
+}
+{
+"angle" "180"
+"classname" "misc_generic_bench"
+"origin" "475 30 66"
+}
+{
+"origin" "-331 -3 -250"
+"classname" "item_ammo_pistol2"
+}
+{
+"origin" "-451 -3 -250"
+"classname" "item_ammo_pistol"
+}
+{
+"origin" "-563 -3 -250"
+"classname" "item_ammo_shotgun"
+}
+{
+"model" "*27"
+"targetname" "secret1"
+"classname" "func_door_secret"
+}
+{
+"classname" "func_group"
+}
+{
+"origin" "-557 -31 569"
+"classname" "item_equip_armor"
+"angle" "180"
+}

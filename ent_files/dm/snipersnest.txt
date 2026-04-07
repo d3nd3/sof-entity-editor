@@ -1,0 +1,852 @@
+{
+"sky" "tut"
+"classname" "worldspawn"
+"_sun_light" "112"
+"_sun_ambient" "10 10 15"
+"_sun_angle" "45 -45"
+"_sun_color" "0.783465 0.684252 .55555"
+"_sun_diffuse" "20"
+}
+{
+"classname" "info_null"
+"targetname" "flagillum"
+"origin" "252 -124 330"
+}
+{
+"_cone" "5"
+"classname" "light"
+"target" "flagillum"
+"origin" "258 -125 433"
+}
+{
+"classname" "item_ammo_pistol"
+"origin" "853 -323 -274"
+}
+{
+"model" "*1"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"origin" "3710 1380 -286"
+"soundName" "DoorNormalSwingMetalLight"
+"classname" "func_door_rotating_smart"
+}
+{
+"origin" "2704 392 42"
+"count" "2"
+"classname" "misc_ctf_base"
+}
+{
+"model" "*3"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"classname" "trigger_activate"
+"target" "trucktrigger"
+"targetname" "garage"
+}
+{
+"model" "*5"
+"target" "garage"
+"classname" "trigger_useable"
+}
+{
+"origin" "2736 472 8"
+"script" "sof@l/truckscript"
+"targetname" "truckscript"
+"classname" "script_runner"
+}
+{
+"model" "*6"
+"target" "truckscript"
+"classname" "trigger_once"
+"targetname" "trucktrigger"
+"spawnflags" "4"
+}
+{
+"spawnflags" "1"
+"targetname" "trucksound"
+"soundName" "TruckMoving"
+"origin" "2492 396 -116"
+"classname" "environ_soundgen"
+}
+{
+"spawnflags" "1"
+"origin" "2580 352 -102"
+"height" "60"
+"targetname" "trucksmoke"
+"classname" "environ_smokegen"
+"angle" "90"
+}
+{
+"model" "*7"
+"wait" "-1"
+"targetname" "garage"
+"angle" "-2"
+"soundName" "DoorNormalMetalGarage"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "20"
+"mass" "1"
+"material" "7"
+"surface Type" "37"
+"surface" "37"
+}
+{
+"classname" "item_equip_armor"
+"origin" "3715 1753 -287"
+}
+{
+"origin" "-600 -1104 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1800 -744 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "252 -123 326"
+"count" "1"
+"classname" "item_ctf_flag"
+}
+{
+"origin" "3490 1692 -277"
+"classname" "item_equip_c4"
+}
+{
+"origin" "3243 1436 -288"
+"classname" "item_equip_grenade"
+}
+{
+"model" "*9"
+"classname" "func_button"
+"soundName" "ButtonBleep1"
+"target" "Towerdoor"
+}
+{
+"origin" "776 -240 -208"
+"classname" "light"
+}
+{
+"classname" "misc_generic_security_camera"
+"angle" "45"
+"spawnflags" "1"
+"origin" "-48 -240 352"
+}
+{
+"spawnflags" "1"
+"classname" "misc_generic_security_camera2"
+"angle" "135"
+"origin" "3208 -497 4"
+}
+{
+"classname" "item_ammo_pistol2"
+"origin" "765 109 -146"
+}
+{
+"classname" "item_weapon_pistol2"
+"origin" "760 -363 -150"
+}
+{
+"classname" "item_health_large"
+"origin" "3926 1136 -312"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "3485 1281 -306"
+}
+{
+"classname" "light"
+"origin" "3764 1696 -184"
+"style" "0"
+}
+{
+"model" "*10"
+"surface Type" "17"
+"surface" "17"
+"material" "12"
+"message" "The attackers have found a way into the defenders tower!"
+"volume" "100"
+"dmg" "50"
+"health" "1000"
+"mass" "1"
+"count" "20"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*11"
+"origin" "-972 -164 -124"
+"spawnflags" "2"
+"wait" "1"
+"angle" "90"
+"speed" "300"
+"distance" "90"
+"classname" "func_door_rotating"
+"soundName" "DoorNormalWoodSlide1"
+"count" "1"
+}
+{
+"origin" "922 748 -280"
+"classname" "item_health_large"
+}
+{
+"origin" "512 -128 -208"
+"style" "0"
+"classname" "light"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "1781 -683 -122"
+}
+{
+"model" "*12"
+"origin" "64 -159 511"
+"classname" "func_door_rotating_smart"
+"spawnflags" "64"
+"distance" "90"
+"speed" "200"
+"angle" "90"
+"dmg" "5"
+"soundName" "DoorNormalWoodSingle"
+}
+{
+"classname" "item_equip_armor"
+"origin" "1619 -743 -127"
+}
+{
+"classname" "item_health_large"
+"origin" "1732 -737 -128"
+}
+{
+"angle" "180"
+"classname" "misc_bosnia_truck_old"
+"skin" "2"
+"spawnflags" "3"
+"origin" "1656 -689 -83"
+}
+{
+"model" "*13"
+"origin" "2884 979 -70"
+"angle" "150"
+"distance" "150"
+"spawnflags" "0"
+"classname" "func_door_rotating"
+}
+{
+"model" "*14"
+"origin" "2884 1049 -129"
+"classname" "func_door_rotating"
+"distance" "90"
+"speed" "100"
+"angle" "90"
+"wait" "2"
+"dmg" "2"
+"targetname" "archd1"
+}
+{
+"model" "*15"
+"classname" "trigger_multiple"
+"target" "archd1"
+}
+{
+"model" "*16"
+"classname" "trigger_useable"
+"target" "cam1"
+}
+{
+"origin" "3504 352 -288"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_start"
+"origin" "2304 -288 -104"
+}
+{
+"origin" "46 -144 88"
+"spawnflags" "4"
+"style" "0"
+"light" "300"
+"classname" "light_generic_hanging"
+}
+{
+"model" "*17"
+"origin" "124 -258 -120"
+"soundName" "DoorNormalSwingMetalLight"
+"distance" "90"
+"classname" "func_door_rotating"
+"targetname" "Towerdoor"
+}
+{
+"origin" "3181 -461 4"
+"targetname" "cam1v"
+"classname" "info_notnull"
+}
+{
+"targetname" "cam1"
+"origin" "3193 -493 4"
+"target" "cam1v"
+"volume" "4"
+"classname" "func_remote_camera"
+"spawnflags" "5"
+}
+{
+"origin" "2150 529 -61"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"classname" "misc_iraq_tree_palm"
+"origin" "1758 777 -61"
+}
+{
+"origin" "2198 769 -61"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"classname" "misc_iraq_tree_palm"
+"origin" "1566 457 -61"
+}
+{
+"classname" "misc_iraq_tree_palm"
+"origin" "2846 905 -61"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2864 -432 -104"
+}
+{
+"classname" "light"
+"style" "0"
+"origin" "512 512 -208"
+}
+{
+"origin" "680 -992 -208"
+"style" "0"
+"classname" "light"
+}
+{
+"origin" "512 -768 -208"
+"style" "0"
+"classname" "light"
+}
+{
+"classname" "light"
+"style" "0"
+"origin" "680 736 -208"
+}
+{
+"classname" "item_health_large"
+"origin" "922 -980 -280"
+}
+{
+"origin" "3245 1281 -306"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3926 908 -312"
+"classname" "item_health_large"
+}
+{
+"model" "*18"
+"target" "cam2"
+"classname" "trigger_useable"
+}
+{
+"classname" "info_notnull"
+"targetname" "cam2v"
+"origin" "-27 -220 347"
+}
+{
+"spawnflags" "5"
+"classname" "func_remote_camera"
+"volume" "4"
+"target" "cam2v"
+"origin" "-39 -232 358"
+"targetname" "cam2"
+}
+{
+"style" "0"
+"origin" "3444 1600 -184"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "3124 1512 -184"
+"style" "0"
+}
+{
+"style" "0"
+"origin" "2932 1512 -184"
+"classname" "light"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "3275 1452 -288"
+}
+{
+"origin" "3315 1468 -288"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "3355 1484 -288"
+}
+{
+"classname" "item_equip_c4"
+"origin" "3530 1708 -277"
+}
+{
+"origin" "3570 1724 -277"
+"classname" "item_equip_c4"
+}
+{
+"classname" "item_equip_c4"
+"origin" "3610 1740 -277"
+}
+{
+"origin" "3755 1753 -287"
+"classname" "item_equip_armor"
+}
+{
+"classname" "item_equip_armor"
+"origin" "3827 1721 -287"
+}
+{
+"origin" "3827 1689 -287"
+"classname" "item_equip_armor"
+}
+{
+"model" "*19"
+"origin" "2748 311 -127"
+"angle" "90"
+"distance" "90"
+"classname" "func_door_rotating_smart"
+"soundName" "DoorNormalSwingMetalLight"
+}
+{
+"classname" "misc_generic_fire_extinguisher"
+"origin" "2740 447 -99"
+"angle" "180"
+}
+{
+"classname" "light_generic_shop"
+"skin" "1"
+"style" "0"
+"spawnflags" "2"
+"origin" "2587 391 -12"
+}
+{
+"classname" "light_generic_military_door_outside"
+"style" "0"
+"spawnflags" "2"
+"origin" "2779 346 -16"
+"angle" "90"
+}
+{
+"origin" "2569 392 -86"
+"targetname" "fronttruck"
+"spawnflags" "30"
+"classname" "misc_iraq_flatbed"
+"style" "1"
+"angle" "180"
+}
+{
+"model" "*20"
+"surface" "37"
+"surface Type" "37"
+"material" "7"
+"mass" "1"
+"count" "20"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*21"
+"spawnflags" "1"
+"targetname" "grid2"
+"classname" "func_wall"
+}
+{
+"origin" "1096 -194 -72"
+"targetname" "explosion3"
+"spawnflags" "2"
+"classname" "environ_explosion"
+}
+{
+"classname" "environ_explosion"
+"spawnflags" "2"
+"targetname" "explosion1"
+"origin" "1096 -125 -73"
+}
+{
+"model" "*22"
+"spawnflags" "1"
+"targetname" "grid2"
+"classname" "func_wall"
+}
+{
+"model" "*23"
+"classname" "func_wall"
+"spawnflags" "5"
+"targetname" "grid1"
+}
+{
+"origin" "1096 -194 -72"
+"targetname" "explosion3"
+"spawnflags" "2"
+"classname" "environ_explosion"
+}
+{
+"classname" "environ_explosion"
+"spawnflags" "2"
+"targetname" "explosion1"
+"origin" "1096 -125 -73"
+}
+{
+"origin" "1120 -120 -120"
+"spawnflags" "3"
+"targetname" "fire1"
+"classname" "environ_fire"
+}
+{
+"classname" "environ_explosion"
+"spawnflags" "2"
+"targetname" "explosion2"
+"origin" "1096 -162 -112"
+}
+{
+"origin" "1144 -162 -32"
+"script" "sof@l/gridexplosion"
+"targetname" "exploscript"
+"classname" "script_runner"
+}
+{
+"origin" "1096 -226 -96"
+"targetname" "explosion4"
+"spawnflags" "2"
+"classname" "environ_explosion"
+}
+{
+"classname" "environ_fire"
+"targetname" "fire2"
+"spawnflags" "3"
+"origin" "1144 -104 -120"
+}
+{
+"origin" "1152 -120 -120"
+"spawnflags" "3"
+"targetname" "fire4"
+"classname" "environ_fire"
+}
+{
+"classname" "environ_fire"
+"targetname" "fire3"
+"spawnflags" "3"
+"origin" "1160 -104 -120"
+}
+{
+"origin" "1176 -120 -120"
+"spawnflags" "3"
+"targetname" "fire5"
+"classname" "environ_fire"
+}
+{
+"classname" "environ_fire"
+"targetname" "fire7"
+"spawnflags" "3"
+"origin" "1192 -128 -120"
+}
+{
+"origin" "1200 -112 -120"
+"spawnflags" "3"
+"targetname" "fire6"
+"classname" "environ_fire"
+}
+{
+"model" "*24"
+"origin" "543 -1023 -279"
+"angle" "90"
+"distance" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*25"
+"origin" "543 767 -279"
+"distance" "-90"
+"angle" "-90"
+"classname" "func_door_rotating"
+}
+{
+"origin" "771 -364 -280"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "869 -362 -271"
+"classname" "item_equip_flashpack"
+}
+{
+"origin" "855 -282 -277"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "684 -1000 -278"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "605 -995 -274"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "140 -168 514"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "82 -228 384"
+"classname" "item_health_large"
+}
+{
+"origin" "29 -219 390"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "35 4 136"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "68 32 138"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-112 -128 160"
+"classname" "info_player_team1"
+}
+{
+"origin" "-27 -219 -114"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "83 28 -120"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "21 30 -111"
+"classname" "item_equip_flashpack"
+}
+{
+"model" "*26"
+"classname" "trigger_useable"
+"target" "boxcam"
+}
+{
+"origin" "2696 1552 -264"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "2984 1744 -264"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "item_equip_armor"
+"origin" "91 57 -119"
+}
+{
+"classname" "item_weapon_machinegun"
+"origin" "59 107 -117"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "-12 -144 386"
+}
+{
+"origin" "859 -191 -279"
+"classname" "item_equip_armor"
+}
+{
+"origin" "858 -220 -280"
+"classname" "item_health_large"
+}
+{
+"origin" "858 -244 -280"
+"classname" "item_health_large"
+}
+{
+"origin" "2888 1647 -286"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "3176 1640 -286"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "3080 1744 -264"
+"classname" "info_player_team2"
+}
+{
+"targetname" "team1player"
+"origin" "-32 -204 408"
+"classname" "info_player_team1"
+}
+{
+"origin" "-30 -220 136"
+"classname" "item_health_large"
+}
+{
+"origin" "114 -60 512"
+"classname" "item_health_large"
+}
+{
+"origin" "0 -168 536"
+"classname" "info_player_deathmatch"
+}
+{
+"targetname" "t1"
+"classname" "info_player_team1"
+"origin" "-184 -128 -96"
+}
+{
+"targetname" "t2"
+"classname" "info_player_team1"
+"origin" "808 -992 -256"
+}
+{
+"classname" "info_player_team2"
+"origin" "3176 1744 -264"
+}
+{
+"origin" "-19 -35 142"
+"classname" "item_ammo_auto"
+}
+{
+"classname" "item_ammo_auto"
+"origin" "229 -131 142"
+}
+{
+"classname" "info_player_team2"
+"origin" "2888 1744 -264"
+}
+{
+"classname" "info_player_team2"
+"origin" "2696 1456 -264"
+}
+{
+"classname" "item_equip_armor"
+"origin" "859 -159 -279"
+}
+{
+"origin" "35 57 -119"
+"classname" "item_equip_armor"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "3080 1640 -286"
+}
+{
+"classname" "item_weapon_assault_rifle"
+"origin" "2792 1551 -286"
+}
+{
+"classname" "item_weapon_machinegun"
+"origin" "2779 1459 -285"
+}
+{
+"origin" "-70 -128 508"
+"angle" "180"
+"classname" "misc_generic_security_camera2"
+"spawnflags" "1"
+}
+{
+"classname" "info_notnull"
+"targetname" "boxview"
+"origin" "-97 -128 498"
+}
+{
+"spawnflags" "5"
+"classname" "func_remote_camera"
+"volume" "4"
+"target" "boxview"
+"origin" "-83 -128 508"
+"targetname" "boxcam"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "21 14 -111"
+}
+{
+"origin" "37 30 -111"
+"classname" "item_equip_flashpack"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "37 14 -111"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "99 28 -120"
+}
+{
+"origin" "83 12 -120"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "99 12 -120"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "51 4 136"
+}
+{
+"origin" "19 4 136"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "67 4 136"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "845 -362 -271"
+}
+{
+"origin" "821 -362 -271"
+"classname" "item_equip_flashpack"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "797 -362 -271"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "747 -364 -280"
+}
+{
+"origin" "771 -340 -280"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "747 -340 -280"
+}
+{
+"model" "*27"
+"classname" "func_door"
+"angle" "-2"
+}
+{
+"classname" "light"
+"style" "0"
+"origin" "-128 -128 -208"
+}
+{
+"origin" "-768 -128 -208"
+"style" "0"
+"classname" "light"
+}

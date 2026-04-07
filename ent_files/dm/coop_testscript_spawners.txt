@@ -1,0 +1,290 @@
+{
+"message" "Unused test script by [RDAM]JAN brought to you by piti@"
+"forceHUD" "1"
+"gravity" "800"
+"jersey" "1"
+"musicset" "tsr1"
+"script" "tsr1/tsr1pre"
+"sky" "ny"
+"startmusic" "1"
+"ainame" "tsr1"
+"classname" "worldspawn"
+}
+{
+"killtarget" "counter1"
+"spawnflags" "29"
+"delay" "1"
+"wait" "1"
+"mass" "1"
+"health" "5"
+"count" "1"
+"lip" "1"
+"spawn1" "m_nyc_mpunk"
+"origin" "176 176 40"
+"targetname" "spawns"
+"classname" "spawner_monster"
+}
+{
+"targetname" "t1"
+"origin" "-164 36 60"
+"classname" "info_notnull"
+}
+{
+"target" "t1"
+"targetname" "cam1"
+"spawnflags" "2"
+"volume" "2"
+"origin" "-92 36 68"
+"classname" "func_remote_camera"
+}
+{
+"script" "door/door"
+"targetname" "doorsc"
+"origin" "-144 216 80"
+"classname" "script_runner"
+}
+{
+"model" "*1"
+"target" "spawns"
+"classname" "trigger_once"
+}
+{
+"model" "*2"
+"spawnflags" "1"
+"targetname" "counter1"
+"target" "doorsc"
+"count" "5"
+"classname" "trigger_counter"
+}
+{
+"style" "0"
+"_cone" "10"
+"light" "300"
+"spawnflags" "0"
+"origin" "200 -120 80"
+"classname" "light"
+}
+{
+"origin" "191 -121 8"
+"classname" "item_health_small"
+}
+{
+"angle" "90"
+"origin" "-80 -144 32"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "176 -48 32"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "176 112 32"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-144 176 32"
+"classname" "info_player_start"
+}
+{
+"model" "*3"
+"message" "kill all terrorist before escaping"
+"classname" "trigger_once"
+}
+{
+"angle" "90"
+"origin" "80 -144 32"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*4"
+"target" "door1"
+"spawnflags" "12"
+"targetname" "doortrigger"
+"classname" "trigger_multiple"
+}
+{
+"style" "0"
+"_cone" "10"
+"light" "300"
+"spawnflags" "0"
+"origin" "160 32 80"
+"classname" "light"
+}
+{
+"style" "0"
+"_cone" "10"
+"light" "300"
+"spawnflags" "0"
+"origin" "192 200 80"
+"classname" "light"
+}
+{
+"style" "0"
+"_cone" "10"
+"light" "300"
+"spawnflags" "0"
+"origin" "-96 208 80"
+"classname" "light"
+}
+{
+"style" "0"
+"_cone" "10"
+"light" "300"
+"spawnflags" "0"
+"origin" "-120 -104 80"
+"classname" "light"
+}
+{
+"killtarget" "counter1"
+"origin" "176 48 40"
+"spawn1" "m_nyc_mpunk"
+"lip" "1"
+"count" "1"
+"health" "5"
+"mass" "1"
+"wait" "1"
+"delay" "1"
+"spawnflags" "29"
+"targetname" "spawns"
+"classname" "spawner_monster"
+}
+{
+"killtarget" "counter1"
+"spawnflags" "29"
+"delay" "1"
+"wait" "1"
+"mass" "1"
+"health" "5"
+"count" "1"
+"lip" "1"
+"spawn1" "m_nyc_mpunk"
+"origin" "80 -112 40"
+"targetname" "spawns"
+"classname" "spawner_monster"
+}
+{
+"killtarget" "counter1"
+"origin" "-80 -48 40"
+"spawn1" "m_nyc_mskinhead1"
+"lip" "1"
+"count" "1"
+"health" "5"
+"mass" "1"
+"wait" "1"
+"delay" "1"
+"spawnflags" "29"
+"targetname" "spawns"
+"classname" "spawner_monster"
+}
+{
+"killtarget" "counter1"
+"spawnflags" "29"
+"delay" "1"
+"wait" "1"
+"mass" "1"
+"health" "5"
+"count" "1"
+"lip" "1"
+"spawn1" "m_nyc_mskinhead1"
+"origin" "-112 144 40"
+"targetname" "spawns"
+"classname" "spawner_monster"
+}
+{
+"targetname" "score"
+"count" "1000"
+"origin" "-216 180 80"
+"classname" "func_score"
+}
+{
+"model" "*5"
+"target" "score"
+"classname" "trigger_multiple"
+}
+{
+"style" "32"
+"targetname" "alerte"
+"Light" "300"
+"spawnflags" "1"
+"origin" "0 208 116"
+"classname" "light_generic_emergency_blue"
+}
+{
+"style" "32"
+"targetname" "alerte"
+"Light" "300"
+"spawnflags" "1"
+"origin" "0 -144 116"
+"classname" "light_generic_emergency_blue"
+}
+{
+"style" "32"
+"targetname" "alerte"
+"Light" "300"
+"spawnflags" "1"
+"origin" "224 36 116"
+"classname" "light_generic_emergency_blue"
+}
+{
+"style" "32"
+"targetname" "alerte"
+"Light" "300"
+"spawnflags" "1"
+"origin" "-220 188 116"
+"classname" "light_generic_emergency"
+}
+{
+"model" "*6"
+"target" "alerte"
+"classname" "trigger_once"
+}
+{
+"angle" "180"
+"skin" "1"
+"spawnflags" "3"
+"origin" "232 -88 24"
+"classname" "misc_generic_toilet"
+}
+{
+"angle" "180"
+"skin" "1"
+"spawnflags" "3"
+"origin" "236 -140 48"
+"classname" "misc_generic_sink"
+}
+{
+"targetname" "score"
+"spawnflags" "182"
+"target" "piss"
+"origin" "192 -88 48"
+"classname" "m_x_mhurtmerc"
+}
+{
+"angle" "270"
+"origin" "220 48 48"
+"classname" "info_player_intermission"
+}
+{
+"Target" "piss2"
+"Waitaction6" "STD_EHEADNOD_N_A_N"
+"Waitaction5" "STD_EHEADSHAKE_N_A_N"
+"Waitaction4" "STD_EHEADNOD_N_A_N"
+"Waitaction3" "STD_EHEADSHAKE_N_A_N"
+"Waitaction2" "STD_ITOUCHNUTS_N_A_N"
+"Wait" "-1"
+"Waitaction1" "STD_IPISS_N_A_A"
+"targetname" "piss"
+"origin" "192 -88 16"
+"classname" "path_corner"
+}
+{
+"model" "*7"
+"origin" "-188 4 52"
+"targetname" "door1"
+"spawnflags" "32"
+"distance" "90"
+"angle" "180"
+"classname" "func_door_rotating"
+}

@@ -1,0 +1,106 @@
+{
+"message" "IRQCTF1"
+"_sun_vector" "-64 -48 -192"
+"_sun_light" "52"
+"_sun_ambient" "25"
+"_sun_diffuse" "32"
+"sky" "irq"
+"startmusic" "1"
+"musicset" "dm4"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"angle" "270"
+"lip" "16"
+"speed" "128"
+"team" "blah"
+"target" "t1"
+"soundName" "DoorNormalWoodDouble"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"angle" "90"
+"lip" "16"
+"speed" "128"
+"team" "blah"
+"soundName" "DoorNormalWoodDouble"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"lip" "4"
+"angle" "360"
+"speed" "128"
+"target" "t2"
+"soundName" "DoorNormalWoodSingle"
+"classname" "func_door"
+}
+{
+"style" "1"
+"targetname" "t5"
+"classname" "func_areaportal"
+}
+{
+"style" "2"
+"targetname" "t6"
+"classname" "func_areaportal"
+}
+{
+"model" "*4"
+"angle" "90"
+"lip" "16"
+"speed" "128"
+"target" "t6"
+"team" "blah2"
+"soundName" "DoorNormalWoodDouble"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"angle" "270"
+"lip" "16"
+"speed" "128"
+"team" "blah2"
+"soundName" "DoorNormalWoodDouble"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"angle" "360"
+"lip" "4"
+"speed" "128"
+"target" "t5"
+"soundName" "DoorNormalWoodSingle"
+"classname" "func_door"
+}
+{
+"origin" "720 -1960 344"
+"angle" "315"
+"classname" "info_player_team2"
+}
+{
+"origin" "584 -1376 472"
+"angle" "270"
+"classname" "info_player_team2"
+}
+{
+"origin" "68 -1060 344"
+"angle" "90"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-32 -648 536"
+"classname" "info_player_team1"
+}
+{
+"angle" "360"
+"origin" "-32 -1608 536"
+"classname" "info_player_team2"
+}
+{
+"origin" "124 -768 388"
+"classname" "info_player_start"
+}

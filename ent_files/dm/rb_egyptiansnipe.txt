@@ -1,0 +1,367 @@
+{
+"sky" "ugan"
+"classname" "worldspawn"
+}
+{
+"light" "10000"
+"style" "0"
+"origin" "0 0 544"
+"classname" "light"
+}
+{
+"spawnflags" "3"
+"origin" "-256 160 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-128 160 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "160 160 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "288 160 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "288 -176 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "160 -176 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-128 -176 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-256 -176 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-253 736 -349"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "288 736 -349"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "254.23 -739.87 -349"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-286.76 -739.88 -349"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"health" "20"
+"origin" "-1840 96 -480"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-1840 96 -432"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-1840 96 -384"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-1840 96 -336"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-1840 96 -288"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-1840 96 -240"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-2160 96 -480"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-2160 96 -432"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-2160 96 -384"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-2160 96 -336"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-2160 96 -288"
+"classname" "environ_fire"
+}
+{
+"health" "20"
+"origin" "-2160 96 -240"
+"classname" "environ_fire"
+}
+{
+"_color" "1.000000 0.000000 0.000000"
+"style" "1"
+"_light" "255 255 255 300"
+"origin" "-2272 32 -320"
+"classname" "light"
+}
+{
+"_color" "1.000000 0.000000 0.000000"
+"style" "1"
+"_light" "255 255 255 300"
+"origin" "-1744 32 -320"
+"classname" "light"
+}
+{
+"_color" "1.000000 0.000000 0.000000"
+"style" "1"
+"_light" "255 255 255 300"
+"origin" "-1904 -16 -320"
+"classname" "light"
+}
+{
+"_color" "1.000000 0.000000 0.000000"
+"style" "1"
+"_light" "255 255 255 300"
+"origin" "-2064 -16 -320"
+"classname" "light"
+}
+{
+"angle" "90"
+"origin" "-2000 -128 -360"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "3"
+"origin" "768 832 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "1248 608 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "1248 -576 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "768 -864 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "640 448 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "640 -512 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-608 544 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-608 -512 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-736 832 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-736 -832 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-1216 640 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-1216 -640 -352"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"model" "*1"
+"wait" "2"
+"message" "YOU HAVE ENTERED THE FORBIDDEN TOMB OF NOTTMOTO NOW YOU WILL INCUR HIS WRATH !"
+"delay" "2"
+"target" "boom"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "boom"
+"delay" "1"
+"dmg" "100"
+"origin" "-1056 0 -384"
+"classname" "target_explosion"
+}
+{
+"light" "100"
+"_color" "1.000000 0.000000 0.000000"
+"style" "0"
+"_light" "255 255 255 300"
+"origin" "-1049 0 -284"
+"classname" "light"
+}
+{
+"origin" "-1303.72 -7 -401.1"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"model" "*2"
+"wait" "2"
+"message" "YOU HAVE ENTERED THE FORBIDDEN TOMB OF NOTTMOTO NOW YOU WILL INCUR HIS WRATH !"
+"delay" "2"
+"target" "boom"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "boom"
+"delay" "1"
+"dmg" "100"
+"origin" "1054.55 0 -384"
+"classname" "target_explosion"
+}
+{
+"light" "100"
+"_color" "1.000000 0.000000 0.000000"
+"style" "0"
+"_light" "255 255 255 300"
+"origin" "1047.56 0 -284"
+"classname" "light"
+}
+{
+"origin" "1302.27 7.01 -401.1"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "180"
+"origin" "1440 192 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1441 187 -405"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "1"
+"origin" "-1440 -224 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1439 -229 -405"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "133"
+"origin" "1376 -928 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1377 -933 -405"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "312"
+"origin" "-1376 960 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1375 955 -405"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "220"
+"origin" "1376 960 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1377 955 -405"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "43"
+"origin" "-1376 -960 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1375 -965 -405"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "182"
+"origin" "1440 -224 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1441 -229 -405"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "359"
+"origin" "-1440 192 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1439 187 -405"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "180"
+"origin" "0 -1040 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1.24 -1043.88 -400"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "359"
+"origin" "0 1030 -383"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1 1027 -400"
+"classname" "item_weapon_sniper_rifle"
+}

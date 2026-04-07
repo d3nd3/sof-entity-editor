@@ -1,0 +1,262 @@
+{
+"message" "ChAoS Simple DM4"
+"sky" "tut"
+"classname" "worldspawn"
+}
+{
+"angle" "313"
+"origin" "-720 532 264"
+"classname" "info_player_start"
+}
+{
+"color" "0.899999 0.899999 0.700000"
+"_color" "0.899999 0.899999 0.700000"
+"light" "1000"
+"origin" "0 0 394"
+"classname" "light"
+}
+{
+"color" "0.899999 0.899999 0.700000"
+"_color" "0.899999 0.899999 0.700000"
+"light" "1000"
+"origin" "0 344 394"
+"classname" "light"
+}
+{
+"color" "0.899999 0.899999 0.700000"
+"_color" "0.899999 0.899999 0.700000"
+"light" "1000"
+"origin" "0 -344 394"
+"classname" "light"
+}
+{
+"origin" "-272 152 -144"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-272 -168 -144"
+"classname" "light_generic_lamp_hang"
+}
+{
+"angle" "90"
+"origin" "592 -80 -232"
+"classname" "light_generic_candelabra"
+}
+{
+"angle" "90"
+"origin" "592 80 -232"
+"classname" "light_generic_candelabra"
+}
+{
+"Light" "200"
+"origin" "440 0 -178"
+"classname" "light_generic_chandelier"
+}
+{
+"Light" "200"
+"origin" "678 0 -50"
+"classname" "light_generic_chandelier"
+}
+{
+"origin" "713 322 -144"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-660 0 -280"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "270"
+"origin" "-400 40 -228"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-224 -204 -252"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-236 -204 -252"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "308 -424 -244"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "-52 504 -244"
+"classname" "item_equip_medkit"
+}
+{
+"origin" "64 0 -288"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "712.91 -320.16 -142.58"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "619.13 -319.77 -286.21"
+"classname" "item_equip_armor"
+}
+{
+"origin" "619.68 -276.18 -288.05"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "619.67 -363.64 -288.04"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-544 -360 -236"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-676 -516 -92"
+"classname" "item_health_small"
+}
+{
+"origin" "-676 512 -92"
+"classname" "item_health_small"
+}
+{
+"origin" "-424 -88 -108"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-424 92 -108"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-296 144 -108"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-648 -4 -88"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "264 -160 -104"
+"classname" "item_equip_flashpack"
+}
+{
+"origin" "264 164 -104"
+"classname" "item_equip_flashpack"
+}
+{
+"origin" "340 0 -104"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "0 -468 -88"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "0 464 -88"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "464 0 -104"
+"classname" "item_equip_armor"
+}
+{
+"origin" "619 320 -286"
+"classname" "item_equip_armor"
+}
+{
+"angle" "360"
+"origin" "610 275 -277"
+"classname" "item_equip_c4"
+}
+{
+"angle" "360"
+"origin" "610 364 -277"
+"classname" "item_equip_c4"
+}
+{
+"origin" "655.99 -184.89 -288.12"
+"classname" "item_health_small"
+}
+{
+"origin" "655.93 183.41 -288.33"
+"classname" "item_health_small"
+}
+{
+"origin" "-288 -160 -108"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "270"
+"origin" "-268 216 -244"
+"classname" "item_health_large"
+}
+{
+"model" "*1"
+"dmg" "-1"
+"spawnflags" "16"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"target" "health"
+"message" "HEALTH"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"attenuation" "-1"
+"noise" "dm/healthpu.wav"
+"volume" "1.0"
+"targetname" "health"
+"origin" "640 0 -16"
+"classname" "target_speaker"
+}
+{
+"angle" "0"
+"origin" "-676 464 -68"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0"
+"origin" "-676 -464 -68"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0"
+"origin" "-676 -464 -260"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0"
+"origin" "-676 464 -256"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "-468 160 -260"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "-468 -160 -260"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "432 276 -260"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "432 -276 -260"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "140"
+"origin" "296 -504 -68"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "230"
+"origin" "296 496 -68"
+"classname" "info_player_deathmatch"
+}

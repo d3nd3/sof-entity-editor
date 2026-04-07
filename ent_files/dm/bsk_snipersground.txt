@@ -1,0 +1,466 @@
+{
+"_sun_diffuse" "30"
+"_sun_ambient" "40"
+"_sun_angle" "120 -50"
+"_sun_color" "1 0.75 0.75"
+"_sun_light" "500"
+"sky" "ugan"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"targetname" "window1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"targetname" "window2"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"targetname" "window3"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"target" "window2"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*7"
+"target" "window3"
+"angle" "269"
+"classname" "func_button"
+}
+{
+"model" "*8"
+"target" "window4"
+"angle" "359"
+"classname" "func_button"
+}
+{
+"model" "*9"
+"target" "window4"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*10"
+"target" "window3"
+"angle" "91"
+"classname" "func_button"
+}
+{
+"model" "*11"
+"target" "window2"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*12"
+"target" "window1"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*13"
+"target" "window1"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*14"
+"angle" "315"
+"classname" "func_door"
+}
+{
+"model" "*15"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*16"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*17"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"skin" "0"
+"spawnflags" "11"
+"angle" "50"
+"origin" "1851 -1514 -716"
+"classname" "misc_bosnia_truck_old"
+}
+{
+"skin" "0"
+"spawnflags" "11"
+"angle" "360"
+"origin" "1783 -1730 -716"
+"classname" "misc_bosnia_truck_old"
+}
+{
+"skin" "0"
+"spawnflags" "11"
+"angle" "89"
+"origin" "1515 -1642 -716"
+"classname" "misc_bosnia_truck_old"
+}
+{
+"skin" "1"
+"spawnflags" "11"
+"angle" "134"
+"origin" "1591 -1882 -716"
+"classname" "misc_bosnia_truck_old"
+}
+{
+"skin" "2"
+"spawnflags" "11"
+"angle" "264"
+"origin" "1487 -1402 -716"
+"classname" "misc_bosnia_truck_old"
+}
+{
+"model" "*19"
+"origin" "1090 -2726 -415"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"model" "*20"
+"targetname" "ladder building8"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*21"
+"target" "ladder building8"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*22"
+"target" "door8"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*23"
+"target" "door8"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*24"
+"targetname" "door8"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "1104 -3183 -758"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1071 -3149 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1128 -3149 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1472 -2368 -740"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "2499 -2194 -740"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "2483 -1342 -740"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1171 -922 -740"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "883 -1578 -740"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "1027 -1746 -740"
+"classname" "info_player_start"
+}
+{
+"origin" "315 -2486 -748"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "119 -2441 -299"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "117 -2394 -299"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "315 -2458 -748"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "379 -2474 -752"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "127 -2339 -303"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1659 -562 -658"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "275 -341 -161"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3163 -486 -152"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3435 -3082 -608"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2125 -2925 -751"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2061 -2925 -751"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2489 -2889 -451"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2428 -2889 -451"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3387 -3082 -608"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3387 -3114 -612"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "2099 -2889 -755"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "3211 -486 -152"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3321 -523 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3264 -523 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3211 -1985 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3362 -1943 -582"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3275 -1985 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "3187 -522 -156"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "3291 -566 -757"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "3240 -1945 -757"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "3365 -1913 -585"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "227 -341 -161"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "507 -341 -356"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "559 -341 -356"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "457 -859 -574"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "434 -517 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "487 -517 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "517 -859 -574"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "255 -379 -165"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "533 -379 -361"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "488 -828 -578"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "453 -481 -757"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1481 -1750 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1481 -1789 -758"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1481 -1817 -754"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1659 -594 -658"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1659 -594 -753"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1658 -594 -753"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1723 -582 -662"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1723 -582 -757"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"style" "0"
+"_color" "1 0 0"
+"light" "600"
+"_light" "255 255 255 300"
+"origin" "123 -478 -460"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"style" "0"
+"light" "600"
+"_light" "255 255 255 300"
+"origin" "347 -2338 -392"
+"classname" "light"
+}
+{
+"_color" "0 0 1"
+"style" "0"
+"light" "600"
+"_light" "255 255 255 300"
+"origin" "3399 -3078 -580"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"style" "5"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "1129 -3116 -531"
+"classname" "light"
+}
+{
+"style" "0"
+"_color" "1 1 0"
+"light" "500"
+"_light" "255 255 255 300"
+"origin" "1527 -406 -600"
+"classname" "light"
+}
+{
+"_color" "0 1 1"
+"style" "0"
+"light" "600"
+"_light" "255 255 255 300"
+"origin" "2995 -694 -56"
+"classname" "light"
+}
+{
+"_color" "1 0 1"
+"style" "0"
+"light" "500"
+"_light" "255 255 255 300"
+"origin" "3171 -1810 -564"
+"classname" "light"
+}
+{
+"_color" "1 0.75 0.75"
+"style" "0"
+"light" "400"
+"_light" "255 255 255 300"
+"origin" "1675 -1554 -628"
+"classname" "light"
+}

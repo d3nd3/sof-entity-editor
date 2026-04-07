@@ -1,0 +1,988 @@
+{
+"message" "Made by >TOS<Sean.  E-Mail me at hispirish@redshift.com"
+"_sun_angle" "85-85"
+"_sun_light" "500"
+"sky" "ugan"
+"classname" "worldspawn"
+}
+{
+"origin" "-456 576 -284"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-548 572 -288"
+"classname" "info_player_start"
+}
+{
+"origin" "-1344 32 -320"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1272 216 -344"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "248 568 356"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "348 572 380"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1156 352 -224"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1188 504 -248"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1184 444 -248"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1156 292 -252"
+"classname" "item_health_large"
+}
+{
+"origin" "-172 644 -116"
+"classname" "item_health_large"
+}
+{
+"origin" "20 636 -312"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "32 588 -312"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-900 -512 -308"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-900 -576 -308"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "120 -548 360"
+"classname" "item_health_large"
+}
+{
+"origin" "-424 -1028 -216"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-288 -1028 -216"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-208 -1028 -212"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-144 -1028 -212"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-80 -1028 -216"
+"classname" "item_equip_grenade"
+}
+{
+"noise" "/ambient/nature/wind/wndsht2.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "0 32 376"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "0 32 -312"
+"classname" "target_speaker"
+}
+{
+"noise" "/ambient/nature/wind/wndsht2.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-292 32 376"
+"classname" "target_speaker"
+}
+{
+"noise" "/ambient/nature/wind/wndsht2.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-800 32 376"
+"classname" "target_speaker"
+}
+{
+"noise" "/ambient/nature/wind/wndsht2.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-512 32 376"
+"classname" "target_speaker"
+}
+{
+"noise" "/ambient/nature/wind/wndsht2.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "288 32 376"
+"classname" "target_speaker"
+}
+{
+"noise" "/ambient/nature/wind/wndsht2.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "576 32 376"
+"classname" "target_speaker"
+}
+{
+"noise" "/ambient/nature/wind/wndsht2.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "768 32 376"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-288 32 -312"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-512 32 -312"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-800 32 -312"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "288 32 -312"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "576 32 -312"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "768 32 -312"
+"classname" "target_speaker"
+}
+{
+"origin" "-576 -768 368"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-1264 -240 352"
+"classname" "item_health_large"
+}
+{
+"targetname" "4-5wav"
+"volume" "1"
+"noise" "4-5.wav"
+"attenuation" "3"
+"spawnflags" "4"
+"origin" "-1280 96 -320"
+"classname" "target_speaker"
+}
+{
+"model" "*1"
+"wait" "30"
+"target" "4-5wav"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "6-7wav"
+"volume" "1"
+"noise" "6-7.wav"
+"attenuation" "3"
+"spawnflags" "4"
+"origin" "192 -720 -160"
+"classname" "target_speaker"
+}
+{
+"model" "*2"
+"target" "6-7wav"
+"wait" "30"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "die"
+"volume" "1"
+"noise" "timetodie.wav"
+"attenuation" "3"
+"spawnflags" "4"
+"origin" "-224 -672 416"
+"classname" "target_speaker"
+}
+{
+"model" "*3"
+"target" "die"
+"wait" "30"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1408 192 128"
+"classname" "item_health_large"
+}
+{
+"targetname" "life"
+"volume" "1"
+"noise" "morelife.wav"
+"attenuation" "3"
+"spawnflags" "4"
+"origin" "1408 160 184"
+"classname" "target_speaker"
+}
+{
+"model" "*4"
+"target" "life"
+"wait" "30"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "sport"
+"volume" "1"
+"noise" "notsporting.wav"
+"attenuation" "3"
+"spawnflags" "4"
+"origin" "-352 568 -256"
+"classname" "target_speaker"
+}
+{
+"model" "*5"
+"target" "sport"
+"wait" "30"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "irrational"
+"volume" "1"
+"noise" "irrational.wav"
+"attenuation" "3"
+"spawnflags" "4"
+"origin" "-416 536 272"
+"classname" "target_speaker"
+}
+{
+"model" "*6"
+"target" "irrational"
+"wait" "30"
+"classname" "trigger_multiple"
+}
+{
+"model" "*7"
+"wait" "5"
+"targetname" "gendoor"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"spawnflags" "8"
+"delay" "3"
+"target" "gendoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*9"
+"targetname" "tosdoor2"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"spawnflags" "5"
+"volume" "8"
+"target" "null1"
+"targetname" "cam1"
+"origin" "-96 32 -96"
+"classname" "func_remote_camera"
+}
+{
+"model" "*10"
+"target" "cam1"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "quake1"
+"origin" "480 -640 -160"
+"classname" "target_earthquake"
+}
+{
+"model" "*11"
+"spawnflags" "8"
+"wait" "60"
+"target" "quake1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "electric"
+"noise" "/ambient/gen/electric/spark2"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "1848 -112 -144"
+"classname" "target_speaker"
+}
+{
+"model" "*12"
+"target" "gendoor"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"origin" "2072 -296 -860"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "2068 -244 -856"
+"classname" "item_ammo_shotgun"
+}
+{
+"origin" "1136 -260 -248"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "1136 -220 -248"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1884 -44 -248"
+"classname" "item_health_large"
+}
+{
+"origin" "1312 512 132"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1504 -272 -856"
+"classname" "item_equip_claymore"
+}
+{
+"origin" "1536 -272 -856"
+"classname" "item_equip_claymore"
+}
+{
+"origin" "1936 -240 -152"
+"classname" "item_equip_light_goggles"
+}
+{
+"origin" "-1352 216 -344"
+"classname" "item_equip_light_goggles"
+}
+{
+"origin" "-1272 184 -344"
+"classname" "item_ammo_auto"
+}
+{
+"model" "*13"
+"target" "tosdoor2"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"delay" "2"
+"target" "tosdoor2"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"volume" "8"
+"spawnflags" "5"
+"targetname" "cam3"
+"target" "null3"
+"origin" "-1064 24 -552"
+"classname" "func_remote_camera"
+}
+{
+"model" "*15"
+"target" "cam3"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-592 -544 304"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "-664 -768 368"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "-1120 -312 168"
+"classname" "item_ammo_slug"
+}
+{
+"origin" "-1112 -352 168"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "-1120 -432 184"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1120 416 296"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-1184 416 296"
+"classname" "item_ammo_pistol"
+}
+{
+"origin" "-176 640 240"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "-232 640 232"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "1144 184 432"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "1152 128 424"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "1160 24 424"
+"classname" "item_health_large"
+}
+{
+"targetname" "electric"
+"noise" "/ambient/gen/comp/hum.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "1512 -112 24"
+"classname" "target_speaker"
+}
+{
+"targetname" "electric"
+"noise" "/ambient/gen/electric/spark2"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "1504 -416 -144"
+"classname" "target_speaker"
+}
+{
+"targetname" "electric"
+"noise" "/ambient/gen/comp/hum.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "1872 -416 16"
+"classname" "target_speaker"
+}
+{
+"targetname" "electric"
+"noise" "/ambient/gen/comp/hum.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "1896 -144 24"
+"classname" "target_speaker"
+}
+{
+"targetname" "electric"
+"noise" "/ambient/gen/comp/hum.wav"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "1480 -400 24"
+"classname" "target_speaker"
+}
+{
+"targetname" "electric"
+"noise" "/ambient/gen/electric/spark2"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "1888 -392 -144"
+"classname" "target_speaker"
+}
+{
+"targetname" "electric"
+"noise" "/ambient/gen/electric/spark2"
+"volume" "1"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "1472 -128 -144"
+"classname" "target_speaker"
+}
+{
+"origin" "1484 -508 -240"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "1884 -508 -240"
+"classname" "item_ammo_rocket"
+}
+{
+"targetname" "null1"
+"origin" "784 32 0"
+"classname" "info_notnull"
+}
+{
+"targetname" "null3"
+"origin" "816 48 -528"
+"classname" "info_notnull"
+}
+{
+"model" "*16"
+"dmg" "800"
+"spawnflags" "104"
+"classname" "trigger_hurt"
+}
+{
+"model" "*17"
+"wait" "5"
+"targetname" "lavaroomdoor"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"targetname" "riverdoor"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*19"
+"delay" "5"
+"target" "riverdoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*20"
+"delay" "15"
+"spawnflags" "8"
+"target" "riverdoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*21"
+"spawnflags" "8"
+"target" "lavaroomdoor"
+"classname" "trigger_multiple"
+}
+{
+"model" "*22"
+"delay" "10"
+"target" "lavaroomdoor"
+"classname" "trigger_multiple"
+}
+{
+"origin" "552 0 -1296"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "568 -72 -1296"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "480 -80 -1304"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "640 0 -1296"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "640 -72 -1296"
+"classname" "item_ammo_slug"
+}
+{
+"origin" "704 0 -1304"
+"classname" "item_health_large"
+}
+{
+"origin" "704 -72 -1304"
+"classname" "item_equip_armor"
+}
+{
+"origin" "560 -224 -1304"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "560 -200 -1304"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "584 -200 -1304"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "584 -224 -1304"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "608 -200 -1304"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "608 -224 -1304"
+"classname" "item_equip_grenade"
+}
+{
+"targetname" "lavacam"
+"volume" "8"
+"spawnflags" "5"
+"target" "nulllava"
+"origin" "304 -304 -1184"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "nulllava"
+"origin" "1192 296 -1248"
+"classname" "info_notnull"
+}
+{
+"model" "*23"
+"target" "lavacam"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "toscam1"
+"volume" "8"
+"target" "tosnull1"
+"spawnflags" "5"
+"origin" "1968 80 -128"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "birdcam"
+"volume" "8"
+"target" "birdnull"
+"spawnflags" "5"
+"origin" "608 8 744"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "birdnull"
+"origin" "-8 32 -440"
+"classname" "info_notnull"
+}
+{
+"model" "*24"
+"target" "toscam1"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"model" "*25"
+"target" "birdcam"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "tosnull1"
+"origin" "1384 -136 -200"
+"classname" "info_notnull"
+}
+{
+"origin" "480 0 -1304"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "212 0 -856"
+"classname" "item_health_large"
+}
+{
+"targetname" "fallcam"
+"volume" "8"
+"target" "fallnull"
+"spawnflags" "5"
+"origin" "1180 52 -172"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "fallnull"
+"origin" "844 52 -172"
+"classname" "info_notnull"
+}
+{
+"model" "*26"
+"target" "fallcam"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "bomb1"
+"dmg" "2000"
+"origin" "1696 -20 -128"
+"classname" "target_explosion"
+}
+{
+"targetname" "bomb1"
+"noise" "/impact/explosion/big.wav"
+"volume" "1"
+"attenuation" "-1"
+"origin" "-1280 -864 32"
+"classname" "target_speaker"
+}
+{
+"targetname" "quake1"
+"volume" "1"
+"noise" "impact/explosion/exp2"
+"attenuation" "-1"
+"origin" "-1216 -864 32"
+"classname" "target_speaker"
+}
+{
+"model" "*27"
+"target" "bomb1"
+"wait" "45"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"origin" "124 -28 -856"
+"classname" "item_weapon_flamethrower"
+}
+{
+"origin" "128 32 -856"
+"classname" "item_ammo_gas"
+}
+{
+"origin" "-2536 -256 792"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-2864 592 792"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1960 544 936"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-1664 392 936"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-3440 80 960"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-3440 -8 960"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-3448 24 688"
+"classname" "item_health_large"
+}
+{
+"origin" "-1824 80 776"
+"classname" "item_equip_armor"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-3176 -294 784"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-2544 -84 784"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-1974 80 784"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-2216 532 780"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-2642 426 776"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-3144 294 784"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-1662 394 782"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-2302 252 774"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-2878 118 786"
+"classname" "target_speaker"
+}
+{
+"volume" "1"
+"noise" "/ambient/gen/wtrfx/poollp"
+"attenuation" "3"
+"spawnflags" "1"
+"origin" "-3392 -18 778"
+"classname" "target_speaker"
+}
+{
+"model" "*28"
+"speed" "175"
+"targetname" "bridge"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"targetname" "bomb2"
+"dmg" "2000"
+"origin" "736 4 -1196"
+"classname" "target_explosion"
+}
+{
+"targetname" "bomb2"
+"noise" "/impact/explosion/big.wav"
+"volume" "1"
+"attenuation" "-1"
+"origin" "-1246 -882 -2"
+"classname" "target_speaker"
+}
+{
+"model" "*29"
+"wait" "45"
+"target" "bomb2"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "highlandcam"
+"volume" "8"
+"target" "highlandnull"
+"spawnflags" "5"
+"origin" "-3456 0 992"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "highlandnull"
+"origin" "-1632 64 992"
+"classname" "info_notnull"
+}
+{
+"model" "*30"
+"target" "highlandcam"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"model" "*31"
+"wait" "45"
+"target" "quake1"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "upperltcam"
+"volume" "8"
+"target" "upperltnull"
+"spawnflags" "5"
+"origin" "1184 0 -832"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "upperltnull"
+"origin" "320 0 -832"
+"classname" "info_notnull"
+}
+{
+"model" "*32"
+"target" "upperltcam"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"model" "*33"
+"target" "bridge"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "pink"
+"volume" "1"
+"noise" "numb.wav"
+"attenuation" "-1"
+"origin" "-1152 -896 0"
+"classname" "target_speaker"
+}
+{
+"model" "*34"
+"target" "pink"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}

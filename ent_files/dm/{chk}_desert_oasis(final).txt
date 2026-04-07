@@ -1,0 +1,458 @@
+{
+"_sun_ambient" "10"
+"_sun_diffuse" "50"
+"_sun_angle" "180-45"
+"_sun_light" "400"
+"_sun_color" "1 1 1"
+"chopsky" "256"
+"chop" "256"
+"sky" "ugan"
+"classname" "worldspawn"
+}
+{
+"light" "150"
+"_color" ".92457 .6 .284574"
+"_light" "255 255 255 300"
+"origin" "192 1216 -1216"
+"classname" "light"
+}
+{
+"light" "100"
+"_color" ".92457 .6 .284574"
+"_light" "255 255 255 300"
+"origin" "160 1280 -1088"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "500"
+"_light" "255 255 255 300"
+"origin" "1824 -128 -640"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "500"
+"_light" "255 255 255 300"
+"origin" "1728 -192 -896"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "500"
+"_light" "255 255 255 300"
+"origin" "-96 1216 -640"
+"classname" "light"
+}
+{
+"_color" "1 1 1"
+"light" "500"
+"_light" "255 255 255 300"
+"origin" "960 256 -768"
+"classname" "light"
+}
+{
+"origin" "256 1120 -1244"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"model" "*1"
+"origin" "2144 316 -1184"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"origin" "2336 -96 -1246"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "2496 -192 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2400 96 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"light" "300"
+"_color" ".366654 .588741 .8554741"
+"_light" "255 255 255 300"
+"origin" "2272 -64 -640"
+"classname" "light"
+}
+{
+"light" "300"
+"_color" ".366654 .588741 .8554741"
+"_light" "255 255 255 300"
+"origin" "2400 -64 -352"
+"classname" "light"
+}
+{
+"light" "300"
+"_color" ".366654 .588741 .8554741"
+"_light" "255 255 255 300"
+"origin" "2304 -64 -1088"
+"classname" "light"
+}
+{
+"light" "200"
+"_color" ".366654 .588741 .8554741"
+"_light" "255 255 255 300"
+"origin" "2400 -64 -896"
+"classname" "light"
+}
+{
+"model" "*2"
+"origin" "2272 316 -1184"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"model" "*3"
+"origin" "1328 1252 -1256"
+"targetname" "door1"
+"angle" "-1"
+"classname" "func_door_rotating_smart"
+}
+{
+"model" "*4"
+"target" "door1"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"origin" "800 1248 -1458"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2016 1152 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1920 1312 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"_color" "0 1 0"
+"spawnflags" "7"
+"origin" "2208 1312 -840"
+"classname" "misc_bosnia_searchlight"
+}
+{
+"style" "1"
+"_color" ".3 .8 1"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "2016 832 -1184"
+"classname" "light"
+}
+{
+"style" "28"
+"_color" ".2 .4 .9"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "1888 1248 -1184"
+"classname" "light"
+}
+{
+"style" "28"
+"_color" ".2 .4 .9"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "1888 1248 -1056"
+"classname" "light"
+}
+{
+"origin" "2176 1056 -1246"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "2336 1184 -960"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2528 960 -1224"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1408 448 -1224"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1472 1120 -1224"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1984 896 -1246"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "360"
+"origin" "1968 288 -1192"
+"classname" "info_player_start"
+}
+{
+"spawnflags" "6"
+"origin" "2000 32 -1236"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"spawnflags" "6"
+"origin" "2416 -288 -1236"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"spawnflags" "6"
+"origin" "2288 -288 -1236"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"spawnflags" "6"
+"origin" "2000 -64 -1236"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"model" "*5"
+"soundname" "hitechbutton"
+"target" "door1"
+"angle" "271"
+"classname" "func_button"
+}
+{
+"skin" "2"
+"spawnflags" "11"
+"origin" "1280 1184 -1202"
+"classname" "misc_bosnia_truck_old"
+}
+{
+"skin" "2"
+"spawnflags" "3"
+"origin" "1152 1088 -1202"
+"classname" "misc_bosnia_truck_old"
+}
+{
+"origin" "2464 224 -1032"
+"classname" "light_generic_street_modern"
+}
+{
+"origin" "64 -96 -962"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "160 -96 -770"
+"classname" "item_ammo_auto"
+}
+{
+"style" "1"
+"_color" "1 0 0"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "-96 608 -1024"
+"classname" "light"
+}
+{
+"style" "1"
+"_color" "1 0 0"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "-128 608 -1152"
+"classname" "light"
+}
+{
+"style" "14"
+"_color" "1 .744147 .222147"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "-128 608 -1312"
+"classname" "light"
+}
+{
+"style" "14"
+"_color" "1 .744147 .222147"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "-128 256 -1312"
+"classname" "light"
+}
+{
+"style" "14"
+"_color" "1 .744147 .222147"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "-128 -128 -1312"
+"classname" "light"
+}
+{
+"style" "14"
+"_color" "1 .744147 .222147"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "192 -160 -1312"
+"classname" "light"
+}
+{
+"spawnflags" "3"
+"origin" "384 -416 -1182"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "1952 -416 -1182"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "1376 -288 -1182"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "-64 -160 -1182"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "288 128 -1182"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"origin" "224 352 -1224"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-224 -448 -1224"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-192 1344 -1224"
+"classname" "info_player_deathmatch"
+}
+{
+"spawnflags" "3"
+"origin" "-64 672 -1075"
+"classname" "misc_generic_palette_jack"
+}
+{
+"model" "*6"
+"origin" "32 608 -1200"
+"soundName" "doornormalwoodsingle"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"origin" "1248 -384 -1244"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"_color" ".8 .6 .1"
+"style" "10"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "1248 -352 -1216"
+"classname" "light"
+}
+{
+"_color" ".8 .6 .1"
+"style" "10"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "960 -288 -1216"
+"classname" "light"
+}
+{
+"origin" "992 -416 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1344 608 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "160 1120 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-64 544 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1440 608 -1246"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "128 -384 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-32 96 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "128 -160 -1242"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "32 -160 -1246"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-64 480 -1246"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"spawnflags" "3"
+"origin" "1216 576 -1181"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"spawnflags" "3"
+"origin" "832 544 -1181"
+"classname" "misc_iraq_tree_palm"
+}
+{
+"style" "0"
+"_color" ".4 .9 .4"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "64 -352 -1152"
+"classname" "light"
+}
+{
+"style" "0"
+"_color" ".4 .9 .9"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "32 32 -1152"
+"classname" "light"
+}
+{
+"style" "0"
+"_color" ".4 .9 .9"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "32 32 -832"
+"classname" "light"
+}
+{
+"style" "0"
+"_color" ".4 .9 .9"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "32 0 -704"
+"classname" "light"
+}
+{
+"model" "*7"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"angle" "360"
+"classname" "func_door"
+}

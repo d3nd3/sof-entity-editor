@@ -1,0 +1,216 @@
+{
+"sky" "ctf2000"
+"classname" "worldspawn"
+"message" "CTF-TRON (C)2001 by turbo"
+}
+{
+"origin" "-1832 2848 480"
+"spawnflags" "1"
+"wait" "1.78"
+"target" "ambient"
+"classname" "func_timer"
+}
+{
+"origin" "-1808 2848 480"
+"targetname" "ambient"
+"attenuation" "-1"
+"noise" "ctf2000/ambient.wav"
+"classname" "target_speaker"
+}
+{
+"classname" "item_ammo_battery"
+"origin" "169 -947 6"
+}
+{
+"classname" "item_weapon_microwavepulse"
+"origin" "157 -918 9"
+}
+{
+"origin" "0 -1216 24"
+"angle" "270"
+"classname" "info_player_team2"
+}
+{
+"origin" "0 1216 24"
+"angle" "90"
+"classname" "info_player_team1"
+}
+{
+"origin" "1 2049 6"
+"count" "1"
+"classname" "item_ctf_flag"
+}
+{
+"origin" "0 2048 24"
+"count" "1"
+"classname" "misc_ctf_base"
+}
+{
+"origin" "0 -2048 24"
+"count" "2"
+"classname" "misc_ctf_base"
+}
+{
+"origin" "1 -2047 6"
+"count" "2"
+"classname" "item_ctf_flag"
+}
+{
+"model" "*1"
+"dmg" "1000"
+"classname" "trigger_hurt"
+}
+{
+"model" "*2"
+"classname" "func_wall"
+}
+{
+"model" "*3"
+"classname" "func_wall"
+}
+{
+"classname" "info_player_team1"
+"angle" "90"
+"origin" "192 960 24"
+}
+{
+"origin" "320 704 24"
+"angle" "90"
+"classname" "info_player_team1"
+}
+{
+"classname" "info_player_team1"
+"angle" "90"
+"origin" "-320 704 24"
+}
+{
+"origin" "-192 960 24"
+"angle" "90"
+"classname" "info_player_team1"
+}
+{
+"classname" "info_player_team2"
+"angle" "270"
+"origin" "192 -960 24"
+}
+{
+"origin" "320 -704 24"
+"angle" "270"
+"classname" "info_player_team2"
+}
+{
+"classname" "info_player_team2"
+"angle" "270"
+"origin" "-320 -704 24"
+}
+{
+"origin" "-192 -960 24"
+"angle" "270"
+"classname" "info_player_team2"
+}
+{
+"classname" "info_player_team2"
+"angle" "90"
+"origin" "0 -320 24"
+}
+{
+"classname" "info_player_team1"
+"angle" "270"
+"origin" "0 320 24"
+}
+{
+"origin" "-167 -947 6"
+"classname" "item_ammo_battery"
+}
+{
+"origin" "-179 -918 9"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"classname" "item_ammo_battery"
+"origin" "-295 -691 6"
+}
+{
+"classname" "item_weapon_microwavepulse"
+"origin" "-307 -662 9"
+}
+{
+"origin" "297 -691 6"
+"classname" "item_ammo_battery"
+}
+{
+"origin" "285 -662 9"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"classname" "item_ammo_battery"
+"origin" "1 333 6"
+}
+{
+"classname" "item_weapon_microwavepulse"
+"origin" "-11 362 9"
+}
+{
+"origin" "-11 -366 9"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"origin" "1 -331 6"
+"classname" "item_ammo_battery"
+}
+{
+"classname" "item_weapon_microwavepulse"
+"origin" "-307 658 9"
+}
+{
+"classname" "item_ammo_battery"
+"origin" "-295 693 6"
+}
+{
+"origin" "285 658 9"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"origin" "297 693 6"
+"classname" "item_ammo_battery"
+}
+{
+"classname" "item_weapon_microwavepulse"
+"origin" "157 914 9"
+}
+{
+"classname" "item_ammo_battery"
+"origin" "169 949 6"
+}
+{
+"origin" "-179 914 9"
+"classname" "item_weapon_microwavepulse"
+}
+{
+"origin" "-167 949 6"
+"classname" "item_ammo_battery"
+}
+{
+"classname" "item_ammo_battery"
+"origin" "1 1469 198"
+}
+{
+"origin" "-439 517 198"
+"classname" "item_ammo_battery"
+}
+{
+"classname" "item_ammo_battery"
+"origin" "441 517 198"
+}
+{
+"origin" "441 -515 198"
+"classname" "item_ammo_battery"
+}
+{
+"classname" "item_ammo_battery"
+"origin" "-447 -507 198"
+}
+{
+"origin" "1 -1475 198"
+"classname" "item_ammo_battery"
+}

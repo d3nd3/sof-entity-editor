@@ -1,0 +1,705 @@
+{
+"_sun_light" "800"
+"_sun_diffuse" "50"
+"_sun_ambient" "20"
+"_sun_angle" "315-45"
+"_sun_color" "1 1 1"
+"sky" "train"
+"classname" "worldspawn"
+}
+{
+"origin" "-96 1024 -88"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-32 1024 -88"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-64 992 -92"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"style" "3"
+"_color" "1 0 0"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "1568 800 -224"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "3"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "1568 384 -224"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "3"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "1120 1184 -224"
+"classname" "light"
+}
+{
+"_color" "1 0 0"
+"style" "3"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "1408 1184 -224"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"style" "0"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "1856 960 -224"
+"classname" "light"
+}
+{
+"_color" "0 1 0"
+"style" "0"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "2112 928 -224"
+"classname" "light"
+}
+{
+"style" "0"
+"_color" ".121561 .2354781 .55451"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "2144 128 -32"
+"classname" "light"
+}
+{
+"style" "0"
+"_color" ".121561 .2354781 .55451"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "2144 192 192"
+"classname" "light"
+}
+{
+"style" "3"
+"_COLOR" "1 1 1"
+"light" "125"
+"_light" "255 255 255 300"
+"origin" "-96 32 128"
+"classname" "light"
+}
+{
+"style" "3"
+"_COLOR" "1 1 1"
+"light" "125"
+"_light" "255 255 255 300"
+"origin" "128 64 128"
+"classname" "light"
+}
+{
+"style" "3"
+"_COLOR" "1 1 1"
+"light" "125"
+"_light" "255 255 255 300"
+"origin" "128 64 -32"
+"classname" "light"
+}
+{
+"style" "3"
+"_COLOR" "1 1 1"
+"light" "125"
+"_light" "255 255 255 300"
+"origin" "-128 64 -32"
+"classname" "light"
+}
+{
+"style" "3"
+"_COLOR" "1 1 1"
+"light" "125"
+"_light" "255 255 255 300"
+"origin" "-128 320 -32"
+"classname" "light"
+}
+{
+"_COLOR" "1 1 0"
+"style" "1"
+"light" "100"
+"_light" "255 255 255 300"
+"origin" "-512 32 256"
+"classname" "light"
+}
+{
+"style" "3"
+"_COLOR" ".562421 0 .545120"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "1056 1088 -32"
+"classname" "light"
+}
+{
+"style" "3"
+"_COLOR" ".562421 0 .545120"
+"light" "200"
+"_light" "255 255 255 300"
+"origin" "2304 928 64"
+"classname" "light"
+}
+{
+"style" "0"
+"_COLOR" ".562421 0 .545120"
+"light" "150"
+"_light" "255 255 255 300"
+"origin" "2368 928 224"
+"classname" "light"
+}
+{
+"_COLOR" "1 1 0"
+"style" "1"
+"light" "100"
+"_light" "255 255 255 300"
+"origin" "-512 32 672"
+"classname" "light"
+}
+{
+"light" "100"
+"_light" "255 255 255 300"
+"origin" "-32 512 -224"
+"classname" "light"
+}
+{
+"light" "100"
+"_light" "255 255 255 300"
+"origin" "576 544 -224"
+"classname" "light"
+}
+{
+"light" "100"
+"_light" "255 255 255 300"
+"origin" "352 800 -224"
+"classname" "light"
+}
+{
+"light" "100"
+"_light" "255 255 255 300"
+"origin" "768 352 -224"
+"classname" "light"
+}
+{
+"style" "0"
+"origin" "1184 928 80"
+"classname" "light_generic_lamp_hang"
+}
+{
+"style" "0"
+"origin" "960 928 80"
+"classname" "light_generic_lamp_hang"
+}
+{
+"_COLOR" "1 1 0"
+"style" "1"
+"light" "100"
+"_light" "255 255 255 300"
+"origin" "-320 160 96"
+"classname" "light"
+}
+{
+"origin" "916 1152 -80"
+"classname" "misc_generic_sink"
+}
+{
+"angle" "360"
+"origin" "2352 416 800"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"origin" "-188 800 136"
+"angle" "181"
+"classname" "func_door_rotating"
+}
+{
+"model" "*2"
+"origin" "-36 832 136"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"model" "*3"
+"origin" "444 1024 16"
+"angle" "180"
+"classname" "func_door_rotating"
+}
+{
+"model" "*4"
+"spawnflags" "1"
+"targetname" "train"
+"target" "p1"
+"classname" "func_train"
+}
+{
+"model" "*5"
+"pathtarget" "p1"
+"target" "elevator"
+"angle" "271"
+"classname" "func_button"
+}
+{
+"model" "*6"
+"pathtarget" "p2"
+"target" "elevator"
+"angle" "91"
+"classname" "func_button"
+}
+{
+"origin" "256 1120 -88"
+"classname" "item_ammo_auto"
+}
+{
+"style" "0"
+"_color" "0 0 1"
+"light" "100"
+"_light" "255 255 255 300"
+"origin" "-128 800 288"
+"classname" "light"
+}
+{
+"origin" "-160 896 120"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-128 768 102"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-128 800 102"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-96 896 98"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"targetname" "stop4"
+"origin" "64 -128 960"
+"classname" "trigger_relay"
+}
+{
+"targetname" "elevator"
+"target" "train"
+"origin" "-192 1152 160"
+"classname" "trigger_elevator"
+}
+{
+"targetname" "stop3"
+"origin" "2240 -64 864"
+"classname" "trigger_relay"
+}
+{
+"targetname" "p1"
+"Pathtarget" "stop1"
+"origin" "-160 1152 96"
+"classname" "path_corner"
+}
+{
+"targetname" "stop1"
+"origin" "-192 1152 192"
+"classname" "trigger_relay"
+}
+{
+"model" "*7"
+"pathtarget" "p1"
+"target" "elevator"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"model" "*8"
+"pathtarget" "p2"
+"target" "elevator"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"targetname" "p2"
+"Pathtarget" "stop2"
+"origin" "1728 1152 528"
+"classname" "path_corner"
+}
+{
+"tagetname" "stop2"
+"origin" "2080 1152 640"
+"classname" "trigger_relay"
+}
+{
+"model" "*9"
+"spawnflags" "8"
+"target" "cam1"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "5"
+"targetname" "cam1"
+"volume" "4"
+"target" "camnull1"
+"origin" "0 992 192"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull1"
+"origin" "0 1216 144"
+"classname" "info_notnull"
+}
+{
+"angle" "115"
+"spawnflags" "7"
+"count" "45"
+"origin" "-64 994 206"
+"classname" "misc_generic_security_camera"
+}
+{
+"origin" "2368 288 784"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "2336 384 780"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2336 320 780"
+"classname" "item_ammo_auto"
+}
+{
+"soundname" "platchainelevator"
+"targetname" "elevator2"
+"target" "train2"
+"origin" "2240 -68 832"
+"classname" "trigger_elevator"
+}
+{
+"Pathtarget" "stop3"
+"targetname" "p3"
+"origin" "2240 -68 768"
+"classname" "path_corner"
+}
+{
+"model" "*10"
+"soundname" "platchainelevator"
+"speed" "200"
+"targetname" "train2"
+"target" "p3"
+"classname" "func_train"
+}
+{
+"model" "*11"
+"target" "elevator2"
+"pathtarget" "p4"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*12"
+"target" "elevator2"
+"pathtarget" "p3"
+"angle" "90"
+"classname" "func_button"
+}
+{
+"skin" "0"
+"spawnflags" "3"
+"origin" "2416 576 818"
+"classname" "misc_generic_cash_register"
+}
+{
+"skin" "0"
+"spawnflags" "3"
+"origin" "2416 480 818"
+"classname" "misc_generic_cash_register"
+}
+{
+"skin" "0"
+"spawnflags" "3"
+"origin" "2416 384 818"
+"classname" "misc_generic_cash_register"
+}
+{
+"skin" "0"
+"spawnflags" "3"
+"origin" "2416 288 818"
+"classname" "misc_generic_cash_register"
+}
+{
+"origin" "2272 140 994"
+"classname" "light_generic_street_modern"
+}
+{
+"style" "0"
+"Light" "300"
+"origin" "160 256 968"
+"classname" "light_generic_street_modern"
+}
+{
+"targetname" "p4"
+"Pathtarget" "stop4"
+"origin" "148 -64 744"
+"classname" "path_corner"
+}
+{
+"targetname" "camnull2"
+"origin" "256 0 832"
+"classname" "info_notnull"
+}
+{
+"model" "*13"
+"spawnflags" "8"
+"target" "cam2"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "7"
+"angle" "269"
+"count" "45"
+"origin" "240 192 888"
+"classname" "misc_generic_security_camera"
+}
+{
+"spawnflags" "5"
+"volume" "4"
+"target" "camnull2"
+"targetname" "cam2"
+"origin" "256 192 884"
+"classname" "func_remote_camera"
+}
+{
+"model" "*14"
+"origin" "2400 668 820"
+"angle" "270"
+"classname" "func_door_rotating"
+}
+{
+"model" "*15"
+"origin" "2400 164 820"
+"angle" "270"
+"classname" "func_door_rotating"
+}
+{
+"model" "*16"
+"target" "elevator2"
+"pathtarget" "p3"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"model" "*17"
+"target" "elevator2"
+"pathtarget" "p4"
+"angle" "89"
+"classname" "func_button"
+}
+{
+"origin" "0 32 760"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "0 -32 760"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "32 96 760"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-64 -64 776"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*18"
+"origin" "-240 128 76"
+"targetname" "door2"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"model" "*19"
+"origin" "320 64 -48"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"model" "*20"
+"origin" "-240 -22 76"
+"targetname" "door1"
+"angle" "180"
+"classname" "func_door_rotating"
+}
+{
+"model" "*21"
+"target" "door1"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*22"
+"target" "door2"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"spawnflags" "3"
+"origin" "256 160 58"
+"classname" "misc_generic_table1"
+}
+{
+"origin" "128 160 58"
+"classname" "misc_generic_table1"
+}
+{
+"origin" "-192 32 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-160 128 -90"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-128 192 -88"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-192 192 -88"
+"classname" "item_ammo_auto"
+}
+{
+"spawnflags" "3"
+"origin" "0 160 58"
+"classname" "misc_castle_chair_big"
+}
+{
+"spawnflags" "3"
+"origin" "256 160 98"
+"classname" "misc_castle_globe"
+}
+{
+"origin" "-224 928 1120"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-192 832 1114"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"model" "*23"
+"origin" "-256 56 784"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"model" "*24"
+"origin" "1628 984 -224"
+"angle" "180"
+"classname" "func_door_rotating"
+}
+{
+"model" "*25"
+"target" "door4"
+"angle" "89"
+"classname" "func_button"
+}
+{
+"model" "*26"
+"origin" "1540 32 -79"
+"targetname" "door4"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"model" "*27"
+"origin" "1312 -64 -32"
+"angle" "180"
+"classname" "func_door_rotating"
+}
+{
+"model" "*28"
+"target" "door4"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"origin" "1408 -64 -68"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1504 -96 -86"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1408 0 -86"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1504 -32 -90"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "2144 32 -64"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "2048 64 -86"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2144 96 -86"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2208 96 -90"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"model" "*29"
+"origin" "1024 1183 -95"
+"angle" "-1"
+"classname" "func_door_rotating"
+}
+{
+"model" "*30"
+"origin" "1184 1244 -48"
+"angle" "90"
+"classname" "func_door_rotating"
+}
+{
+"spawnflags" "3"
+"origin" "1184 1024 -80"
+"classname" "misc_iraq_fruit_stand"
+}
+{
+"origin" "2400 832 -72"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "2336 832 -92"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "2272 832 -90"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "2272 864 -90"
+"classname" "item_ammo_auto"
+}
+{
+"model" "*31"
+"origin" "2176 896 -76"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"model" "*32"
+"origin" "2304 992 -80"
+"angle" "90"
+"classname" "func_door_rotating"
+}

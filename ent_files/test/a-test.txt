@@ -1,0 +1,132 @@
+{
+"ainame" "ger3"
+"sky" "bos2"
+"classname" "worldspawn"
+}
+{
+"light" "888"
+"_light" "255 255 255 300"
+"origin" "5 -98 87"
+"classname" "light"
+}
+{
+"targetname" "Crushh0"
+"Target" "Crushh1"
+"origin" "-138 -52 -225"
+"classname" "path_corner"
+}
+{
+"targetname" "Crushh1"
+"Target" "Crushh0"
+"origin" "-9 -52 -225"
+"classname" "path_corner"
+}
+{
+"model" "*1"
+"origin" "-138 -52 -225"
+"targetname" "Smushed"
+"target" "Crushh0"
+"angle" "0"
+"speed" "1000"
+"dmg" "8000"
+"spawnflags" "2"
+"classname" "func_train"
+}
+{
+"model" "*2"
+"origin" "122 -52 -225"
+"targetname" "Smushed"
+"target" "Crush0"
+"angle" "180"
+"dmg" "8000"
+"speed" "1000"
+"spawnflags" "2"
+"classname" "func_train"
+}
+{
+"model" "*3"
+"target" "Smushed"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"Target" "Crush1"
+"targetname" "Crush0"
+"origin" "122 -52 -225"
+"classname" "path_corner"
+}
+{
+"Target" "Crush0"
+"targetname" "Crush1"
+"origin" "9 -52 -225"
+"classname" "path_corner"
+}
+{
+"count" "25"
+"origin" "-1 59 -240"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "-1 -13 -237"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "-101 -14 -239"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "82 -15 -239"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "-1 -91 -239"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "-101 -91 -239"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "82 -93 -239"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "-103 -156 -239"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "0 -157 -239"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "82 -157 -239"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "90 58 -239"
+"classname" "item_equip_grenade"
+}
+{
+"count" "25"
+"origin" "-99 59 -242"
+"classname" "item_equip_grenade"
+}
+{
+"angle" "180"
+"origin" "408 -47 -147"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-344 162 32"
+"classname" "info_player_start"
+}

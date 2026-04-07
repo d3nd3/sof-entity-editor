@@ -1,0 +1,777 @@
+{
+"_sun_ambient" "800"
+"jersey" "1"
+"message" "Kill the pedestrians!!! www.howdymedia.com/sofstuff"
+"sky" "tut"
+"classname" "worldspawn"
+"_sun_light" "800"
+"_sun_angle" "315 -45"
+"_sun_color" "1.0 1.0 0"
+"_sun_diffuse" "50"
+}
+{
+"classname" "item_health_large"
+"origin" "-1048 1052 -303"
+}
+{
+"origin" "-133 718 165"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "1143 178 207"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-231 2 145"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "1627 375 27"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "1633 -19 205"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1225 165 207"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "1653 -275 16"
+"classname" "item_ammo_sp_auto"
+}
+{
+"origin" "1535 99 236"
+"angle" "270"
+"classname" "misc_generic_faucet"
+}
+{
+"origin" "-513 774 70"
+"classname" "misc_generic_gun_auto3"
+}
+{
+"origin" "-508 725 96"
+"classname" "misc_generic_gun_auto"
+}
+{
+"origin" "-505 691 65"
+"classname" "misc_generic_desk_phone"
+}
+{
+"origin" "-501 659 72"
+"angle" "360"
+"classname" "misc_generic_cash_register"
+}
+{
+"origin" "-247 873 34"
+"angle" "45"
+"classname" "misc_generic_broom"
+}
+{
+"origin" "-475 877 8"
+"classname" "item_ammo_sp_gas"
+}
+{
+"model" "*1"
+"dmg" "30"
+"classname" "func_door_rotating"
+"origin" "1106 -114 136"
+}
+{
+"origin" "1423 102 250"
+"angle" "270"
+"classname" "misc_generic_sink"
+}
+{
+"classname" "item_health_small"
+"origin" "218 545 155"
+}
+{
+"model" "*2"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "15"
+"health" "150"
+"mass" "3"
+"material" "7"
+"surfaceType" "37"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "1625 -80 16"
+}
+{
+"classname" "item_weapon_machinegun"
+"origin" "1607 -462 19"
+}
+{
+"classname" "item_weapon_microwavepulse"
+"origin" "1465 -69 253"
+}
+{
+"spawnflags" "3"
+"classname" "misc_generic_sofa"
+"angle" "360"
+"origin" "1132 -383 33"
+}
+{
+"classname" "misc_generic_plant_tall"
+"origin" "1140 -496 225"
+}
+{
+"spawnflags" "3"
+"classname" "misc_generic_sofa"
+"angle" "270"
+"origin" "1248 -240 221"
+}
+{
+"classname" "misc_generic_toilet"
+"skin" "1"
+"spawnflags" "62"
+"angle" "270"
+"origin" "1472 98 220"
+}
+{
+"classname" "item_health_large"
+"origin" "1149 -85 16"
+}
+{
+"model" "*3"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "10"
+"mass" "3"
+"health" "250"
+"material" "7"
+"surfaceType" "37"
+}
+{
+"classname" "item_weapon_shotgun"
+"origin" "-556 288 15"
+}
+{
+"model" "*4"
+"lip" "80"
+"classname" "func_plat"
+"spawnflags" "0"
+"sounds" "1"
+"height" "140"
+}
+{
+"classname" "misc_generic_plant_potted"
+"origin" "1644 -477 221"
+}
+{
+"classname" "misc_generic_desk_phone"
+"origin" "1387 -187 241"
+}
+{
+"classname" "misc_generic_table1"
+"origin" "1518 -368 234"
+}
+{
+"wait" "1"
+"origin" "2 280 32"
+"targetname" "ic0"
+"target" "ic1"
+"classname" "path_corner"
+}
+{
+"wait" "1"
+"origin" "336 -302 48"
+"targetname" "ib0"
+"target" "ib1"
+"classname" "path_corner"
+}
+{
+"origin" "-644 26 48"
+"wait" "1"
+"targetname" "m0"
+"target" "m1"
+"classname" "path_corner"
+}
+{
+"origin" "356 592 68"
+"target" "i4"
+"targetname" "i3"
+"classname" "path_corner"
+"wait" "1"
+}
+{
+"wait" "1"
+"target" "i1"
+"targetname" "i0"
+"origin" "-146 -90 40"
+"classname" "path_corner"
+}
+{
+"angle" "90"
+"origin" "695 -796 37"
+"spawnflags" "0"
+"target" "c1"
+"skin" "2"
+"targetname" "t4"
+"classname" "misc_generic_car_american"
+}
+{
+"origin" "726 -1132 60"
+"targetname" "c2"
+"target" "c1"
+"classname" "path_corner"
+}
+{
+"origin" "208 -30 60"
+"target" "i0"
+"targetname" "i4"
+"wait" "1"
+"classname" "path_corner"
+}
+{
+"origin" "413 639 60"
+"target" "i3"
+"wait" "1"
+"targetname" "i2"
+"classname" "path_corner"
+}
+{
+"spawnflags" "1"
+"origin" "744 1480 16"
+"targetname" "c1"
+"classname" "path_corner"
+}
+{
+"Wait" "10"
+"target" "i2"
+"origin" "356 592 48"
+"targetname" "i1"
+"Waitaction" "STD_LPISS_N_A_A"
+"spawnflags" "4"
+"classname" "path_corner"
+"wait" "1"
+}
+{
+"model" "*5"
+"health" "100"
+"sufraceType" "37"
+"material" "7"
+"spawnflags" "2"
+"mass" "1"
+"count" "20"
+"classname" "func_breakable_brush"
+}
+{
+"health" "500"
+"targetname" "car1"
+"target" "c1"
+"angle" "90"
+"origin" "723 -1052 37"
+"skin" "2"
+"spawnflags" "6"
+"classname" "misc_generic_car_american"
+}
+{
+"origin" "-377 321 169"
+"classname" "item_health_small"
+}
+{
+"origin" "-359 320 154"
+"spawnflags" "3"
+"classname" "misc_generic_table1"
+}
+{
+"origin" "-477 289 9"
+"classname" "item_equip_armor"
+}
+{
+"model" "*6"
+"classname" "func_door"
+}
+{
+"classname" "misc_generic_bookshelf"
+"spawnflags" "3"
+"angle" "270"
+"origin" "-216 312 8"
+}
+{
+"classname" "misc_generic_sofa_chair"
+"origin" "-279 160 25"
+}
+{
+"classname" "misc_generic_sofa"
+"origin" "-391 40 25"
+}
+{
+"origin" "-913 957 19"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "540 544 10"
+}
+{
+"classname" "item_equip_claymore"
+"origin" "460 -467 14"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-301 916 8"
+}
+{
+"classname" "item_equip_armor"
+"origin" "-213 921 17"
+}
+{
+"origin" "483 -98 26"
+"classname" "misc_generic_bench"
+}
+{
+"origin" "-728 320 160"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"classname" "item_weapon_flamethrower"
+"origin" "-504 860 65"
+}
+{
+"classname" "info_player_start"
+"origin" "-144 848 32"
+}
+{
+"spawnflags" "8294"
+"target" "hunt1"
+"origin" "-48 168 48"
+"classname" "m_kos_erefugee"
+}
+{
+"spawnflags" "8294"
+"target" "ic3"
+"origin" "344 152 48"
+"classname" "m_nyc_estockbroker"
+}
+{
+"target" "m1"
+"origin" "-254 118 48"
+"classname" "m_nyc_fwoman"
+"spawnflags" "8294"
+"alertradius" "-1"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-440 456 32"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1396 -486 228"
+}
+{
+"origin" "1643 -208 40"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "misc_generic_bench"
+"origin" "147 -114 26"
+}
+{
+"classname" "misc_iraq_fruit_stand"
+"origin" "371 -107 20"
+}
+{
+"origin" "-333 916 8"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-365 916 8"
+}
+{
+"origin" "420 -467 14"
+"classname" "item_equip_claymore"
+}
+{
+"classname" "item_equip_claymore"
+"origin" "364 -467 14"
+}
+{
+"origin" "192 848 8"
+"classname" "item_health_large"
+}
+{
+"spawnflags" "8294"
+"target" "i0"
+"origin" "-460 -112 48"
+"classname" "m_nyc_estockbroker"
+}
+{
+"angle" "270"
+"spawnflags" "230"
+"target" "ic2"
+"origin" "472 288 48"
+"classname" "m_nyc_etourist"
+}
+{
+"spawnflags" "8294"
+"target" "ib1"
+"classname" "m_nyc_estockbroker"
+"origin" "112 -448 48"
+}
+{
+"spawnflags" "8294"
+"target" "ib2"
+"classname" "m_nyc_etourist"
+"origin" "256 -488 48"
+}
+{
+"spawnflags" "8422"
+"origin" "248 -80 48"
+"classname" "m_nyc_estockbroker"
+}
+{
+"spawnflags" "8422"
+"origin" "380 -262 48"
+"classname" "m_nyc_etourist"
+}
+{
+"spawnflags" "8422"
+"classname" "m_nyc_etourist"
+"origin" "72 112 48"
+}
+{
+"spawnflags" "8422"
+"classname" "m_nyc_fwoman"
+"origin" "-40 -128 48"
+}
+{
+"spawnflags" "8294"
+"target" "ic3"
+"classname" "m_nyc_estockbroker"
+"origin" "-50 270 48"
+}
+{
+"origin" "-168 920 32"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "540 544 10"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-144 848 32"
+"classname" "info_player_start"
+}
+{
+"angle" "90"
+"classname" "misc_generic_sink"
+"origin" "-645 1 33"
+}
+{
+"origin" "-392 120 48"
+"classname" "path_corner"
+"target" "m2"
+"targetname" "m1"
+"wait" "1"
+}
+{
+"origin" "-298 90 48"
+"wait" "1"
+"targetname" "m2"
+"target" "m3"
+"classname" "path_corner"
+}
+{
+"classname" "path_corner"
+"target" "m0"
+"targetname" "m3"
+"wait" "1"
+"origin" "-392 120 32"
+}
+{
+"wait" "1"
+"origin" "138 -310 48"
+"classname" "path_corner"
+"target" "ib2"
+"targetname" "ib1"
+}
+{
+"wait" "1"
+"targetname" "ib2"
+"target" "ib0"
+"classname" "path_corner"
+"origin" "200 -102 48"
+}
+{
+"wait" "1"
+"classname" "path_corner"
+"target" "ic2"
+"targetname" "ic1"
+"origin" "362 -26 32"
+}
+{
+"wait" "1"
+"origin" "572 24 32"
+"targetname" "ic2"
+"target" "ic3"
+"classname" "path_corner"
+}
+{
+"wait" "1"
+"classname" "path_corner"
+"target" "ic4"
+"targetname" "ic3"
+"origin" "80 514 24"
+}
+{
+"wait" "3"
+"origin" "146 622 20"
+"targetname" "ic4"
+"target" "ic0a"
+"classname" "path_corner"
+}
+{
+"model" "*7"
+"classname" "func_breakable_brush"
+"count" "20"
+"mass" "1"
+"spawnflags" "2"
+"material" "7"
+"sufraceType" "37"
+"health" "100"
+}
+{
+"model" "*8"
+"health" "100"
+"sufraceType" "37"
+"material" "7"
+"spawnflags" "2"
+"mass" "1"
+"count" "20"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*9"
+"classname" "func_breakable_brush"
+"count" "20"
+"mass" "1"
+"spawnflags" "2"
+"material" "7"
+"sufraceType" "37"
+"health" "100"
+}
+{
+"classname" "misc_generic_car_american"
+"spawnflags" "22"
+"skin" "2"
+"origin" "1260 114 50"
+"angle" "360"
+"target" "t5"
+"targetname" "t5"
+"health" "500"
+}
+{
+"model" "*10"
+"surfaceType" "37"
+"material" "7"
+"health" "250"
+"mass" "3"
+"count" "10"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*11"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "10"
+"mass" "3"
+"health" "250"
+"material" "7"
+"surfaceType" "37"
+}
+{
+"spawnflags" "1"
+"origin" "542 -340 18"
+"classname" "misc_castle_tree"
+"angle" "135"
+}
+{
+"spawnflags" "3"
+"origin" "1130 -360 221"
+"angle" "360"
+"classname" "misc_generic_sofa"
+}
+{
+"spawnflags" "3"
+"origin" "1248 -498 33"
+"angle" "90"
+"classname" "misc_generic_sofa"
+}
+{
+"origin" "1406 -204 222"
+"classname" "misc_generic_table1"
+"angle" "90"
+}
+{
+"origin" "1604 -81 19"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "1654 -96 16"
+}
+{
+"origin" "1644 -81 16"
+"classname" "item_equip_grenade"
+}
+{
+"model" "*12"
+"surfaceType" "37"
+"material" "7"
+"mass" "3"
+"health" "150"
+"count" "15"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*13"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "15"
+"health" "150"
+"mass" "3"
+"material" "7"
+"surfaceType" "37"
+}
+{
+"model" "*14"
+"surfaceType" "37"
+"material" "7"
+"mass" "3"
+"health" "150"
+"count" "15"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*15"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "15"
+"health" "150"
+"mass" "3"
+"material" "7"
+"surfaceType" "37"
+}
+{
+"model" "*16"
+"surfaceType" "37"
+"material" "7"
+"mass" "3"
+"health" "150"
+"count" "15"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*17"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "15"
+"health" "150"
+"mass" "3"
+"material" "7"
+"surfaceType" "37"
+}
+{
+"model" "*18"
+"surfaceType" "37"
+"material" "7"
+"mass" "3"
+"health" "150"
+"count" "15"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*19"
+"dmg" "30"
+"angle" "-1"
+"speed" "50"
+"classname" "func_door"
+}
+{
+"classname" "path_corner"
+"target" "ic0"
+"targetname" "ic0a"
+"origin" "-14 754 16"
+"wait" "1"
+}
+{
+"angle" "180"
+"classname" "m_kos_erefugee"
+"origin" "208 616 48"
+"target" "t6"
+"spawnflags" "8294"
+}
+{
+"spawnflags" "8294"
+"target" "t7"
+"origin" "208 672 48"
+"classname" "m_kos_erefugee"
+"angle" "180"
+}
+{
+"classname" "item_ammo_sp_gas"
+"origin" "-443 877 8"
+}
+{
+"model" "*20"
+"classname" "func_breakable_brush"
+"spawnflags" "3"
+"count" "15"
+"health" "150"
+"mass" "3"
+"material" "7"
+"surfaceType" "37"
+}
+{
+"model" "*21"
+"classname" "func_door"
+"speed" "50"
+"angle" "-1"
+"dmg" "30"
+}
+{
+"classname" "item_ammo_sp_auto"
+"origin" "1653 -297 16"
+}
+{
+"origin" "1653 -317 16"
+"classname" "item_ammo_sp_auto"
+}
+{
+"model" "*22"
+"surfaceType" "37"
+"material" "7"
+"health" "250"
+"mass" "3"
+"count" "10"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*23"
+"classname" "func_breakable_brush"
+"spawnflags" "2"
+"count" "10"
+"mass" "3"
+"health" "250"
+"material" "7"
+"surfaceType" "37"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1643 -208 40"
+}

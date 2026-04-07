@@ -1,0 +1,731 @@
+{
+"sky" "ny"
+"classname" "worldspawn"
+}
+{
+"Light" "500"
+"origin" "-808 -684 -110"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "70 -724 -112"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "760 -672 -112"
+"classname" "light_generic_hanging"
+}
+{
+"origin" "8 -184 -99"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-576 0 -288"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"classname" "trigger_conquer"
+}
+{
+"model" "*2"
+"origin" "547 688 -327"
+"soundName" "5"
+"angle" "360"
+"classname" "func_door_rotating_smart"
+}
+{
+"model" "*3"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*4"
+"count" "1"
+"dmg" "2"
+"health" "50"
+"mass" "5"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*5"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*6"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*7"
+"targetname" "buildingbg"
+"speed" "25"
+"spawnflags" "4"
+"lip" "120"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"target" "buildingbg"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"angle" "90"
+"origin" "618 215 -298"
+"classname" "misc_generic_tv_ceiling"
+}
+{
+"model" "*9"
+"origin" "546 690 -213"
+"soundName" "5"
+"angle" "360"
+"classname" "func_door_rotating_smart"
+}
+{
+"Light" "50"
+"origin" "526.4 257.3 -172"
+"classname" "light_generic_lamp_hang"
+}
+{
+"random" "3"
+"origin" "459 518.7 201.5"
+"classname" "environ_lightning"
+}
+{
+"model" "*10"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*11"
+"count" "1"
+"dmg" "2"
+"health" "50"
+"mass" "5"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*12"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*13"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*14"
+"target" "building1ste"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*15"
+"targetname" "building1ste"
+"soundName" "/door/hitdoor.wav"
+"speed" "25"
+"spawnflags" "4"
+"lip" "120"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*16"
+"origin" "548 690 -101"
+"soundName" "5"
+"angle" "360"
+"classname" "func_door_rotating_smart"
+}
+{
+"Light" "50"
+"origin" "528.3 419.1 -58"
+"classname" "light_generic_lamp_hang"
+}
+{
+"model" "*17"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*18"
+"count" "1"
+"dmg" "2"
+"health" "50"
+"mass" "5"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*19"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*20"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*21"
+"target" "building2de"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*22"
+"targetname" "building2de"
+"speed" "25"
+"spawnflags" "4"
+"lip" "120"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*23"
+"origin" "548 690 13"
+"soundName" "5"
+"angle" "360"
+"classname" "func_door_rotating_smart"
+}
+{
+"Light" "50"
+"origin" "531.3 602.8 56"
+"classname" "light_generic_lamp_hang"
+}
+{
+"model" "*24"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*25"
+"count" "1"
+"dmg" "2"
+"health" "50"
+"mass" "5"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*26"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*27"
+"message" "I HATE WINDOWS!"
+"count" "4"
+"dmg" "4"
+"health" "100"
+"mass" "2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*28"
+"lip" "15"
+"target" "GONDEL"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*29"
+"targetname" "GONDEL"
+"speed" "35"
+"lip" "1980"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"_color" "255 0 0"
+"color" "255 0 0"
+"light" "200"
+"spawnflags" "0"
+"origin" "1015.6 -108.7 -127.7"
+"classname" "misc_siberia_roadflare"
+}
+{
+"_color" "255 0 0"
+"color" "255 0 0"
+"light" "200"
+"spawnflags" "0"
+"origin" "1015.6 -73.5 -127.6"
+"classname" "misc_siberia_roadflare"
+}
+{
+"model" "*30"
+"target" "liftplg"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*31"
+"targetname" "liftplg"
+"soundName" "\sound\impact\door\hitdoor.wav"
+"speed" "100"
+"spawnflags" "4"
+"lip" "325"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"origin" "-974.5 734.1 -25.8"
+"classname" "misc_generic_table1"
+}
+{
+"model" "*32"
+"lip" "2"
+"target" "cola1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*33"
+"targetname" "liftcr"
+"soundName" "\sound\impact\door\hitdoor.wav"
+"speed" "100"
+"spawnflags" "4"
+"lip" "325"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*34"
+"target" "liftcr"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"origin" "-143.2 -703.1 -374.20"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-159.2 -703.1 -374.20"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-179.2 -656.1 -365.20"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "-148.2 -615.1 -372.20"
+"classname" "item_equip_armor"
+}
+{
+"style" "5"
+"Light" "50"
+"origin" "-180.2 -656.1 -281.20"
+"classname" "light_generic_lamp_hang"
+}
+{
+"model" "*35"
+"origin" "-246 -654 -320"
+"targetname" "cola1"
+"angle" "360"
+"classname" "func_door_rotating"
+}
+{
+"model" "*36"
+"target" "cola1"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"origin" "-983.5 -178.3 -27.6"
+"classname" "item_equip_claymore"
+}
+{
+"origin" "-983.5 -293.3 -26.6"
+"classname" "item_equip_claymore"
+}
+{
+"origin" "852 432 -328"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "852 432 -212"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "852 432 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "852 432 4"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "752 420 292"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "596 -688 240"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "196 -684 240"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-492 -688 240"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "-864 -692 240"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-292 720 300"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-872 716 320"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "-980 308 284"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-984 656 0"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-488 640 -108"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "-184 -740 -152"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-992 -736 -140"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "816 -736 -140"
+"classname" "info_player_deathmatch"
+}
+{
+"count" "4"
+"origin" "-704 492 -308"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"origin" "-740 480 -300"
+"classname" "item_equip_c4"
+}
+{
+"count" "100"
+"origin" "-680 544 -380"
+"classname" "item_equip_armor"
+}
+{
+"spawnflags" "0"
+"origin" "-980 728 -384"
+"classname" "item_health_large"
+}
+{
+"spawnflags" "0"
+"origin" "-1004 -748 -380"
+"classname" "item_equip_armor"
+}
+{
+"spawnflags" "0"
+"origin" "-764 -552 -314"
+"classname" "item_equip_claymore"
+}
+{
+"count" "100"
+"spawnflags" "0"
+"origin" "-80 -690 -384"
+"classname" "item_health_large"
+}
+{
+"origin" "704 -674 -374"
+"classname" "item_equip_armor"
+}
+{
+"count" "4"
+"origin" "698 -656 -374"
+"classname" "item_equip_grenade"
+}
+{
+"count" "3"
+"origin" "1008 -698 -56"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "982 -700 -60"
+"classname" "item_health_large"
+}
+{
+"count" "4"
+"spawnflags" "0"
+"origin" "-4 -664 -48"
+"classname" "item_equip_c4"
+}
+{
+"count" "2"
+"spawnflags" "0"
+"origin" "104 -762 62"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "860 -708 76"
+"classname" "item_equip_c4"
+}
+{
+"count" "5"
+"spawnflags" "0"
+"origin" "-1008 664 76"
+"classname" "item_equip_grenade"
+}
+{
+"count" "2"
+"spawnflags" "0"
+"origin" "-1008 734 0"
+"classname" "item_equip_c4"
+}
+{
+"count" "4"
+"spawnflags" "0"
+"origin" "-960 732 -8"
+"classname" "item_equip_grenade"
+}
+{
+"spawnflags" "8"
+"count" "2"
+"origin" "556 222 82"
+"classname" "item_equip_grenade"
+}
+{
+"count" "4"
+"spawnflags" "0"
+"origin" "980 722 -376"
+"classname" "item_equip_grenade"
+}
+{
+"spawnflags" "0"
+"origin" "978 426 -378"
+"classname" "item_health_large"
+}
+{
+"origin" "792 732 -378"
+"classname" "item_equip_armor"
+}
+{
+"origin" "716 430 -146"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-186 102 -172"
+"classname" "item_health_large"
+}
+{
+"count" "4"
+"origin" "-88 208 -172"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-86 106 -366"
+"classname" "item_equip_armor"
+}
+{
+"count" "2"
+"origin" "0 150 -366"
+"classname" "item_equip_c4"
+}
+{
+"count" "4"
+"origin" "-172 162 -370"
+"classname" "item_equip_grenade"
+}
+{
+"spawnflags" "0"
+"origin" "-494 540 84"
+"classname" "item_weapon_flamethrower"
+}
+{
+"origin" "-868 718 -38"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "-924 106 -38"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-804 -612 -376"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "-636 560 -284"
+"classname" "item_weapon_pistol2"
+}
+{
+"spawnflags" "0"
+"origin" "980 -726 72"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "702 508 84"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "570 412 -372"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "568 412 -258"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "566 412 -144"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "578 414 -30"
+"classname" "item_weapon_shotgun"
+}
+{
+"spawnflags" "0"
+"origin" "-92 722 150"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "974 -106 -374"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "702 686 -146"
+"classname" "item_health_large"
+}
+{
+"Light" "200"
+"origin" "-874 726 54"
+"classname" "light_generic_lamp_hang"
+}
+{
+"Light" "200"
+"origin" "-926 294 54"
+"classname" "light_generic_lamp_hang"
+}
+{
+"Light" "500"
+"origin" "-928 646 338"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "-948 50 340"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "-948 -606 338"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "0 -712 338"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "818 -692 342"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "980 -352 338"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "972 224 340"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "-666 532 -92"
+"classname" "light_generic_hanging"
+}
+{
+"Light" "500"
+"origin" "-156 540 -92"
+"classname" "light_generic_hanging"
+}
+{
+"origin" "-920 50 48"
+"classname" "light_generic_military_door_outside"
+}

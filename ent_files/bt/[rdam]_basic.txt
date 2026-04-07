@@ -1,0 +1,246 @@
+{
+"message" "basic by: [RDAM]KEVIN www.rdam.dk"
+"light" "200"
+"sky" "ny"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"targetname" "d"
+"speed" "100"
+"lip" "8"
+"wait" "12"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"wait" "10"
+"target" "d"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"wait" "9"
+"target" "d2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"wait" "1"
+"targetname" "d2"
+"spawnflags" "16"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"angle" "306"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*6"
+"angle" "121"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*7"
+"angle" "225"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*8"
+"angle" "270"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*9"
+"angle" "270"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*10"
+"angle" "201"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*11"
+"angle" "39"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*12"
+"dmg" "200"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-256 80 56"
+"classname" "info_player_team1"
+}
+{
+"origin" "-240 152 56"
+"classname" "info_player_team1"
+}
+{
+"origin" "-160 184 40"
+"classname" "info_player_team1"
+}
+{
+"origin" "-72 184 40"
+"classname" "info_player_team1"
+}
+{
+"origin" "0 112 40"
+"classname" "info_player_team1"
+}
+{
+"model" "*13"
+"targetname" "d3"
+"speed" "100"
+"lip" "8"
+"wait" "12"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*14"
+"wait" "10"
+"target" "d3"
+"angle" "-2"
+"classname" "func_button"
+}
+{
+"model" "*15"
+"wait" "9"
+"target" "d22"
+"classname" "trigger_multiple"
+}
+{
+"model" "*16"
+"wait" "1"
+"targetname" "d22"
+"spawnflags" "16"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*17"
+"angle" "126"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*18"
+"angle" "301"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*19"
+"angle" "45"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*20"
+"angle" "90"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*21"
+"angle" "90"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*22"
+"angle" "21"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*23"
+"angle" "219"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*24"
+"dmg" "200"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-2564 1228 56"
+"classname" "info_player_team2"
+}
+{
+"origin" "-2580 1156 56"
+"classname" "info_player_team2"
+}
+{
+"origin" "-2660 1124 40"
+"classname" "info_player_team2"
+}
+{
+"origin" "-2748 1124 40"
+"classname" "info_player_team2"
+}
+{
+"origin" "-2820 1196 40"
+"classname" "info_player_team2"
+}
+{
+"count" "2"
+"origin" "-1284 656 120"
+"classname" "misc_ctf_base"
+}
+{
+"model" "*25"
+"delay" "2"
+"wait" "4"
+"target" "boom"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "boom"
+"spawnflags" "1"
+"health" "700"
+"origin" "-1284 656 120"
+"classname" "environ_explosion"
+}
+{
+"targetname" "boom"
+"spawnflags" "1"
+"health" "700"
+"origin" "-1548 656 128"
+"classname" "environ_explosion"
+}
+{
+"count" "2"
+"origin" "-1284 656 120"
+"classname" "item_ctf_flag"
+}
+{
+"count" "1"
+"origin" "-1548 656 128"
+"classname" "item_ctf_flag"
+}
+{
+"count" "1"
+"origin" "-1548 656 120"
+"classname" "misc_ctf_base"
+}
+{
+"angles" "-10.13 121.63 90"
+"origin" "356 -20 -28"
+"classname" "info_player_intermission"
+}

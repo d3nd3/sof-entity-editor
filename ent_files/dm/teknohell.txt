@@ -1,0 +1,246 @@
+{
+"sky" "none"
+"message" "Teknohell by Shrubber"
+"classname" "worldspawn"
+"startmusic" "1"
+"musicset" "dm3"
+}
+{
+"origin" "256 -264 120"
+"targetname" "tek"
+"classname" "environ_explosion"
+}
+{
+"origin" "-544 264 112"
+"light" "50"
+"_color" "1.000000 0.000000 0.000000"
+"classname" "light"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "360"
+"origin" "80 -472 24"
+}
+{
+"origin" "-781 -111 1"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-777 -170 3"
+"classname" "item_weapon_machinepistol"
+}
+{
+"model" "*1"
+"origin" "-564 236 40"
+"distance" "90"
+"classname" "func_door_rotating_smart"
+}
+{
+"origin" "-826 65 35"
+"angle" "360"
+"classname" "misc_generic_urinal"
+}
+{
+"origin" "-818 -167 16"
+"angle" "360"
+"classname" "misc_generic_toilet"
+}
+{
+"origin" "-537 -793 144"
+"classname" "item_health_small"
+}
+{
+"origin" "-41 -439 144"
+"classname" "item_ammo_sp_shotgun"
+}
+{
+"origin" "-199 -445 144"
+"classname" "item_ammo_sp_auto"
+}
+{
+"origin" "-306 715 0"
+"classname" "item_ammo_sp_pistol"
+}
+{
+"origin" "329 715 0"
+"classname" "item_ammo_sp_auto"
+}
+{
+"origin" "35 -804 144"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "40 672 112"
+"light" "200"
+"style" "10"
+"classname" "light"
+}
+{
+"classname" "item_weapon_shotgun"
+"origin" "228 604 3"
+}
+{
+"classname" "item_health_large"
+"origin" "-166 604 0"
+}
+{
+"classname" "target_speaker"
+"targetname" "tek"
+"noise" "tek/tek.wav"
+"attenuation" "-1"
+"volume" "1"
+"origin" "32 8 184"
+}
+{
+"model" "*2"
+"classname" "func_button"
+"angle" "270"
+"target" "tek"
+}
+{
+"_color" "0.000000 1.000000 1.000000"
+"origin" "-384 376 216"
+"style" "1"
+"light" "500"
+"classname" "light"
+}
+{
+"origin" "-528 528 24"
+"classname" "info_player_start"
+"angle" "315"
+}
+{
+"origin" "-528 528 168"
+"classname" "info_player_deathmatch"
+"angle" "315"
+}
+{
+"origin" "-205 -255 113"
+"classname" "item_equip_armor"
+}
+{
+"origin" "259 -271 121"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "32 295 146"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"_color" "0.000000 1.000000 0.000000"
+"classname" "light"
+"light" "500"
+"style" "4"
+"origin" "440 376 216"
+}
+{
+"_color" "1.000000 0.501961 0.000000"
+"origin" "440 -440 216"
+"style" "2"
+"light" "500"
+"classname" "light"
+}
+{
+"_color" "1.000000 0.000000 1.000000"
+"classname" "light"
+"light" "500"
+"style" "11"
+"origin" "-376 -440 216"
+}
+{
+"_color" "1.000000 0.000000 0.000000"
+"origin" "48 0 136"
+"style" "2"
+"light" "500"
+"classname" "light"
+}
+{
+"classname" "light"
+"style" "10"
+"light" "200"
+"origin" "-408 -632 112"
+}
+{
+"origin" "264 -632 112"
+"light" "200"
+"style" "10"
+"classname" "light"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "19 -804 144"
+}
+{
+"origin" "3 580 0"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "51 580 0"
+}
+{
+"classname" "item_health_small"
+"origin" "607 543 144"
+}
+{
+"classname" "misc_generic_toilet"
+"angle" "360"
+"origin" "-818 -111 16"
+}
+{
+"classname" "misc_generic_urinal"
+"angle" "360"
+"origin" "-826 129 35"
+}
+{
+"origin" "-826 185 35"
+"angle" "360"
+"classname" "misc_generic_urinal"
+}
+{
+"classname" "light"
+"style" "10"
+"light" "200"
+"origin" "-704 64 112"
+}
+{
+"angle" "135"
+"classname" "info_player_deathmatch"
+"origin" "-248 -592 168"
+}
+{
+"origin" "592 -784 168"
+"classname" "info_player_deathmatch"
+"angle" "135"
+}
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "584 -88 24"
+}
+{
+"origin" "400 -400 24"
+"classname" "info_player_deathmatch"
+"angle" "135"
+}
+{
+"angle" "180"
+"classname" "info_player_deathmatch"
+"origin" "-24 400 24"
+}
+{
+"origin" "24 -24 24"
+"angle" "360"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "light"
+"_color" "1.000000 0.000000 0.000000"
+"light" "50"
+"origin" "-584 264 112"
+}
+{
+"classname" "environ_explosion"
+"targetname" "tek"
+"origin" "-192 -264 120"
+}

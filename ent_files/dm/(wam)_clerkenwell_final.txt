@@ -1,0 +1,889 @@
+{
+"sky" "ny"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-912 -84 -532"
+"classname" "info_player_start"
+}
+{
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"angle" "180"
+"volume" "4"
+"spawnflags" "5"
+"targetname" "cam1"
+"target" "camnull1"
+"origin" "668 -588 -196"
+"classname" "func_remote_camera"
+}
+{
+"model" "*1"
+"target" "cam1"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "camnull1"
+"origin" "-1252 -588 -260"
+"classname" "info_null"
+}
+{
+"spawnflags" "3"
+"angle" "90"
+"origin" "-240 -160 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "700 -588 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "270"
+"targetname" "cam2"
+"volume" "4"
+"target" "camnull2"
+"spawnflags" "5"
+"origin" "-1412 620 -200"
+"classname" "func_remote_camera"
+}
+{
+"model" "*2"
+"target" "cam2"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "camnull2"
+"origin" "-1424 -592 -268"
+"classname" "info_null"
+}
+{
+"spawnflags" "3"
+"angle" "90"
+"origin" "-316 -160 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"origin" "-1412 660 -200"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "191"
+"targetname" "cam3"
+"volume" "4"
+"target" "camnull3"
+"spawnflags" "5"
+"origin" "-724 660 -200"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull3"
+"origin" "-1240 564 -268"
+"classname" "info_null"
+}
+{
+"model" "*3"
+"target" "cam3"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "3"
+"angle" "90"
+"origin" "-400 -160 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "190"
+"spawnflags" "1"
+"origin" "-696 660 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "174"
+"targetname" "cam4"
+"volume" "4"
+"target" "camnull4"
+"spawnflags" "5"
+"origin" "164 264 -196"
+"classname" "func_remote_camera"
+}
+{
+"model" "*4"
+"target" "cam4"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "camnull4"
+"origin" "-368 316 -268"
+"classname" "info_null"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "-496 -160 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "175"
+"origin" "196 264 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "360"
+"targetname" "cam5"
+"volume" "4"
+"target" "camnull5"
+"spawnflags" "5"
+"origin" "-704 -64 -196"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull5"
+"origin" "324 -64 -272"
+"classname" "info_null"
+}
+{
+"model" "*5"
+"target" "cam5"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "-596 -160 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "360"
+"spawnflags" "1"
+"origin" "-736 -64 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "158"
+"targetname" "cam6"
+"volume" "4"
+"target" "camnull6"
+"spawnflags" "5"
+"origin" "-320 72 -196"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull6"
+"origin" "-792 260 -248"
+"classname" "info_null"
+}
+{
+"model" "*6"
+"target" "cam6"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "90"
+"spawnflags" "3"
+"origin" "-696 -160 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "158"
+"spawnflags" "1"
+"origin" "-296 64 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"targetname" "cam7"
+"volume" "4"
+"target" "camnull7"
+"spawnflags" "5"
+"angle" "270"
+"origin" "300 332 -196"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull7"
+"origin" "304 -68 -292"
+"classname" "info_null"
+}
+{
+"model" "*7"
+"target" "cam7"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "3"
+"angle" "90"
+"origin" "-796 -160 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"origin" "300 364 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "271"
+"targetname" "cam8"
+"volume" "4"
+"target" "camnull8"
+"spawnflags" "5"
+"origin" "648 -76 -196"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull8"
+"origin" "656 -572 -268"
+"classname" "info_null"
+}
+{
+"model" "*8"
+"target" "cam8"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"spawnflags" "3"
+"angle" "90"
+"origin" "-896 -160 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "271"
+"spawnflags" "1"
+"origin" "648 -48 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "32"
+"targetname" "cam9"
+"volume" "4"
+"target" "camnull9"
+"spawnflags" "5"
+"origin" "-1248 -312 -196"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull9"
+"origin" "-960 -132 -252"
+"classname" "info_null"
+}
+{
+"model" "*9"
+"target" "cam9"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-896 288 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "33"
+"spawnflags" "1"
+"origin" "-1260 -324 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "144"
+"targetname" "cam10"
+"volume" "4"
+"target" "camnull10"
+"spawnflags" "5"
+"origin" "-1544 -56 -232"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull10"
+"origin" "-1768 132 -324"
+"classname" "info_null"
+}
+{
+"model" "*10"
+"target" "cam10"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-788 288 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "144"
+"spawnflags" "1"
+"origin" "-1532 -68 -232"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "270"
+"targetname" "cam11"
+"volume" "4"
+"target" "camnull11"
+"spawnflags" "5"
+"origin" "-712 272 -196"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull11"
+"origin" "-712 -588 -260"
+"classname" "info_null"
+}
+{
+"model" "*11"
+"target" "cam11"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-692 288 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "270"
+"spawnflags" "1"
+"origin" "-712 300 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "54"
+"targetname" "cam12"
+"volume" "4"
+"target" "camnull12"
+"spawnflags" "5"
+"origin" "-644 -468 -196"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "cam12"
+"origin" "-480 -244 -276"
+"classname" "info_null"
+}
+{
+"model" "*12"
+"target" "cam12"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-600 288 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "54"
+"spawnflags" "1"
+"origin" "-652 -484 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "180"
+"targetname" "cam13"
+"volume" "4"
+"target" "camnull13"
+"spawnflags" "5"
+"origin" "-1016 48 -468"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull13"
+"origin" "-1664 48 -512"
+"classname" "info_null"
+}
+{
+"model" "*13"
+"target" "cam13"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-500 288 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "-992 48 -468"
+"classname" "misc_generic_security_camera"
+}
+{
+"targetname" "cam14"
+"angle" "180"
+"volume" "4"
+"target" "camnull14"
+"spawnflags" "5"
+"origin" "-240 48 -448"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull14"
+"origin" "-936 48 -520"
+"classname" "info_null"
+}
+{
+"model" "*14"
+"target" "cam14"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-408 288 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "180"
+"spawnflags" "1"
+"origin" "-216 48 -448"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "277"
+"targetname" "cam15"
+"volume" "4"
+"target" "camnull15"
+"spawnflags" "5"
+"origin" "-224 156 -196"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull15"
+"origin" "-156 -376 -272"
+"classname" "info_null"
+}
+{
+"model" "*15"
+"target" "cam15"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-320 288 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "277"
+"spawnflags" "1"
+"origin" "-224 184 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"angle" "275"
+"targetname" "cam16"
+"volume" "4"
+"target" "camnull16"
+"spawnflags" "5"
+"origin" "32 156 -196"
+"classname" "func_remote_camera"
+}
+{
+"targetname" "camnull16"
+"origin" "76 -400 -268"
+"classname" "info_null"
+}
+{
+"model" "*16"
+"target" "cam16"
+"spawnflags" "8"
+"classname" "trigger_multiple"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-236 288 -520"
+"classname" "misc_generic_comp_monitor"
+}
+{
+"angle" "274"
+"spawnflags" "1"
+"origin" "32 184 -196"
+"classname" "misc_generic_security_camera"
+}
+{
+"model" "*17"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "-240 -588 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "652 -308 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-720 -588 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "232 -588 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1204 -588 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1424 -376 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-544 500 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-576 176 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-792 464 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1072 -184 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1660 44 -224"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-524 -328 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-260 300 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "404 -200 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "36 296 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1208 340 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1216 616 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1576 48 -460"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1424 128 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "68 -204 -188"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1220 48 -460"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-1400 48 -460"
+"classname" "light_generic_lamp_hang"
+}
+{
+"origin" "-848 224 -452"
+"classname" "light_generic_shop"
+}
+{
+"origin" "-848 -84 -452"
+"classname" "light_generic_shop"
+}
+{
+"origin" "-848 72 -452"
+"classname" "light_generic_shop"
+}
+{
+"origin" "-660 228 -452"
+"classname" "light_generic_shop"
+}
+{
+"origin" "-292 224 -452"
+"classname" "light_generic_shop"
+}
+{
+"origin" "-468 228 -452"
+"classname" "light_generic_shop"
+}
+{
+"origin" "-292 -84 -452"
+"classname" "light_generic_shop"
+}
+{
+"origin" "-660 -84 -452"
+"classname" "light_generic_shop"
+}
+{
+"origin" "-468 -84 -452"
+"classname" "light_generic_shop"
+}
+{
+"origin" "-660 72 -452"
+"classname" "light_generic_shop"
+}
+{
+"model" "*18"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"origin" "296 184 -180"
+"classname" "light_generic_emergency_blue"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-1276 496 -324"
+"classname" "misc_generic_toilet"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "-1152 496 -324"
+"classname" "misc_generic_toilet"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "188 644 -324"
+"classname" "misc_generic_toilet"
+}
+{
+"angle" "270"
+"spawnflags" "3"
+"origin" "272 668 -312"
+"classname" "misc_generic_sink"
+}
+{
+"angle" "360"
+"spawnflags" "3"
+"origin" "-1320 396 -312"
+"classname" "misc_generic_sink"
+}
+{
+"angle" "90"
+"origin" "-164 -448 -316"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "225"
+"origin" "-792 100 -316"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "-908 220 -536"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "-36 652 -316"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "536 -392 -316"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-560 132 -552"
+"classname" "item_health_large"
+}
+{
+"origin" "-612 132 -552"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-676 132 -548"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-708 132 -548"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-744 132 -548"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-252 168 -548"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-248 100 -548"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-248 44 -548"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-244 -12 -548"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "-336 72 -552"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-992 48 -328"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-1136 48 -328"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-992 -420 -332"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-824 -284 -328"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-880 -284 -332"
+"classname" "item_health_large"
+}
+{
+"origin" "-892 -444 -328"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-892 -404 -328"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-892 -360 -328"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-16 -428 -328"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "144 -428 -332"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-92 656 -328"
+"classname" "item_health_small"
+}
+{
+"origin" "344 352 -328"
+"classname" "item_equip_armor"
+}
+{
+"origin" "292 352 -328"
+"classname" "item_health_large"
+}
+{
+"origin" "252 352 -324"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "252 312 -324"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "252 272 -324"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "252 232 -324"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "252 180 -324"
+"classname" "item_equip_c4"
+}
+{
+"origin" "252 136 -324"
+"classname" "item_equip_c4"
+}
+{
+"origin" "252 92 -324"
+"classname" "item_equip_c4"
+}
+{
+"origin" "252 48 -324"
+"classname" "item_equip_c4"
+}
+{
+"origin" "344 300 -328"
+"classname" "item_equip_light_goggles"
+}
+{
+"origin" "344 248 -328"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "90"
+"origin" "320 128 -332"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-636 424 -328"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-624 368 -328"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "168 92 -328"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "316 -432 -332"
+"classname" "item_weapon_machinepistol"
+}
+{
+"spawnflags" "7"
+"origin" "-412 -472 -328"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"spawnflags" "7"
+"origin" "-696 348 -328"
+"classname" "misc_generic_barrel_burning"
+}
+{
+"spawnflags" "7"
+"origin" "-400 660 -328"
+"classname" "misc_generic_barrel_burning"
+}

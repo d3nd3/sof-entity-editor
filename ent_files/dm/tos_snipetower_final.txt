@@ -1,0 +1,543 @@
+{
+"message" "made by >TOS<Sean for >TOS< Clan http://orderofskulls.com"
+"_sun_angle" "42-420"
+"_sun_light" "300"
+"distcull" "6000"
+"sky" "sib"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-1072 96 -872"
+"classname" "info_player_start"
+}
+{
+"origin" "0 0 0"
+"classname" "light"
+}
+{
+"origin" "544 -64 -1248"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-128 -960 -1248"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-544 256 -1248"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-32 352 -1248"
+"classname" "item_ammo_pistol"
+}
+{
+"model" "*1"
+"spawnflags" "0"
+"targetname" "rmtdoor1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"spawnflags" "8"
+"target" "rmtdoor1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*3"
+"spawnflags" "8"
+"delay" "20"
+"target" "rmtdoor1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"spawnflags" "0"
+"targetname" "rmtdoor2"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"spawnflags" "8"
+"delay" "10"
+"target" "rmtdoor2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-1216 192 -896"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-1216 128 -896"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "-896 -544 -224"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-800 224 -480"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-1056 544 -224"
+"classname" "item_health_large"
+}
+{
+"origin" "-832 224 -224"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-992 224 -1248"
+"classname" "item_equip_armor"
+}
+{
+"origin" "128 -160 576"
+"classname" "item_control_flag"
+}
+{
+"origin" "-896 -224 -896"
+"classname" "item_equip_light_goggles"
+}
+{
+"origin" "-1216 -96 -896"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-1056 0 -896"
+"classname" "item_equip_claymore"
+}
+{
+"origin" "-800 192 -480"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-832 192 -224"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-800 160 -480"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-832 160 -480"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-1216 -320 -480"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-736 -224 -480"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1376 480 160"
+"classname" "item_ammo_shotgun"
+}
+{
+"origin" "800 448 160"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "1408 0 -1248"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-704 928 -1248"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "928 736 -1248"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1376 -416 128"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "0 -1280 320"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "320 -1280 512"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-256 -1280 512"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "192 1248 320"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "160 1312 320"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "256 1312 192"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "288 1312 192"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "288 1280 192"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "256 1280 192"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "384 1280 192"
+"classname" "item_equip_armor"
+}
+{
+"origin" "0 1440 32"
+"classname" "item_health_large"
+}
+{
+"origin" "256 1088 32"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "928 544 64"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "1184 576 32"
+"classname" "item_health_small"
+}
+{
+"origin" "800 160 32"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1344 -160 32"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "800 -160 32"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-416 1088 32"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "32 -1440 288"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "-416 1440 32"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "-1152 -672 -224"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "-416 0 -1248"
+"classname" "item_weapon_flamethrower"
+}
+{
+"origin" "160 0 -224"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "160 0 288"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "-160 128 576"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "160 0 32"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-160 0 -480"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-192 0 288"
+"classname" "item_equip_armor"
+}
+{
+"origin" "160 0 -480"
+"classname" "item_equip_armor"
+}
+{
+"origin" "224 32 576"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-160 0 -224"
+"classname" "item_health_large"
+}
+{
+"origin" "192 32 576"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "160 32 576"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "224 0 576"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "192 0 576"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "160 0 576"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "0 -160 32"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "0 160 32"
+"classname" "item_ammo_slug"
+}
+{
+"origin" "-128 -160 576"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "1088 -384 -320"
+"classname" "light"
+}
+{
+"origin" "1088 -576 192"
+"classname" "light_generic_street_modern"
+}
+{
+"origin" "1088 576 192"
+"classname" "light_generic_street_modern"
+}
+{
+"origin" "1088 0 -64"
+"classname" "light"
+}
+{
+"origin" "0 0 320"
+"classname" "light"
+}
+{
+"origin" "0 0 -224"
+"classname" "light"
+}
+{
+"origin" "0 0 -576"
+"classname" "light"
+}
+{
+"origin" "-224 -1280 320"
+"classname" "light"
+}
+{
+"origin" "256 -1280 320"
+"classname" "light"
+}
+{
+"origin" "0 -1280 320"
+"classname" "light"
+}
+{
+"origin" "1088 0 544"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-992 0 -576"
+"classname" "light"
+}
+{
+"origin" "-1056 -96 -896"
+"classname" "item_weapon_autoshotgun"
+}
+{
+"origin" "-768 -160 -672"
+"classname" "item_weapon_flamethrower"
+}
+{
+"origin" "-928 160 -896"
+"classname" "item_health_large"
+}
+{
+"origin" "-928 128 -896"
+"classname" "item_health_large"
+}
+{
+"origin" "-1056 64 -896"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-1056 160 -896"
+"classname" "item_ammo_gas"
+}
+{
+"origin" "-1056 128 -896"
+"classname" "item_ammo_rocket"
+}
+{
+"origin" "-1056 96 -896"
+"classname" "item_ammo_slug"
+}
+{
+"origin" "-928 96 -896"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-928 64 -896"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-1088 -320 -544"
+"classname" "light"
+}
+{
+"origin" "-1088 -320 -768"
+"classname" "light"
+}
+{
+"origin" "-1152 0 -576"
+"classname" "light"
+}
+{
+"origin" "-832 0 -576"
+"classname" "light"
+}
+{
+"origin" "1088 -384 -512"
+"classname" "light"
+}
+{
+"origin" "1088 -384 -672"
+"classname" "light"
+}
+{
+"origin" "1088 -384 -832"
+"classname" "light"
+}
+{
+"origin" "1088 -384 -1024"
+"classname" "light"
+}
+{
+"origin" "1088 -384 -64"
+"classname" "light"
+}
+{
+"origin" "1088 -160 -64"
+"classname" "light"
+}
+{
+"origin" "1088 160 -64"
+"classname" "light"
+}
+{
+"origin" "1088 352 -64"
+"classname" "light"
+}
+{
+"origin" "0 1280 96"
+"classname" "light"
+}
+{
+"origin" "416 1280 -96"
+"classname" "light"
+}
+{
+"origin" "416 1280 -352"
+"classname" "light"
+}
+{
+"origin" "416 1280 -608"
+"classname" "light"
+}
+{
+"origin" "416 1280 -896"
+"classname" "light"
+}
+{
+"origin" "768 480 -384"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "128 160 576"
+"classname" "item_equip_light_goggles"
+}
+{
+"origin" "1408 -448 128"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1344 -416 128"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1408 -480 128"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1376 -512 128"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1344 -512 128"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1312 -448 128"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1312 -480 128"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-224 32 32"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-224 -32 32"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-192 32 32"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-192 -32 32"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-160 32 32"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-160 -32 32"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-1216 128 -864"
+"classname" "light"
+}
+{
+"origin" "-1216 -128 -864"
+"classname" "light"
+}
+{
+"origin" "-1216 0 -864"
+"classname" "light"
+}

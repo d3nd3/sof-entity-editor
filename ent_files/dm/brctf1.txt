@@ -1,0 +1,516 @@
+{
+"message" "BRCTF1 - 2009 - BY FABIO[ßR]"
+"classname" "worldspawn"
+"sky" "ugan"
+"startmusic" "1"
+"musicset" "dm4"
+}
+{
+"classname" "item_equip_armor"
+"origin" "531 -479 65"
+}
+{
+"origin" "944 0 24"
+"classname" "info_player_start"
+"angle" "180"
+}
+{
+"model" "*1"
+"dmg" "2"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-14 36 532"
+"targetname" "suntar"
+"classname" "info_null"
+}
+{
+"classname" "light_generic_lamp_hang"
+"origin" "-26 1665 149"
+"spawnflags" "16"
+}
+{
+"classname" "item_weapon_flamethrower"
+"origin" "-412 -1290 131"
+}
+{
+"classname" "item_weapon_microwavepulse"
+"origin" "-430 -440 281"
+}
+{
+"classname" "item_weapon_autoshotgun"
+"origin" "-503 -536 106"
+}
+{
+"classname" "item_weapon_rocketlauncher"
+"origin" "415 453 283"
+}
+{
+"origin" "263 -1554 37"
+"classname" "item_equip_flashpack"
+}
+{
+"angle" "270"
+"origin" "114 -1552 39"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-665 -915 69"
+"classname" "item_health_small"
+}
+{
+"count" "2"
+"origin" "-86 -344 75"
+"angle" "270"
+"classname" "item_equip_c4"
+}
+{
+"origin" "588 -564 31"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "659 947 69"
+"classname" "item_health_small"
+}
+{
+"origin" "-582 550 31"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "7 1556 37"
+"classname" "item_equip_flashpack"
+}
+{
+"angle" "90"
+"origin" "-106 1552 39"
+"classname" "item_equip_c4"
+}
+{
+"origin" "-13 -1596 64"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-428 -1016 272"
+"count" "2"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-608 -908 69"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-9 -1575 65"
+"classname" "item_equip_armor"
+}
+{
+"origin" "615 -973 28"
+"classname" "item_health_small"
+}
+{
+"origin" "743 -716 64"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "687 -730 67"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "-437 -536 97"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-535 -364 69"
+"classname" "item_health_large"
+}
+{
+"origin" "79 364 65"
+"classname" "item_equip_armor"
+}
+{
+"origin" "509 552 97"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "537 389 69"
+"classname" "item_health_large"
+}
+{
+"origin" "624 950 69"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-211 1560 64"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "435 1040 272"
+"count" "2"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "-597 1021 28"
+"classname" "item_health_small"
+}
+{
+"origin" "-194 1592 65"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-733 734 65"
+"classname" "item_equip_armor"
+}
+{
+"origin" "-681 734 67"
+"classname" "item_weapon_machinepistol"
+}
+{
+"origin" "643 -1569 393"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "115 -509 67"
+"classname" "item_weapon_machinegun"
+}
+{
+"origin" "-480 -737 130"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "116 -1453 30"
+"classname" "item_weapon_pistol2"
+}
+{
+"origin" "-254 -1380 67"
+"classname" "item_weapon_shotgun"
+}
+{
+"origin" "473 748 131"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"origin" "-125 531 67"
+"classname" "item_weapon_machinegun"
+}
+{
+"classname" "item_weapon_pistol2"
+"origin" "-78 1469 30"
+}
+{
+"classname" "item_weapon_sniper_rifle"
+"origin" "-662 1557 393"
+}
+{
+"classname" "item_weapon_shotgun"
+"origin" "258 1376 67"
+}
+{
+"classname" "item_ctf_flag"
+"count" "1"
+"angle" "270"
+"origin" "-110 1315 6"
+}
+{
+"classname" "misc_ctf_base"
+"count" "1"
+"origin" "-112 1312 30"
+}
+{
+"classname" "item_ctf_flag"
+"angle" "90"
+"count" "2"
+"origin" "113 -1312 6"
+}
+{
+"classname" "misc_ctf_base"
+"origin" "112 -1312 32"
+"count" "2"
+}
+{
+"angle" "270"
+"origin" "-352 1756 52"
+"classname" "info_player_team1"
+}
+{
+"health" "35"
+"classname" "environ_fire"
+"origin" "219 1175 46"
+}
+{
+"classname" "misc_castle_tree"
+"spawnflags" "3"
+"origin" "73 -899 44"
+"scale" "4"
+}
+{
+"angle" "270"
+"classname" "info_player_team1"
+"origin" "164 1756 52"
+}
+{
+"classname" "info_player_team2"
+"origin" "352 -1756 52"
+}
+{
+"angle" "90"
+"classname" "info_player_team2"
+"origin" "104 -1756 52"
+}
+{
+"origin" "-164 -1756 52"
+"classname" "info_player_team2"
+"angle" "90"
+}
+{
+"angle" "90"
+"classname" "info_player_team2"
+"origin" "-600 -1496 57"
+}
+{
+"origin" "-599 -1178 57"
+"classname" "info_player_team2"
+"angle" "90"
+}
+{
+"angle" "90"
+"classname" "info_player_team2"
+"origin" "682 -1074 52"
+}
+{
+"origin" "874 -1074 52"
+"classname" "info_player_team2"
+"angle" "90"
+}
+{
+"origin" "-256 -1444 88"
+"classname" "info_player_team2"
+"angle" "90"
+}
+{
+"origin" "-28 1752 52"
+"classname" "info_player_team1"
+"angle" "270"
+}
+{
+"origin" "256 1444 88"
+"classname" "info_player_team1"
+"angle" "270"
+}
+{
+"angle" "270"
+"classname" "info_player_team1"
+"origin" "607 1520 57"
+}
+{
+"origin" "799 1520 57"
+"classname" "info_player_team1"
+"angle" "270"
+}
+{
+"angle" "270"
+"classname" "info_player_team1"
+"origin" "607 1204 57"
+}
+{
+"angle" "270"
+"classname" "info_player_team1"
+"origin" "-676 1076 52"
+}
+{
+"origin" "-223 -1171 46"
+"classname" "environ_fire"
+"health" "35"
+}
+{
+"scale" "4"
+"origin" "-111 944 44"
+"spawnflags" "3"
+"classname" "misc_castle_tree"
+}
+{
+"classname" "item_health_small"
+"origin" "-597 965 28"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-195 1560 64"
+}
+{
+"origin" "-181 1560 64"
+"classname" "item_equip_grenade"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "607 950 69"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "723 -716 64"
+}
+{
+"classname" "item_health_small"
+"origin" "615 -1025 28"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-640 -908 69"
+}
+{
+"classname" "item_equip_grenade"
+"origin" "-13 -1612 64"
+}
+{
+"angle" "270"
+"origin" "-234 1510 52"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "46 1510 52"
+"angle" "270"
+}
+{
+"angle" "270"
+"origin" "-874 1070 52"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-682 670 52"
+"angle" "270"
+}
+{
+"angle" "270"
+"origin" "-43 554 57"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "229 558 57"
+"angle" "270"
+}
+{
+"angle" "270"
+"origin" "229 558 57"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "-347 -226 57"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "37 -354 57"
+"angle" "270"
+}
+{
+"angle" "270"
+"origin" "-467 -918 57"
+"classname" "info_player_deathmatch"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-31 -1506 52"
+"angle" "90"
+}
+{
+"angle" "90"
+"origin" "241 -1506 52"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"classname" "item_equip_c4"
+"origin" "-76 1552 39"
+}
+{
+"angle" "90"
+"origin" "-48 1552 39"
+"classname" "item_equip_c4"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "29 1556 37"
+}
+{
+"origin" "51 1556 37"
+"classname" "item_equip_flashpack"
+}
+{
+"angle" "270"
+"classname" "item_equip_c4"
+"origin" "150 -1552 39"
+}
+{
+"angle" "270"
+"origin" "182 -1552 39"
+"classname" "item_equip_c4"
+}
+{
+"classname" "item_equip_flashpack"
+"origin" "285 -1554 37"
+}
+{
+"origin" "307 -1554 37"
+"classname" "item_equip_flashpack"
+}
+{
+"spawnflags" "16"
+"origin" "710 1393 161"
+"classname" "light_generic_lamp_hang"
+}
+{
+"classname" "light_generic_lamp_hang"
+"origin" "-778 897 149"
+"spawnflags" "16"
+}
+{
+"spawnflags" "16"
+"origin" "110 455 161"
+"classname" "light_generic_lamp_hang"
+}
+{
+"classname" "light_generic_lamp_hang"
+"origin" "-98 -441 161"
+"spawnflags" "16"
+}
+{
+"spawnflags" "16"
+"origin" "-442 -433 161"
+"classname" "light_generic_lamp_hang"
+}
+{
+"classname" "light_generic_lamp_hang"
+"origin" "-698 -1345 161"
+"spawnflags" "16"
+}
+{
+"spawnflags" "16"
+"origin" "182 -1659 149"
+"classname" "light_generic_lamp_hang"
+}
+{
+"classname" "light_generic_lamp_hang"
+"origin" "774 -867 157"
+"spawnflags" "16"
+}
+{
+"spawnflags" "16"
+"origin" "-686 -1017 161"
+"classname" "light_generic_lamp_hang"
+}
+{
+"classname" "light_generic_lamp_hang"
+"origin" "438 439 161"
+"spawnflags" "16"
+}
+{
+"classname" "light_generic_lamp_hang"
+"origin" "682 1041 161"
+"spawnflags" "16"
+}
+{
+"model" "*2"
+"dmg" "2"
+"classname" "trigger_hurt"
+}

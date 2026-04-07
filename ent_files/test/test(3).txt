@@ -1,0 +1,204 @@
+{
+"ainame" "ger3"
+"light" "100"
+"classname" "worldspawn"
+}
+{
+"origin" "507 -700 8"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "488 -448 32"
+"classname" "info_player_start"
+}
+{
+"origin" "24 176 48"
+"angles" "10 180 10"
+"spawnflags" "134"
+"classname" "m_nyc_mskinhead1"
+}
+{
+"origin" "408 -400 32"
+"angle" "360"
+"classname" "info_player_deathmatch"
+"targetname" ""
+}
+{
+"targetname" ""
+"classname" "info_player_deathmatch"
+"angle" "360"
+"origin" "-304 -320 32"
+}
+{
+"classname" "m_nyc_mskinhead1"
+"spawnflags" "134"
+"angles" "30 180 -30"
+"origin" "-96 176 48"
+}
+{
+"Waitaction1" "CCH_TLOBGRENADE_N_A_N"
+"target" "t1004"
+"classname" "path_corner"
+"targetname" "t999"
+"origin" "920 -696 16"
+"Wait" "-1"
+"angle" "360"
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"angle" "360"
+"spawnflags" "852166"
+"origin" "880 -696 48"
+"classname" "m_cas_mraider2a"
+"target" "t999"
+"targetname" "mullins"
+}
+{
+"Waitaction1" "STD_EDROPGRENADE_N_A_N"
+"angle" "360"
+"Wait" "-1"
+"origin" "544 -696 16"
+"targetname" "t1000"
+"classname" "path_corner"
+"target" "t1000"
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"targetname" "t1001"
+"target" "t1000"
+"classname" "m_cas_mraider2a"
+"origin" "504 -696 48"
+"spawnflags" "852166"
+"angle" "360"
+}
+{
+"target" "t1002"
+"classname" "path_corner"
+"targetname" "t1002"
+"origin" "128 -696 16"
+"Wait" "-1"
+"angle" "360"
+"Waitaction1" "std_tgrenade_n_a_n"
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"angle" "360"
+"spawnflags" "852166"
+"origin" "88 -696 48"
+"classname" "m_cas_mraider2a"
+"target" "t1002"
+"targetname" "t1003"
+}
+{
+"Waitaction1" "std_tgrenade_n_a_n"
+"angle" "360"
+"Wait" "-1"
+"origin" "-312 -696 16"
+"targetname" "t1004v"
+"classname" "path_corner"
+"target" ""
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"targetname" "t1005"
+"target" "t1004v"
+"classname" "m_cas_mraider2a"
+"origin" "-352 -696 48"
+"spawnflags" "852166"
+"angle" "360"
+}
+{
+"target" ""
+"classname" "path_corner"
+"targetname" "t1006"
+"origin" "-432 -184 16"
+"Wait" "-1"
+"angle" "360"
+"Waitaction1" "STD_TRUN_N_A_N"
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"angle" "360"
+"spawnflags" "852166"
+"origin" "-472 -184 48"
+"classname" "m_cas_mraider2a"
+"target" "t1006"
+"targetname" "t1007"
+}
+{
+"count" "200"
+"classname" "item_equip_grenade"
+"origin" "83 -700 8"
+}
+{
+"origin" "-349 -700 8"
+"classname" "item_equip_grenade"
+"count" "200"
+}
+{
+"count" "200"
+"classname" "item_equip_grenade"
+"origin" "-469 -180 8"
+}
+{
+"spawnflags" "0"
+"Waitaction1" "std_tunder_n_a_n"
+"angle" "360"
+"Wait" "-1"
+"origin" "-424 208 16"
+"targetname" "t1008"
+"classname" "path_corner"
+"target" ""
+}
+{
+"targetname" "t1009"
+"target" "t1008"
+"classname" "m_cas_mraider2a"
+"origin" "-464 208 48"
+"spawnflags" "852166"
+"angle" "360"
+"alertradius" "1"
+}
+{
+"target" ""
+"classname" "path_corner"
+"targetname" "t1010"
+"origin" "-424 520 16"
+"Wait" "-1"
+"angle" "360"
+"Waitaction1" "STD_XCHOKE_N_N_N"
+"spawnflags" "0"
+}
+{
+"alertradius" "1"
+"angle" "360"
+"spawnflags" "852166"
+"origin" "-464 520 48"
+"classname" "m_cas_mraider2a"
+"target" "t1010"
+"targetname" "t1011"
+}
+{
+"model" "*1"
+"classname" "trigger_once"
+"target" "dsdsd"
+}
+{
+"spawnflags" "327872"
+"origin" "-152 456 48"
+"targetname" "primero"
+"angle" "100"
+"classname" "m_cas_mraider2a"
+"angles" "10 100 10"
+}
+{
+"origin" "-304 -344 112"
+"script" "test/granadas"
+"targetname" "dsdsd"
+"classname" "script_runner"
+}

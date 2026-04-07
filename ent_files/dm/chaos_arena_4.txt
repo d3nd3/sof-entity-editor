@@ -1,0 +1,152 @@
+{
+"sky" "ny"
+"classname" "worldspawn"
+}
+{
+"angle" "205"
+"origin" "172 212 -72"
+"classname" "info_player_start"
+}
+{
+"origin" "80 -20 -320"
+"classname" "info_player_deathmatch"
+}
+{
+"style" "4"
+"_light" "255 255 255 300"
+"origin" "0 0 -420"
+"classname" "light"
+}
+{
+"model" "*1"
+"targetname" "wall1"
+"lip" "0"
+"speed" "1"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"target" "wall1"
+"wait" "25"
+"random" "5"
+"delay" "2"
+"origin" "220 -74 -396"
+"classname" "func_timer"
+}
+{
+"model" "*2"
+"targetname" "wall2"
+"speed" "2"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"target" "wall2"
+"wait" "25"
+"random" "5"
+"delay" "2"
+"origin" "156 54 -460"
+"classname" "func_timer"
+}
+{
+"model" "*3"
+"targetname" "wall3"
+"lip" "0"
+"speed" "5"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"target" "wall3"
+"wait" "25"
+"random" "5"
+"delay" "2"
+"origin" "-228 54 -428"
+"classname" "func_timer"
+}
+{
+"model" "*4"
+"targetname" "wall4"
+"lip" "0"
+"speed" "6"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"target" "wall4"
+"wait" "25"
+"random" "5"
+"delay" "2"
+"origin" "-260 54 -476"
+"classname" "func_timer"
+}
+{
+"origin" "-288 -320 -320"
+"classname" "item_weapon_rocketlauncher"
+}
+{
+"origin" "320 320 -344"
+"classname" "item_weapon_shotgun"
+}
+{
+"count" "20"
+"origin" "0 320 -344"
+"classname" "item_equip_grenade"
+}
+{
+"model" "*5"
+"wait" "0"
+"targetname" "bal2"
+"speed" "60"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"target" "bal2"
+"wait" "10"
+"random" "0"
+"delay" "5"
+"origin" "-452 440 -432"
+"classname" "func_timer"
+}
+{
+"model" "*6"
+"wait" "0"
+"targetname" "lift1"
+"speed" "60"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"target" "lift1"
+"wait" "9"
+"delay" "5"
+"origin" "284 -458 -492"
+"classname" "func_timer"
+}
+{
+"model" "*7"
+"classname" "trigger_conquer"
+}
+{
+"model" "*8"
+"targetname" "base"
+"lip" "-150"
+"speed" "10"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"spawnflags" "1"
+"target" "base"
+"wait" "20"
+"delay" "2"
+"origin" "-68 -106 -428"
+"classname" "func_timer"
+}

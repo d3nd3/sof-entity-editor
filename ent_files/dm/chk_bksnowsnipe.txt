@@ -1,0 +1,154 @@
+{
+"_sun_ambient" " 50"
+"_sun_diffuse" "20"
+"_sun_color" "111"
+"_sun_angle" "315-45"
+"_sun_light" "800"
+"sky" "ny"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"target" "frosty"
+"health" "10"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*2"
+"target" "frosty2"
+"health" "10"
+"angle" "360"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"count" "50"
+"health" "300"
+"mass" "2"
+"message" "frostys a killer"
+"surfaceType" ""
+"targetname" "frosty2"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"targetname" "frosty2"
+"health" "400"
+"origin" "-1856 -160 -512"
+"classname" "environ_explosion"
+}
+{
+"model" "*4"
+"mass" "2"
+"count" "50"
+"health" "300"
+"message" "frostys a killer"
+"surfaceType" ""
+"targetname" "frosty"
+"spawnflags" "2"
+"classname" "func_breakable_brush"
+}
+{
+"angle" "131"
+"spawnflags" "6"
+"origin" "1472 224 -498"
+"classname" "misc_siberia_snowcat"
+}
+{
+"angle" "71"
+"spawnflags" "6"
+"origin" "810 42 -498"
+"classname" "misc_siberia_snowcat"
+}
+{
+"angle" "279"
+"spawnflags" "6"
+"origin" "-822 10 -498"
+"classname" "misc_siberia_snowcat"
+}
+{
+"angle" "316"
+"spawnflags" "7"
+"origin" "-1568 -192 -498"
+"classname" "misc_siberia_snowcat"
+}
+{
+"origin" "-1600 -64 -512"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "1440 64 -512"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-768 224 -512"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-1504 -64 -504"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1504 96 -508"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "38 1142 -554"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-384 -1056 -566"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-128 -1056 -544"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-224 -1056 -568"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"origin" "-320 -1056 -566"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "192 1120 -566"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "256 1120 -566"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1376 96 -534"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "1376 64 -534"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-1536 -32 -534"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "-1440 -64 -534"
+"classname" "item_ammo_auto"
+}
+{
+"origin" "128 1120 -576"
+"classname" "item_weapon_sniper_rifle"
+}
+{
+"angle" "270"
+"origin" "880 1216 -520"
+"classname" "info_player_start"
+}
+{
+"targetname" "frosty"
+"health" "400"
+"origin" "1760 256 -512"
+"classname" "environ_explosion"
+}

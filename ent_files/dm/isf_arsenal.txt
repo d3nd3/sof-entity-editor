@@ -1,0 +1,325 @@
+{
+"message" "Map By : ISFInsane"
+"sky" "train"
+"_sun_light" "800"
+"classname" "worldspawn"
+}
+{
+"angle" "90"
+"origin" "1536 992 288"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "928 1600 288"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "1536 2216 288"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "2144 1600 288"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "2144 1600 32"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "360"
+"origin" "928 1600 32"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "1536 992 32"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "1536 2216 32"
+"angle" "270"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "315"
+"origin" "944 2192 280"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "45"
+"origin" "944 1008 280"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "135"
+"origin" "2128 1008 280"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "45"
+"origin" "2128 2192 280"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "259 2812 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "323 329 657"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1235 2065 9"
+"classname" "item_equip_armor"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"targetname" "t4"
+"script" "isf/arsenal/tp4"
+"origin" "2400 752 408"
+"classname" "script_runner"
+}
+{
+"model" "*1"
+"target" "t4"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t3"
+"script" "ISF/Arsenal/TP3"
+"origin" "2400 2464 392"
+"classname" "script_runner"
+}
+{
+"model" "*2"
+"target" "t3"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "t2"
+"script" "ISF/Arsenal/TP2"
+"origin" "688 2464 408"
+"classname" "script_runner"
+}
+{
+"model" "*3"
+"target" "t2"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"target" "t1"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "688 752 408"
+"targetname" "t1"
+"script" "ISF/Arsenal/TP1"
+"classname" "script_runner"
+}
+{
+"origin" "944 1040 448"
+"classname" "info_player_start"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"classname" "func_group"
+}
+{
+"origin" "1059 1897 9"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1059 1305 9"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1235 1161 9"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1835 1161 9"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1995 1297 9"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1995 1897 9"
+"classname" "item_equip_armor"
+}
+{
+"origin" "1835 2057 9"
+"classname" "item_equip_armor"
+}
+{
+"origin" "2803 313 657"
+"classname" "item_equip_armor"
+}
+{
+"origin" "2827 2769 657"
+"classname" "item_equip_armor"
+}
+{
+"origin" "155 3017 657"
+"classname" "item_equip_armor"
+}
+{
+"origin" "275 2812 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "291 2812 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "307 2812 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "315 1933 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "315 1917 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "315 1901 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "315 1885 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "315 837 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "315 821 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "315 805 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "315 789 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "596 253 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "580 253 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "564 253 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "548 253 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1532 389 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1516 389 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1500 389 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "1484 389 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2644 301 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2628 301 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2612 301 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2596 301 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2748 1036 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2748 1052 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2748 1068 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2748 1084 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2884 2156 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2884 2172 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2884 2188 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2884 2204 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2379 2820 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2395 2820 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2411 2820 656"
+"classname" "item_equip_grenade"
+}
+{
+"origin" "2427 2820 656"
+"classname" "item_equip_grenade"
+}
