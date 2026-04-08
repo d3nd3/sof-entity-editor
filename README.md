@@ -28,3 +28,29 @@ npm run build
 ```
 
 Static files are written to `dist/`.
+
+## Deploy: what/where/how
+
+This project is a **frontend-first Vite app**. `npm run build` outputs static files in `dist/` (`index.html`, JS, CSS), so you can deploy to any static host:
+
+- GitHub Pages
+- Netlify
+- Vercel (static)
+- Cloudflare Pages
+- Any Nginx/Apache/static file server
+
+Typical deploy flow:
+
+```bash
+npm install
+npm run build
+```
+
+Then upload/publish the `dist/` folder to your host.
+
+### Does it require a backend?
+
+- **For basic viewer/editor use:** no backend is required (static hosting is enough).
+- **For live profile file writes to disk (`entity-profiles/...`):** yes, that behavior is **dev-only** and uses the Vite dev server middleware endpoint (`/api/save-entity-profile` / `/api/load-entity-profile`).
+  - This works when running `npm run dev` locally.
+  - In a static deployment, those dev-only endpoints do not exist.
