@@ -7,55 +7,463 @@
   </head>
   <body>
     <div id="app">
-      <aside class="sidebar">
-        <h1>SoF Entity Editor</h1>
-        <p class="hint">BSP v46 — load a <code>.bsp</code> (optional <code>.txt</code> entities).</p>
-        <div class="sof1maps">
-          <h2 class="subh">sof1maps (GitHub)</h2>
-          <p class="hint small">Zip path under <a href="https://github.com/plowsof/sof1maps" target="_blank" rel="noopener">plowsof/sof1maps</a> (e.g. <code>doom2sof</code> or <code>dm/doom2sof.zip</code>).</p>
-          <div class="row">
-            <label>Folder</label>
-            <select id="sof1maps-folder" aria-label="Map folder"></select>
-          </div>
-          <div class="row">
-            <label for="sof1maps-map">Map</label>
-            <input id="sof1maps-map" type="text" spellcheck="false" placeholder="doom2sof" title="Short name or full path like dm/foo.zip" />
-          </div>
-          <button id="sof1maps-fetch" type="button" class="btn primary">Download &amp; load</button>
-          <label class="inline"><input type="checkbox" id="sof1maps-autoload" checked /> Load default map on open</label>
+      <aside class="sidebar" aria-label="Editor sidebar">
+        <div class="sidebar-brand">
+          <h1 class="sidebar-title">SoF Entity Editor</h1>
+          <p class="hint sidebar-tagline">BSP v46 — <code>.bsp</code> on Map; entity <code>.txt</code> / clipboard / BSP lump on Entities.</p>
         </div>
-        <label class="btn"
-          >Open BSP
-          <input id="bsp-input" type="file" accept=".bsp" hidden />
-        </label>
-        <label class="btn secondary"
-          >Open entities .txt
-          <input id="ent-input" type="file" accept=".txt" hidden />
-        </label>
-        <button id="ent-clipboard" type="button" class="btn secondary">Use clipboard entities</button>
-        <button id="ent-internal" type="button" class="btn secondary">Use internal entities</button>
-        <button id="export-btn" type="button" class="btn primary">Export entities</button>
-        <p id="status" class="status"></p>
-        <h2 class="subh">Add entity</h2>
-        <p class="hint small">Classnames from <code>entities.txt</code> (type to filter).</p>
-        <input id="insert-class" class="insert-class" list="entity-classnames" type="text" spellcheck="false" placeholder="info_player_deathmatch" autocomplete="off" />
-        <datalist id="entity-classnames"></datalist>
-        <button id="insert-btn" type="button" class="btn secondary">Insert at view center</button>
-        <h2>Entities</h2>
-        <ul id="entity-list" class="entity-list"></ul>
+        <nav class="sidebar-tabs" role="tablist" aria-label="Sidebar pages">
+          <button
+            type="button"
+            class="sidebar-tab is-active"
+            role="tab"
+            id="sidebar-tab-map"
+            aria-selected="true"
+            aria-controls="sidebar-panel-map"
+            data-panel="map"
+            title="Load maps from sof1maps, manage playlists, open BSP and entity files"
+          >
+            Map
+          </button>
+          <button
+            type="button"
+            class="sidebar-tab"
+            role="tab"
+            id="sidebar-tab-entities"
+            aria-selected="false"
+            aria-controls="sidebar-panel-entities"
+            data-panel="entities"
+            tabindex="-1"
+            title="Export and add entities (QuArK toolbox, insert at view)"
+          >
+            Entities
+          </button>
+          <button
+            type="button"
+            class="sidebar-tab"
+            role="tab"
+            id="sidebar-tab-live"
+            aria-selected="false"
+            aria-controls="sidebar-panel-live"
+            data-panel="live"
+            tabindex="-1"
+            title="Entities currently in the map — one list, single scroll"
+          >
+            Live
+          </button>
+          <button
+            type="button"
+            class="sidebar-tab"
+            role="tab"
+            id="sidebar-tab-profiles"
+            aria-selected="false"
+            aria-controls="sidebar-panel-profiles"
+            data-panel="profiles"
+            tabindex="-1"
+            title="Choose a profile folder for per-map entity files (entity-profiles/…) and exports"
+          >
+            Profiles
+          </button>
+        </nav>
+        <div class="sidebar-body">
+          <section
+            id="sidebar-panel-map"
+            class="sidebar-panel"
+            role="tabpanel"
+            aria-labelledby="sidebar-tab-map"
+          >
+            <div class="sof1maps panel-section">
+              <h2 class="subh">sof1maps (GitHub)</h2>
+              <p class="hint small">
+                Zip path under
+                <a href="https://github.com/plowsof/sof1maps" target="_blank" rel="noopener">plowsof/sof1maps</a>
+                (e.g. <code>doom2sof</code> or <code>dm/doom2sof.zip</code>).
+              </p>
+              <div class="row">
+                <label>Folder</label>
+                <select id="sof1maps-folder" aria-label="Map folder" title="Category folder on plowsof/sof1maps (dm, exp, …)"></select>
+              </div>
+              <div class="row">
+                <label for="sof1maps-map">Map</label>
+                <input
+                  id="sof1maps-map"
+                  type="text"
+                  spellcheck="false"
+                  placeholder="doom2sof"
+                  title="Short name or full path like dm/foo.zip"
+                />
+              </div>
+              <button
+                id="sof1maps-fetch"
+                type="button"
+                class="btn primary"
+                title="Download the selected map zip from GitHub and load its BSP into the viewer"
+              >
+                Download &amp; load
+              </button>
+              <label
+                class="inline"
+                title="When checked, loads the last sof1maps zip you opened (saved in this browser), or folder+map below if none saved yet"
+              >
+                <input type="checkbox" id="sof1maps-autoload" checked /> Load map on open
+              </label>
+              <div class="row map-recent-row">
+                <label for="map-recent-select">Recent</label>
+                <select
+                  id="map-recent-select"
+                  class="map-recent-select"
+                  aria-label="Recently opened sof1maps maps"
+                  title="Last 10 unique zip paths — pick one to load"
+                ></select>
+              </div>
+            </div>
+            <div class="map-playlists panel-section">
+              <h2 class="subh">Map lists</h2>
+              <p class="hint small">Browser-stored playlists of <code>sof1maps</code> zip paths — prev/next like a playlist.</p>
+              <div class="row">
+                <label for="map-pl-select">List</label>
+                <select
+                  id="map-pl-select"
+                  aria-label="Active map list"
+                  title="Which saved playlist of sof1maps zip paths is active"
+                ></select>
+              </div>
+              <input
+                id="map-pl-new-name"
+                class="map-pl-input"
+                type="text"
+                spellcheck="false"
+                placeholder="Name for new list…"
+                title="Label for the playlist you are about to create"
+              />
+              <button
+                id="map-pl-new-btn"
+                type="button"
+                class="btn secondary"
+                title="Create a new empty map list and select it"
+              >
+                New list
+              </button>
+              <div class="map-pl-nav">
+                <button id="map-pl-prev" type="button" class="btn secondary" title="Previous map in list">◀ Prev</button>
+                <span id="map-pl-pos" class="map-pl-pos" aria-live="polite">—</span>
+                <button id="map-pl-next" type="button" class="btn secondary" title="Next map in list">Next ▶</button>
+              </div>
+              <button
+                id="map-pl-add"
+                type="button"
+                class="btn secondary"
+                title="Append the current sof1maps zip path (last loaded or from folder + map) to this list"
+              >
+                Add current map
+              </button>
+              <button
+                id="map-pl-del"
+                type="button"
+                class="btn secondary map-pl-del"
+                title="Delete the selected playlist from browser storage"
+              >
+                Delete list
+              </button>
+              <ul id="map-pl-entries" class="map-pl-entries" aria-label="Maps in list"></ul>
+            </div>
+            <div class="panel-section panel-section--files">
+              <h2 class="subh">Files</h2>
+              <label class="btn" title="Load a Soldier of Fortune BSP file from disk into the viewer"
+                >Open BSP
+                <input id="bsp-input" type="file" accept=".bsp" hidden />
+              </label>
+            </div>
+          </section>
+          <section
+            id="sidebar-panel-entities"
+            class="sidebar-panel"
+            role="tabpanel"
+            aria-labelledby="sidebar-tab-entities"
+            hidden
+          >
+            <div class="panel-section panel-section--ent-load">
+              <h2 class="subh">Load entities</h2>
+              <p class="hint small">
+                Replace the current entity set in the editor — same <code>{ … }</code> format as export. Also available via drag-and-drop on the view.
+              </p>
+              <label class="btn secondary" title="Load Quake-style entity text ({ … } blocks) from a .txt file"
+                >Open entities .txt
+                <input id="ent-input" type="file" accept=".txt" hidden />
+              </label>
+              <button
+                id="ent-clipboard"
+                type="button"
+                class="btn secondary"
+                title="Replace map entities from text pasted from the clipboard"
+              >
+                Use clipboard entities
+              </button>
+              <button
+                id="ent-internal"
+                type="button"
+                class="btn secondary"
+                title="Reload entities from the BSP entity string already loaded in memory"
+              >
+                Use internal entities
+              </button>
+            </div>
+            <div class="panel-section">
+              <h2 class="subh">Export</h2>
+              <p id="entities-export-hint" class="hint small" aria-live="polite"></p>
+              <button
+                id="export-btn"
+                type="button"
+                class="btn primary"
+                title="Download edited entities as .txt, or with a profile as a zip (profile/map path.txt)"
+              >
+                Export entities
+              </button>
+            </div>
+            <div class="panel-section panel-section--add">
+              <h2 class="subh">Add entity</h2>
+              <p class="hint small">Classnames from <code>SOFEntities.qrk</code> — groups match QuArK toolbox; type to filter.</p>
+              <div id="entity-class-groups" class="entity-class-groups"></div>
+              <input
+                id="insert-class"
+                class="insert-class"
+                list="entity-classnames"
+                type="text"
+                spellcheck="false"
+                placeholder="info_player_deathmatch"
+                autocomplete="off"
+                title="Classname for the next insert; use the list or toolbox below to pick one"
+              />
+              <datalist id="entity-classnames"></datalist>
+              <label class="insert-mimic-height">
+                <input id="insert-mimic-height" type="checkbox" />
+                <span>Mimic height (Z) of last selected entity</span>
+              </label>
+              <label class="insert-spawn-relative">
+                <input id="insert-spawn-relative" type="checkbox" />
+                <span>Chain flat offset from last spawn (game X/Y)</span>
+              </label>
+              <div class="insert-offset-row">
+                <label class="insert-offset-label"
+                  >ΔX
+                  <input
+                    id="insert-offset-dx"
+                    class="insert-offset-num"
+                    type="number"
+                    step="any"
+                    value="0"
+                    title="Signed Quake units on X (east/west)"
+                  />
+                </label>
+                <label class="insert-offset-label"
+                  >ΔY
+                  <input
+                    id="insert-offset-dy"
+                    class="insert-offset-num"
+                    type="number"
+                    step="any"
+                    value="0"
+                    title="Signed Quake units on Y (north/south)"
+                  />
+                </label>
+              </div>
+              <div class="insert-offset-steps">
+                <span class="insert-offset-stride-lbl">Stride</span>
+                <input
+                  id="insert-offset-stride"
+                  class="insert-offset-stride"
+                  type="number"
+                  min="1"
+                  step="1"
+                  value="64"
+                  title="Step size for the ±X / ±Y buttons"
+                />
+                <button type="button" id="insert-step-nx" class="btn secondary insert-step-btn" title="ΔX − stride">
+                  −X
+                </button>
+                <button type="button" id="insert-step-px" class="btn secondary insert-step-btn" title="ΔX + stride">
+                  +X
+                </button>
+                <button type="button" id="insert-step-ny" class="btn secondary insert-step-btn" title="ΔY − stride">
+                  −Y
+                </button>
+                <button type="button" id="insert-step-py" class="btn secondary insert-step-btn" title="ΔY + stride">
+                  +Y
+                </button>
+              </div>
+              <p class="hint small">
+                When chaining is on, the new origin is <strong>last spawn</strong> + ΔX/ΔY on the floor; Z stays last spawn’s
+                height unless “Mimic height” overrides. First insert uses the camera; then offsets apply.
+              </p>
+              <div class="insert-entity-actions">
+                <button
+                  id="insert-btn-camera"
+                  type="button"
+                  class="btn secondary"
+                  title="Create an entity ~96 units in front of the camera along your view"
+                >
+                  Insert in front of camera
+                </button>
+                <button
+                  id="insert-btn"
+                  type="button"
+                  class="btn secondary"
+                  title="Create an entity 320 units forward along your view (farther ahead)"
+                >
+                  Insert ahead (320u)
+                </button>
+              </div>
+            </div>
+          </section>
+          <section
+            id="sidebar-panel-live"
+            class="sidebar-panel sidebar-panel--live"
+            role="tabpanel"
+            aria-labelledby="sidebar-tab-live"
+            hidden
+          >
+            <div class="panel-section panel-section--live-list">
+              <div class="live-list-head">
+                <h2 class="subh">Map entities</h2>
+                <button
+                  id="entity-list-sort"
+                  type="button"
+                  class="btn secondary btn-compact"
+                  title="Toggle list order: map file order vs alphabetical by classname"
+                >
+                  Order: map
+                </button>
+              </div>
+              <p class="hint small">In the loaded map — click a row or pick from the 3D view. QRK description shows in the overlay when selected.</p>
+              <ul id="entity-list" class="entity-list"></ul>
+            </div>
+          </section>
+          <section
+            id="sidebar-panel-profiles"
+            class="sidebar-panel"
+            role="tabpanel"
+            aria-labelledby="sidebar-tab-profiles"
+            hidden
+          >
+            <div class="ent-profiles">
+              <h2 class="subh">Current profile</h2>
+              <p class="hint small">
+                Names a folder tier only. For the loaded map (e.g. sof1maps <code>dm/iraq_small.zip</code>), entity text is
+                <code>&lt;profile&gt;/dm/iraq_small.txt</code> — same Quake <code>{ … }</code> format as import. Switching profile loads another file for that map if it exists under
+                <code>entity-profiles/</code> in the repo.
+              </p>
+              <div class="row">
+                <label for="ent-profile-current">Profile</label>
+                <select
+                  id="ent-profile-current"
+                  aria-label="Current entity profile"
+                  title="Profile folder name: bundled entity-profiles/&lt;profile&gt;/… and export zip layout"
+                ></select>
+              </div>
+              <input
+                id="ent-profile-custom-slug"
+                class="map-pl-input"
+                type="text"
+                spellcheck="false"
+                placeholder="New profile name…"
+                title="Type a profile name, then click Use as current"
+              />
+              <button
+                id="ent-profile-set-custom"
+                type="button"
+                class="btn secondary"
+                title="Make the typed name the current profile (saved in this browser)"
+              >
+                Use as current
+              </button>
+              <button
+                id="ent-profile-clear"
+                type="button"
+                class="btn secondary"
+                title="Clear current profile: exports become a single flat .txt again"
+              >
+                Clear
+              </button>
+              <p id="ent-profile-path-hint" class="hint small ent-profile-path-hint" aria-live="polite"></p>
+              <details class="ent-profile-bundled-wrap">
+                <summary title="Expand to see entity .txt files shipped under entity-profiles/ in this build">
+                  Files in repo <span id="ent-profile-bundled-count" class="ent-profile-bundled-count">0</span>
+                </summary>
+                <ul id="ent-profile-bundled-list" class="ent-profile-bundled-list"></ul>
+              </details>
+            </div>
+          </section>
+        </div>
+        <footer class="sidebar-footer">
+          <p id="status" class="status" role="status"></p>
+        </footer>
       </aside>
-      <div id="drop-zone" class="viewport-wrap" tabindex="0">
+      <div
+        id="drop-zone"
+        class="viewport-wrap"
+        tabindex="0"
+        title="3D view: drag in a .bsp or .txt; click entity markers or use the list to select"
+      >
         <div id="viewport"></div>
         <div id="entity-inspector" class="entity-inspector is-hidden" aria-hidden="true">
           <h2 class="entity-inspector-title">Entity</h2>
           <p id="entity-inspector-summary" class="entity-inspector-meta"></p>
-          <button id="entity-goto" type="button" class="btn-inspector-goto" title="Move camera to this entity origin">
-            Goto
-          </button>
+          <div id="entity-inspector-desc" class="entity-inspector-desc" aria-live="polite"></div>
+          <datalist id="entity-fieldnames"></datalist>
+          <div class="entity-inspector-actions">
+            <button id="entity-goto" type="button" class="btn-inspector-goto" title="Move camera to this entity origin">Goto</button>
+            <button
+              id="entity-clone"
+              type="button"
+              class="btn-inspector-goto"
+              title="Duplicate at the same origin (Ctrl+Shift+D)"
+            >
+              Duplicate
+            </button>
+            <button
+              id="entity-delete"
+              type="button"
+              class="btn-inspector-goto btn-inspector-danger"
+              title="Remove this entity from the map (Delete)"
+            >
+              Remove
+            </button>
+          </div>
           <div id="entity-fields" class="entity-fields"></div>
-          <button id="entity-add-field" type="button" class="btn-inspector-add">+ field</button>
+          <button
+            id="entity-add-field"
+            type="button"
+            class="btn-inspector-add"
+            title="Add another key/value field to the selected entity"
+          >
+            + field
+          </button>
         </div>
-        <div id="camera-pos-hud" class="camera-pos-hud" aria-live="polite"></div>
+        <div class="viewport-hud-stack">
+          <div class="viewport-history-hud" role="group" aria-label="Entity edit history">
+            <button
+              id="undo-btn"
+              type="button"
+              class="btn-history"
+              title="Undo entity edits (Ctrl+Z)"
+              aria-label="Undo"
+              disabled
+            >
+              ←
+            </button>
+            <button
+              id="redo-btn"
+              type="button"
+              class="btn-history"
+              title="Redo (Ctrl+Shift+Z)"
+              aria-label="Redo"
+              disabled
+            >
+              →
+            </button>
+          </div>
+          <div id="camera-pos-hud" class="camera-pos-hud" aria-live="polite"></div>
+        </div>
         <div id="view-hint" class="view-hint" aria-hidden="true"></div>
       </div>
     </div>
