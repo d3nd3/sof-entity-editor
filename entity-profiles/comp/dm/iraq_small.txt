@@ -61,21 +61,21 @@
 "spawnflags" "3"
 "angle" "0"
 "skin" "1"
-"origin" "479 956 68"
+"origin" "462 956 68"
 "classname" "misc_bosnia_truck_old"
 }
 {
 "spawnflags" "3"
 "angle" "0"
 "skin" "1"
-"origin" "479 956 146"
+"origin" "462 956 146"
 "classname" "misc_bosnia_truck_old"
 }
 {
 "spawnflags" "3"
 "angle" "90"
 "skin" "2"
-"origin" "78 852 84"
+"origin" "78 947 84"
 "classname" "misc_generic_train"
 "scale" "1.0"
 }
@@ -83,7 +83,7 @@
 "spawnflags" "3"
 "angle" "90"
 "skin" "2"
-"origin" "78 852 200"
+"origin" "78 947 200"
 "classname" "misc_generic_train"
 "scale" "1.05"
 }
@@ -162,11 +162,6 @@
 }
 {
 "count" "25"
-"origin" "316 188 -92"
-"classname" "item_health_small"
-}
-{
-"count" "25"
 "origin" "404 -172 -28"
 "classname" "item_health_small"
 }
@@ -183,12 +178,6 @@
 {
 "count" "25"
 "origin" "-64 2528 -92"
-"classname" "item_health_small"
-}
-{
-"count" "25"
-"origin" "-68 2050 -92"
-"angle" "90"
 "classname" "item_health_small"
 }
 {
@@ -475,6 +464,7 @@
 "classname" "misc_generic_bookshelf"
 "origin" "482 520 -54"
 "spawnflags" "3"
+"angle" "180"
 }
 {
 "classname" "item_equip_armor"
