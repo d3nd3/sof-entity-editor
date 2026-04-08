@@ -12,7 +12,7 @@ import {
   serializeEntityString,
   setPair,
 } from "./entities";
-import { faceIndexForYawDegrees, quakeToThree, threeToQuake } from "./coords";
+import { quakeToThree, threeToQuake } from "./coords";
 import { PLAYER_SPAWN_HULL_QUAKE, quakeAabbToThreeBox } from "./playerHull";
 import {
   buildSpawnflagsEditor,
@@ -288,18 +288,21 @@ function setMarkerEmissive(root: THREE.Object3D, hex: number) {
 
 function makeBoxMaterials(
   base: THREE.Color,
-  yawDeg: number | null,
   transp?: { transparent: boolean; opacity: number; depthWrite: boolean },
-): THREE.MeshLambertMaterial | THREE.MeshLambertMaterial[] {
-  if (yawDeg === null) {
-    return new THREE.MeshLambertMaterial(
-      transp ? { color: base, ...transp } : { color: base },
-    );
-  }
-  const fi = faceIndexForYawDegrees(yawDeg);
+): THREE.MeshLambertMaterial {
+  return new THREE.MeshLambertMaterial(
+    transp ? { color: base, ...transp } : { color: base },
+  );
+}
+
+/** After `rotation.y = yaw`, local +X is world-forward — highlight BoxGeometry face 0 only (not `faceIndexForYawDegrees`, which would double-apply yaw). */
+function makeBoxMaterialsLocalForwardFace(
+  base: THREE.Color,
+  transp?: { transparent: boolean; opacity: number; depthWrite: boolean },
+): THREE.MeshLambertMaterial[] {
   const mats: THREE.MeshLambertMaterial[] = [];
   for (let i = 0; i < 6; i++) {
-    const col = i === fi ? new THREE.Color(ANGLE_FACE_COLOR) : base.clone();
+    const col = i === 0 ? new THREE.Color(ANGLE_FACE_COLOR) : base.clone();
     mats.push(
       new THREE.MeshLambertMaterial(
         transp ? { color: col, ...transp } : { color: col },
@@ -332,7 +335,7 @@ function makeMarker(classname: string, yawDeg: number | null): THREE.Object3D {
     const center = new THREE.Vector3();
     quakeAabbToThreeBox(PLAYER_SPAWN_HULL_QUAKE.mins, PLAYER_SPAWN_HULL_QUAKE.maxs, size, center);
     const transp = { transparent: true, opacity: 0.4, depthWrite: false };
-    const mat = makeBoxMaterials(c, yawDeg, transp);
+    const mat = yawDeg === null ? makeBoxMaterials(c, transp) : makeBoxMaterialsLocalForwardFace(c, transp);
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(size.x, size.y, size.z), mat);
     mesh.position.copy(center);
     const g = new THREE.Group();
@@ -345,7 +348,7 @@ function makeMarker(classname: string, yawDeg: number | null): THREE.Object3D {
     const size = new THREE.Vector3();
     const center = new THREE.Vector3();
     quakeAabbToThreeBox(meta.bboxQuake.mins, meta.bboxQuake.maxs, size, center);
-    const mat = makeBoxMaterials(c, yawDeg);
+    const mat = yawDeg === null ? makeBoxMaterials(c) : makeBoxMaterialsLocalForwardFace(c);
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(size.x, size.y, size.z), mat);
     mesh.position.copy(center);
     const g = new THREE.Group();
@@ -354,7 +357,7 @@ function makeMarker(classname: string, yawDeg: number | null): THREE.Object3D {
     if (yawDeg !== null) g.rotation.y = (yawDeg * Math.PI) / 180;
     return g;
   }
-  const mat = makeBoxMaterials(c, yawDeg);
+  const mat = yawDeg === null ? makeBoxMaterials(c) : makeBoxMaterialsLocalForwardFace(c);
   const m = new THREE.Mesh(new THREE.BoxGeometry(12, 12, 12), mat);
   m.userData.classname = classname;
   if (yawDeg !== null) m.rotation.y = (yawDeg * Math.PI) / 180;
