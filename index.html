@@ -119,7 +119,9 @@
             </div>
             <div class="map-playlists panel-section">
               <h2 class="subh">Map lists</h2>
-              <p class="hint small">Browser-stored playlists of <code>sof1maps</code> zip paths — prev/next like a playlist.</p>
+              <p class="hint small">
+                Browser-stored playlists of <code>sof1maps</code> zip paths — prev/next or click the path to load. Notes (blur/Enter). Click the small colour dot to pick a row tint (path + background). Drag ⋮⋮ to reorder. Export/import JSON keeps order, notes, and colours.
+              </p>
               <div class="row">
                 <label for="map-pl-select">List</label>
                 <select
@@ -165,6 +167,23 @@
               >
                 Delete list
               </button>
+              <div class="map-pl-backup-row">
+                <button
+                  id="map-pl-export"
+                  type="button"
+                  class="btn secondary"
+                  title="Download all map lists as JSON (backup)"
+                >
+                  Export lists
+                </button>
+                <label
+                  class="btn secondary map-pl-import-label"
+                  title="Restore from JSON: confirm dialog chooses replace all vs merge"
+                >
+                  Import lists
+                  <input id="map-pl-import-input" type="file" accept=".json,application/json" hidden />
+                </label>
+              </div>
               <ul id="map-pl-entries" class="map-pl-entries" aria-label="Maps in list"></ul>
             </div>
             <div class="panel-section panel-section--files">
@@ -462,6 +481,7 @@
               →
             </button>
           </div>
+          <div id="map-name-hud" class="map-name-hud" aria-live="polite"></div>
           <div id="camera-pos-hud" class="camera-pos-hud" aria-live="polite"></div>
         </div>
         <div id="view-hint" class="view-hint" aria-hidden="true"></div>

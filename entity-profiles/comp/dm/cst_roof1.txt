@@ -1,0 +1,400 @@
+{
+"message" "cst_roof1 by Sentinel for CyberSport Tournament"
+"_sun_ambient" "20"
+"_sun_diffuse" "60"
+"_sun_angle" "140 -45"
+"_sun_light" "110"
+"_sun_color" "1 1 0.7"
+"sky" "tok2"
+"classname" "worldspawn"
+}
+{
+"angle" "360"
+"origin" "-144 2800 -72"
+"classname" "info_player_start"
+}
+{
+"count" "2"
+"origin" "32 2664 -264"
+"classname" "item_ctf_flag"
+}
+{
+"count" "2"
+"origin" "32 2664 -272"
+"classname" "misc_ctf_base"
+}
+{
+"model" "*1"
+"mass" "2"
+"count" "4"
+"surfaceType" "0"
+"material" "7"
+"health" "10"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*2"
+"mass" "2"
+"count" "4"
+"surfaceType" "0"
+"material" "7"
+"health" "10"
+"classname" "func_breakable_brush"
+}
+{
+"angle" "270"
+"origin" "-144 2888 -104"
+"classname" "info_player_team2"
+}
+{
+"angle" "360"
+"origin" "-48 2896 -120"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "360"
+"count" "20"
+"origin" "360 2840 -296"
+"classname" "item_health_small"
+}
+{
+"angle" "360"
+"count" "20"
+"origin" "320 2840 -296"
+"classname" "item_health_small"
+}
+{
+"angle" "315"
+"origin" "376 2400 -32"
+"classname" "item_health_large"
+}
+{
+"angle" "360"
+"origin" "-304 2848 -128"
+"classname" "item_equip_armor"
+}
+{
+"angle" "360"
+"origin" "-296 2776 0"
+"classname" "item_equip_grenade"
+}
+{
+"angle" "360"
+"origin" "-304 2656 -112"
+"classname" "item_equip_c4"
+}
+{
+"angle" "360"
+"count" "12"
+"origin" "48 2896 -120"
+"classname" "item_ammo_shotgun"
+}
+{
+"angle" "360"
+"origin" "408 2824 -120"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"angle" "360"
+"origin" "-336 2576 -120"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "360"
+"origin" "192 2408 -64"
+"classname" "item_weapon_machinepistol"
+}
+{
+"angle" "270"
+"count" "9"
+"origin" "-336 2520 -120"
+"classname" "item_ammo_pistol2"
+}
+{
+"angle" "360"
+"count" "30"
+"origin" "320 2896 -120"
+"classname" "item_ammo_auto"
+}
+{
+"angle" "0"
+"origin" "-456 1400 8"
+"classname" "item_equip_grenade"
+}
+{
+"count" "1"
+"origin" "32 136 -264"
+"classname" "item_ctf_flag"
+}
+{
+"count" "1"
+"origin" "32 136 -272"
+"classname" "misc_ctf_base"
+}
+{
+"model" "*3"
+"mass" "2"
+"count" "4"
+"surfaceType" "0"
+"material" "7"
+"health" "10"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*4"
+"mass" "2"
+"count" "4"
+"surfaceType" "0"
+"material" "7"
+"health" "10"
+"classname" "func_breakable_brush"
+}
+{
+"angle" "0"
+"origin" "-344 1296 -104"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "-144 -88 -104"
+"classname" "info_player_team1"
+}
+{
+"angle" "90"
+"origin" "136 512 -152"
+"classname" "info_player_team1"
+}
+{
+"angle" "0"
+"origin" "-48 -96 -120"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "0"
+"origin" "232 504 -168"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "0"
+"origin" "-224 1304 -120"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "0"
+"count" "12"
+"origin" "-120 1304 -120"
+"classname" "item_ammo_shotgun"
+}
+{
+"angle" "0"
+"count" "20"
+"origin" "360 -40 -296"
+"classname" "item_health_small"
+}
+{
+"angle" "0"
+"count" "20"
+"origin" "320 -40 -296"
+"classname" "item_health_small"
+}
+{
+"angle" "45"
+"origin" "376 400 -32"
+"classname" "item_health_large"
+}
+{
+"angle" "0"
+"origin" "312 784 -160"
+"classname" "item_equip_armor"
+}
+{
+"angle" "0"
+"origin" "-304 -48 -128"
+"classname" "item_equip_armor"
+}
+{
+"angle" "0"
+"origin" "-296 24 0"
+"classname" "item_equip_grenade"
+}
+{
+"model" "*5"
+"material" "3"
+"mass" "3"
+"health" "50000"
+"classname" "func_breakable_brush"
+}
+{
+"model" "*6"
+"spawnflags" "72"
+"dmg" "2000"
+"classname" "trigger_hurt"
+}
+{
+"model" "*7"
+"spawnflags" "72"
+"dmg" "2000"
+"classname" "trigger_hurt"
+}
+{
+"model" "*8"
+"spawnflags" "72"
+"dmg" "2000"
+"classname" "trigger_hurt"
+}
+{
+"model" "*9"
+"spawnflags" "72"
+"dmg" "2000"
+"classname" "trigger_hurt"
+}
+{
+"angle" "0"
+"count" "20"
+"origin" "112 1152 -128"
+"classname" "item_health_small"
+}
+{
+"angle" "0"
+"origin" "-304 144 -112"
+"classname" "item_equip_c4"
+}
+{
+"angle" "0"
+"count" "12"
+"origin" "48 -96 -120"
+"classname" "item_ammo_shotgun"
+}
+{
+"angle" "0"
+"count" "12"
+"origin" "320 504 -168"
+"classname" "item_ammo_shotgun"
+}
+{
+"angle" "0"
+"origin" "408 -24 -120"
+"classname" "item_weapon_assault_rifle"
+}
+{
+"angle" "0"
+"origin" "-336 224 -120"
+"classname" "item_weapon_pistol2"
+}
+{
+"angle" "0"
+"origin" "192 392 -64"
+"classname" "item_weapon_machinepistol"
+}
+{
+"angle" "90"
+"count" "9"
+"origin" "-336 280 -120"
+"classname" "item_ammo_pistol2"
+}
+{
+"angle" "0"
+"count" "30"
+"origin" "320 -96 -120"
+"classname" "item_ammo_auto"
+}
+{
+"angle" "360"
+"origin" "-344 1504 -104"
+"classname" "info_player_team2"
+}
+{
+"angle" "360"
+"origin" "-224 1496 -120"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "360"
+"count" "12"
+"origin" "-120 1496 -120"
+"classname" "item_ammo_shotgun"
+}
+{
+"angle" "360"
+"count" "20"
+"origin" "112 1648 -128"
+"classname" "item_health_small"
+}
+{
+"light" "150"
+"_color" "1 1 0.95"
+"origin" "280 -56 -216"
+"classname" "light"
+}
+{
+"light" "150"
+"_color" "1 1 0.95"
+"origin" "280 2856 -216"
+"classname" "light"
+}
+{
+"classname" "func_group"
+}
+{
+"light" "350"
+"_color" "0.7 0.7 0.6"
+"origin" "-120 1400 -216"
+"classname" "light"
+}
+{
+"angle" "0"
+"origin" "312 2016 -160"
+"classname" "item_equip_armor"
+}
+{
+"angle" "270"
+"origin" "136 2288 -152"
+"classname" "info_player_team2"
+}
+{
+"angle" "360"
+"origin" "232 2296 -168"
+"classname" "item_weapon_shotgun"
+}
+{
+"angle" "360"
+"count" "12"
+"origin" "320 2296 -168"
+"classname" "item_ammo_shotgun"
+}
+{
+"angle" "180"
+"origin" "408 2480 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "180"
+"origin" "408 2112 -152"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-16 1496 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-144 512 -152"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "0"
+"origin" "-168 8 -104"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "144 152 -272"
+"classname" "info_player_deathmatch"
+}
+{
+"count" "100"
+"angle" "0"
+"origin" "200 1400 0"
+"classname" "item_equip_armor"
+}

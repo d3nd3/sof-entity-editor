@@ -1,7 +1,7 @@
 import "./style.css";
 import * as THREE from "three";
 import { TransformControls } from "three/addons/controls/TransformControls.js";
-import { buildWorldMeshData, parseBsp, type BspFile } from "./bsp/parse";
+import { buildWorldMeshData, parseBsp, readModel0, type BspFile } from "./bsp/parse";
 import {
   type EntityBlock,
   formatOrigin,
@@ -43,14 +43,23 @@ import {
   addEntryToActive,
   addPlaylist,
   deletePlaylist,
+  exportMapListsJson,
   getActiveId,
   getActivePlaylist,
+  getCurrentIndex,
   getLastLoadedZipRel,
   getPlaylistLabel,
   getPlaylists,
   goNext,
   goPrev,
+  importMapListsJson,
+  initBundledMapLists,
+  jumpToEntryIndex,
+  MAP_ENTRY_COLORS,
+  reorderActiveEntry,
   removeEntryAt,
+  setActiveEntryColor,
+  setActiveEntryNote,
   setActivePlaylistId,
   setLastLoadedZipRel,
 } from "./mapPlaylists";
@@ -64,6 +73,87 @@ import {
   saveAutoloadCheckbox,
 } from "./mapCache";
 import { scheduleProfileEntityFileSync } from "./profileDiskSync";
+
+const MAP_PL_COLOR_LABELS: Record<string, string> = {
+  sky: "Sky",
+  mint: "Mint",
+  amber: "Amber",
+  rose: "Rose",
+  violet: "Violet",
+  lime: "Lime",
+  ocean: "Ocean",
+  slate: "Slate",
+};
+
+/** Map list DnD: source row index while dragging (grip), or -1. */
+let mapPlDragFrom = -1;
+let mapPlColorPopover: HTMLDivElement | null = null;
+let mapPlColorPopoverIdx = -1;
+let mapPlColorPopoverCleanup: (() => void) | null = null;
+
+function closeMapPlColorPopover() {
+  mapPlColorPopoverCleanup?.();
+  mapPlColorPopoverCleanup = null;
+  mapPlColorPopover?.remove();
+  mapPlColorPopover = null;
+  mapPlColorPopoverIdx = -1;
+}
+
+function openMapPlColorPopover(anchor: HTMLElement, li: HTMLLIElement, index: number) {
+  closeMapPlColorPopover();
+  const pop = document.createElement("div");
+  pop.className = "map-pl-color-popover";
+  pop.setAttribute("role", "listbox");
+  pop.setAttribute("aria-label", "Choose row colour");
+  const mk = (colorId: string, label: string, cls: string) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = `map-pl-swatch ${cls}`;
+    b.dataset.color = colorId;
+    b.title = label;
+    b.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      setActiveEntryColor(index, colorId || null);
+      syncMapEntryRowColor(li, index);
+      closeMapPlColorPopover();
+    });
+    pop.appendChild(b);
+  };
+  mk("", "No colour", "map-pl-swatch--none");
+  for (const c of MAP_ENTRY_COLORS) mk(c, MAP_PL_COLOR_LABELS[c] ?? c, `map-pl-swatch--${c}`);
+  document.body.appendChild(pop);
+  mapPlColorPopover = pop;
+  mapPlColorPopoverIdx = index;
+  const ar = anchor.getBoundingClientRect();
+  pop.style.position = "fixed";
+  pop.style.top = `${ar.bottom + 4}px`;
+  pop.style.zIndex = "4000";
+  const place = () => {
+    const pr = pop.getBoundingClientRect();
+    let left = ar.left;
+    if (pr.width && left + pr.width > window.innerWidth - 8) left = window.innerWidth - pr.width - 8;
+    if (left < 8) left = 8;
+    pop.style.left = `${left}px`;
+    if (pr.bottom > window.innerHeight - 8) pop.style.top = `${Math.max(8, ar.top - pr.height - 4)}px`;
+  };
+  requestAnimationFrame(place);
+
+  const onDoc = (e: MouseEvent) => {
+    const t = e.target as Node;
+    if (pop.contains(t) || anchor.contains(t)) return;
+    closeMapPlColorPopover();
+  };
+  const onKey = (e: KeyboardEvent) => {
+    if (e.key === "Escape") closeMapPlColorPopover();
+  };
+  queueMicrotask(() => document.addEventListener("mousedown", onDoc));
+  document.addEventListener("keydown", onKey);
+  mapPlColorPopoverCleanup = () => {
+    document.removeEventListener("mousedown", onDoc);
+    document.removeEventListener("keydown", onKey);
+  };
+}
 
 let entityBlocks: EntityBlock[] = [];
 /** Filled in `initUI` — redraws the sof1maps recent list after loads. */
@@ -757,17 +847,97 @@ function gotoSelectedEntity() {
   setStatus(`Camera → #${selectedIdx} (${getPair(b, "classname") ?? "?"})`);
 }
 
-function frameCameraToMap(mesh: THREE.Mesh) {
-  mesh.geometry.computeBoundingBox();
-  const bb = mesh.geometry.boundingBox;
+/** Area-weighted mean of triangle centroids (shell “center of mass” for uniform density). */
+function triangleAreaWeightedCentroid(geo: THREE.BufferGeometry): THREE.Vector3 | null {
+  const pos = geo.getAttribute("position") as THREE.BufferAttribute | undefined;
+  const idx = geo.index;
+  const pa = pos?.array as Float32Array | undefined;
+  if (!pos?.count || !pa || !idx || idx.count < 3) return null;
+  const ia = idx.array as Uint32Array | Uint16Array;
+  let sx = 0,
+    sy = 0,
+    sz = 0,
+    wsum = 0;
+  for (let t = 0; t < idx.count; t += 3) {
+    const o0 = ia[t]! * 3,
+      o1 = ia[t + 1]! * 3,
+      o2 = ia[t + 2]! * 3;
+    const x0 = pa[o0]!,
+      y0 = pa[o0 + 1]!,
+      z0 = pa[o0 + 2]!;
+    const x1 = pa[o1]!,
+      y1 = pa[o1 + 1]!,
+      z1 = pa[o1 + 2]!;
+    const x2 = pa[o2]!,
+      y2 = pa[o2 + 1]!,
+      z2 = pa[o2 + 2]!;
+    const mx = (x0 + x1 + x2) / 3,
+      my = (y0 + y1 + y2) / 3,
+      mz = (z0 + z1 + z2) / 3;
+    const abx = x1 - x0,
+      aby = y1 - y0,
+      abz = z1 - z0;
+    const acx = x2 - x0,
+      acy = y2 - y0,
+      acz = z2 - z0;
+    const cx = aby * acz - abz * acy,
+      cy = abz * acx - abx * acz,
+      cz = abx * acy - aby * acx;
+    const w = 0.5 * Math.sqrt(cx * cx + cy * cy + cz * cz);
+    if (w > 1e-12) {
+      sx += mx * w;
+      sy += my * w;
+      sz += mz * w;
+      wsum += w;
+    }
+  }
+  if (wsum < 1e-20) return null;
+  return new THREE.Vector3(sx / wsum, sy / wsum, sz / wsum);
+}
+
+function vertexMeanCenter(geo: THREE.BufferGeometry): THREE.Vector3 | null {
+  const pos = geo.getAttribute("position") as THREE.BufferAttribute | undefined;
+  const pa = pos?.array as Float32Array | undefined;
+  if (!pos?.count || !pa) return null;
+  const n = pos.count;
+  let sx = 0,
+    sy = 0,
+    sz = 0;
+  for (let i = 0, o = 0; i < n; i++, o += 3) {
+    sx += pa[o]!;
+    sy += pa[o + 1]!;
+    sz += pa[o + 2]!;
+  }
+  const inv = 1 / n;
+  return new THREE.Vector3(sx * inv, sy * inv, sz * inv);
+}
+
+function model0BoundsCenterThree(buffer: ArrayBuffer, lumps: BspFile["lumps"]): THREE.Vector3 | null {
+  try {
+    const m = readModel0(buffer, lumps);
+    const qx = (m.mins[0] + m.maxs[0]) * 0.5;
+    const qy = (m.mins[1] + m.maxs[1]) * 0.5;
+    const qz = (m.mins[2] + m.maxs[2]) * 0.5;
+    return quakeToThree(qx, qy, qz);
+  } catch {
+    return null;
+  }
+}
+
+/** Camera at map center of mass; short look-ahead so view matrix is stable (not degenerate lookAt). */
+function frameCameraToMap(mesh: THREE.Mesh, buffer: ArrayBuffer, lumps: BspFile["lumps"]) {
+  const geo = mesh.geometry;
+  geo.computeBoundingBox();
+  const bb = geo.boundingBox;
   if (!bb) return;
-  const center = new THREE.Vector3();
+  const com =
+    triangleAreaWeightedCentroid(geo) ?? vertexMeanCenter(geo) ?? model0BoundsCenterThree(buffer, lumps) ?? bb.getCenter(new THREE.Vector3());
   const size = new THREE.Vector3();
-  bb.getCenter(center);
   bb.getSize(size);
   const maxDim = Math.max(size.x, size.y, size.z, 64);
-  camera.position.set(center.x + maxDim * 0.55, center.y + maxDim * 0.42, center.z + maxDim * 1.05);
-  camera.lookAt(center);
+  const step = Math.max(maxDim * 0.06, 48);
+  camera.position.copy(com);
+  camera.lookAt(com.x + step * 0.65, com.y + maxDim * 0.025, com.z + step * 0.55);
   const e = new THREE.Euler().setFromQuaternion(camera.quaternion, "YXZ");
   lookPitch = e.x;
   lookYaw = e.y;
@@ -782,7 +952,7 @@ function loadBspBuffer(buf: ArrayBuffer, name: string, opts?: { mapEntityRel?: s
   const bsp = parseBsp(buf);
   const mesh = meshFromBspData(bsp.buffer, bsp.lumps);
   meshGroup.add(mesh);
-  frameCameraToMap(mesh);
+  frameCameraToMap(mesh, bsp.buffer, bsp.lumps);
   internalEntityText = bsp.entityString;
   entityBlocks = parseEntityString(sanitizeEntText(internalEntityText));
   lastSpawnedOrigin = null;
@@ -846,6 +1016,40 @@ function applySof1mapsFieldsFromRel(rel: string) {
   ($("#sof1maps-map") as HTMLInputElement).value = stem;
 }
 
+/** Gap index 0..n for drop (n = after last row). */
+function playlistDropIndexFromPoint(e: DragEvent, ul: HTMLElement, n: number): number {
+  const el = document.elementFromPoint(e.clientX, e.clientY);
+  const li = el?.closest?.(".map-pl-entry") as HTMLElement | null;
+  if (li && ul.contains(li)) {
+    const i = Number(li.dataset.plIdx);
+    if (Number.isFinite(i)) {
+      const r = li.getBoundingClientRect();
+      const mid = r.top + r.height / 2;
+      return e.clientY < mid ? i : i + 1;
+    }
+  }
+  const rows = ul.querySelectorAll<HTMLElement>(".map-pl-entry");
+  if (!rows.length) return 0;
+  const first = rows[0]!.getBoundingClientRect();
+  const last = rows[rows.length - 1]!.getBoundingClientRect();
+  if (e.clientY < first.top) return 0;
+  if (e.clientY > last.bottom) return n;
+  return n;
+}
+
+function syncMapEntryRowColor(li: HTMLLIElement, index: number) {
+  const pl = getActivePlaylist();
+  const col = pl?.entries[index]?.color;
+  const valid = !!(col && (MAP_ENTRY_COLORS as readonly string[]).includes(col));
+  for (const c of MAP_ENTRY_COLORS) li.classList.remove(`map-pl-entry--c-${c}`);
+  if (valid) li.classList.add(`map-pl-entry--c-${col}`);
+  const cb = li.querySelector(".map-pl-entry-color-btn");
+  if (cb) {
+    cb.className =
+      "map-pl-entry-color-btn" + (valid ? ` map-pl-entry-color-btn--${col}` : " map-pl-entry-color-btn--none");
+  }
+}
+
 function refreshMapPlaylistUi() {
   const sel = $("#map-pl-select") as HTMLSelectElement;
   const pos = $("#map-pl-pos");
@@ -864,6 +1068,7 @@ function refreshMapPlaylistUi() {
   if (!lists.length) {
     sel.disabled = true;
     pos.textContent = "—";
+    closeMapPlColorPopover();
     ul.innerHTML = "";
     prev.disabled = true;
     next.disabled = true;
@@ -876,32 +1081,101 @@ function refreshMapPlaylistUi() {
   pos.textContent = getPlaylistLabel();
   const pl = getActivePlaylist();
   const n = pl?.entries.length ?? 0;
+  const ci = getCurrentIndex();
   prev.disabled = !n;
   next.disabled = !n;
+  closeMapPlColorPopover();
   ul.innerHTML = "";
   if (!pl?.entries.length) return;
-  pl.entries.forEach((path, i) => {
+  pl.entries.forEach((ent, i) => {
+    const path = ent.path;
     const li = document.createElement("li");
-    li.className = "map-pl-entry";
-    const span = document.createElement("span");
-    span.className = "map-pl-entry-path";
-    span.textContent = path;
+    li.className = "map-pl-entry" + (ci >= 0 && i === ci ? " map-pl-entry--current" : "");
+    li.dataset.plIdx = String(i);
+    const grip = document.createElement("span");
+    grip.className = "map-pl-entry-grip";
+    grip.title = "Drag to reorder";
+    grip.textContent = "⋮⋮";
+    grip.draggable = true;
+    grip.addEventListener("dragstart", (e) => {
+      mapPlDragFrom = i;
+      e.dataTransfer?.setData("text/plain", String(i));
+      e.dataTransfer!.effectAllowed = "move";
+      li.classList.add("map-pl-entry--dragging");
+    });
+    grip.addEventListener("dragend", () => {
+      mapPlDragFrom = -1;
+      li.classList.remove("map-pl-entry--dragging");
+    });
+    const colorBtn = document.createElement("button");
+    colorBtn.type = "button";
+    colorBtn.className = "map-pl-entry-color-btn map-pl-entry-color-btn--none";
+    colorBtn.title = "Choose row colour";
+    colorBtn.draggable = false;
+    colorBtn.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      if (mapPlColorPopoverIdx === i) closeMapPlColorPopover();
+      else openMapPlColorPopover(colorBtn, li, i);
+    });
+    const loadBtn = document.createElement("button");
+    loadBtn.type = "button";
+    loadBtn.className = "map-pl-entry-path";
+    loadBtn.title = "Load this map";
+    loadBtn.textContent = path;
+    loadBtn.draggable = false;
+    loadBtn.addEventListener("click", () => void loadPlaylistMapAtIndex(i));
+    const noteIn = document.createElement("input");
+    noteIn.type = "text";
+    noteIn.className = "map-pl-entry-note";
+    noteIn.spellcheck = false;
+    noteIn.placeholder = "Note…";
+    noteIn.title = "Short note (saved when you leave the field or press Enter)";
+    noteIn.value = ent.note ?? "";
+    noteIn.draggable = false;
+    noteIn.addEventListener("keydown", (ev) => {
+      if (ev.key === "Enter") {
+        ev.preventDefault();
+        noteIn.blur();
+      }
+    });
+    noteIn.addEventListener("blur", () => {
+      if (noteIn.value.trim() !== (ent.note ?? "").trim()) setActiveEntryNote(i, noteIn.value);
+    });
     const rm = document.createElement("button");
     rm.type = "button";
     rm.className = "map-pl-entry-rm";
     rm.title = "Remove from list";
     rm.textContent = "×";
-    rm.addEventListener("click", () => {
+    rm.draggable = false;
+    rm.addEventListener("click", (ev) => {
+      ev.stopPropagation();
       removeEntryAt(i);
       refreshMapPlaylistUi();
     });
-    li.append(span, rm);
+    li.append(grip, colorBtn, loadBtn, noteIn, rm);
+    syncMapEntryRowColor(li, i);
     ul.appendChild(li);
   });
 }
 
 async function loadPlaylistMap(go: () => string | null) {
   const rel = go();
+  if (!rel) {
+    setStatus("This list has no maps yet.", true);
+    return;
+  }
+  try {
+    await loadSof1mapsZipRel(rel, { disableFetchBtn: true });
+    applySof1mapsFieldsFromRel(rel);
+    refreshMapPlaylistUi();
+  } catch {
+    refreshMapPlaylistUi();
+  }
+}
+
+async function loadPlaylistMapAtIndex(i: number) {
+  const rel = jumpToEntryIndex(i);
   if (!rel) {
     setStatus("This list has no maps yet.", true);
     return;
@@ -1446,12 +1720,14 @@ function initThree() {
     renderer.setSize(container.clientWidth, container.clientHeight);
   });
 
+  const mapNameHud = $("#map-name-hud");
   const hud = $("#camera-pos-hud");
 
   function animate() {
     requestAnimationFrame(animate);
     const dt = clock.getDelta();
     applyViewNavigation(dt);
+    mapNameHud.textContent = bspName;
     const [qx, qy, qz] = threeToQuake(camera.position);
     const r = (n: number) => n.toFixed(2);
     hud.innerHTML = `<span class="label">Camera (game units)</span>${r(qx)} ${r(qy)} ${r(qz)}`;
@@ -1608,9 +1884,66 @@ function initUI() {
     deletePlaylist(id);
     refreshMapPlaylistUi();
   });
+  const mapPlUl = $("#map-pl-entries");
+  mapPlUl.addEventListener("dragover", (e) => {
+    if (mapPlDragFrom < 0) return;
+    const pl = getActivePlaylist();
+    if (!pl?.entries.length) return;
+    e.preventDefault();
+    (e as DragEvent).dataTransfer!.dropEffect = "move";
+  });
+  mapPlUl.addEventListener("drop", (e) => {
+    e.preventDefault();
+    const from = mapPlDragFrom;
+    if (from < 0) return;
+    const pl = getActivePlaylist();
+    if (!pl?.entries.length) return;
+    const di = playlistDropIndexFromPoint(e as DragEvent, mapPlUl, pl.entries.length);
+    if (reorderActiveEntry(from, di)) refreshMapPlaylistUi();
+  });
+  $("#map-pl-export").addEventListener("click", () => {
+    const json = exportMapListsJson();
+    const d = new Date();
+    const name = `sof-entity-editor-map-lists-${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}.json`;
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([json], { type: "application/json" }));
+    a.download = name;
+    a.click();
+    URL.revokeObjectURL(a.href);
+    setStatus(`Exported map lists (${name})`);
+  });
+  const mapPlImport = $("#map-pl-import-input") as HTMLInputElement;
+  mapPlImport.addEventListener("change", () => {
+    const file = mapPlImport.files?.[0];
+    mapPlImport.value = "";
+    if (!file) return;
+    const fr = new FileReader();
+    fr.onload = () => {
+      const text = typeof fr.result === "string" ? fr.result : "";
+      if (!text) {
+        setStatus("Import file empty.", true);
+        return;
+      }
+      const mode = confirm(
+        "Replace all map lists with this file?\n\nOK = replace everything\nCancel = merge into existing lists",
+      )
+        ? "replace"
+        : "merge";
+      const r = importMapListsJson(text, mode);
+      if (!r.ok) {
+        setStatus(`Import failed: ${r.error}`, true);
+        return;
+      }
+      refreshMapPlaylistUi();
+      setStatus(`Imported ${r.count} list(s) (${r.mode})`);
+    };
+    fr.onerror = () => setStatus("Could not read import file.", true);
+    fr.readAsText(file);
+  });
   $("#map-pl-prev").addEventListener("click", () => void loadPlaylistMap(goPrev));
   $("#map-pl-next").addEventListener("click", () => void loadPlaylistMap(goNext));
   refreshMapPlaylistUi();
+  void initBundledMapLists().then(() => refreshMapPlaylistUi());
 
   refreshEntProfileBundledList();
   populateProfileSelect();
