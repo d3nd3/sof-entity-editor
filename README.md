@@ -1,5 +1,7 @@
 # SoF Entity Editor
 
+Prefer pictures? Start with **[HUMANS.md](HUMANS.md)**.
+
 ## Development (Vite dev server)
 
 ```bash

@@ -1,0 +1,138 @@
+# sof-entity-editor — system overview (source of truth).
+# Render: scripts/render-diagram.sh (svg: light+dark, png: dark, for gpm desktop).
+# Colours come from the d2 theme; classes set strokes only, so light and dark both stay legible.
+# Rule: if a parser, store or fetch changes, update this file in the same commit and re-render.
+
+title: |md
+  **sof-entity-editor** — browser BSP viewer and entity editor for Soldier of Fortune maps: no backend, one Vite page, three.js viewport
+| {near: top-center}
+
+direction: right
+grid-columns: 2
+grid-rows: 2
+
+entry: Entry points {
+  direction: down
+  shell: `index.html` · static sidebar: Map, Entities, Profiles, Playlists tabs {
+    shape: hexagon
+  }
+  boot: `src/main.ts` · the app itself: state, viewport, markers, TransformControls {
+    shape: hexagon
+  }
+  files: `<input>` / drag-drop `.bsp`, entity `.txt`, clipboard paste
+  dev: `npm run dev` · Vite 5173, HMR {
+    shape: hexagon
+  }
+  prod: `npm run build` · `tsc && vite build` → `dist/` {
+    shape: hexagon
+  }
+}
+
+core: Core · parse, edit, persist {
+  direction: down
+  bsp: `bsp/parse.ts` · IBSP v46, 22 lumps → world mesh + model 0
+  coords: `coords.ts` · Quake Z-up ↔ three.js Y-up, yaw conversion
+  hull: `playerHull.ts` · spawn AABB from model 0, drawn as a box
+  ents: `entities.ts` · Quake entity string → blocks, key/value, origin, yaw
+  cat: `entityCatalog.ts` · `entities.txt` classname list, `//` comments skipped
+  qrk: `qrkCatalog.ts` · QuArK `SOFEntities.qrk`: toolbox tree, bit names, field options
+  sflags: `spawnflagsCatalog.ts` · checkbox editor from the qrk bit table
+  prof: `entityProfiles.ts` · bundled `entity-profiles/**/*.txt` via `import.meta.glob`
+  disk: `profileDiskSync.ts` · 400 ms debounce POST, `import.meta.env.DEV` only
+  maps: `sof1maps.ts` · GitHub API listing + zip → pick main `.bsp`
+  zcache: `sof1mapsCache.ts` · IndexedDB zip cache, keyed by repo path
+  mc: `mapCache.ts` · last zip, folder, recent list in localStorage
+  pl: `mapPlaylists.ts` · playlists + notes + colours, `default-map-lists.json`
+  gap: "**in the repo, not imported:** `ent_files/` — 998 per-map `.txt`, source material for profiles, no code path reads it" {
+    shape: document
+  }
+  sdk: "**read-only vendor drop:** `sof-sdk/` — Raven SDK headers `docs/bsp-sof.md` cites, never built" {
+    shape: document
+  }
+}
+
+state: State · what survives a reload {
+  direction: down
+  idb: IndexedDB `sof-entity-editor` / `sof1maps-zips` — downloaded zips {
+    shape: cylinder
+  }
+  ls: localStorage — map cache, playlists, current profile {
+    shape: cylinder
+  }
+  diskprof: `entity-profiles/<profile>/<mapRel>.txt` — on disk, dev only {
+    shape: cylinder
+  }
+  bundled: bundled data — `.qrk`, `maplists/*.json`, `entity-profiles/*.txt` {
+    shape: cylinder
+  }
+  dist: `dist/` — the built static bundle {
+    shape: cylinder
+  }
+}
+
+ext: External {
+  direction: down
+  maps: `plowsof/sof1maps` — raw zips + GitHub contents API
+  vite: Vite dev middleware `/api/save-entity-profile`, `/api/load-entity-profile`
+  gl: three.js / WebGL — the only rendering dependency
+  clip: browser clipboard API
+  host: static host — Pages, Netlify, any nginx, no backend
+  gh: `api.github.com` — rate limited, 60 requests/hour unauthenticated
+}
+
+entry.shell -> core.bsp: "tab switch"
+entry.boot -> core.ents
+entry.files -> core.ents: "load text"
+entry.dev -> core.maps: "autoload default pack"
+entry.prod -> state.dist: "writes"
+
+core.bsp -> core.coords
+core.bsp -> core.hull
+core.ents -> core.coords: "origins"
+core.qrk -> core.sflags: "bit table"
+core.qrk -> core.cat: "classnames"
+core.maps -> core.zcache: "before unzip"
+core.maps -> core.bsp: "`.bsp` out of zip"
+core.maps -> core.mc: "folder + recents"
+core.pl -> core.mc
+core.prof -> core.disk: "dev writes"
+core.prof -> core.pl
+
+core.zcache -> state.idb
+core.mc -> state.ls
+core.pl -> state.ls
+core.disk -> state.diskprof
+core.prof -> state.bundled: "glob at build"
+
+core.maps -> ext.maps: "fetch zip"
+core.maps -> ext.gh: "list folder"
+core.disk -> ext.vite: "POST / GET"
+core.bsp -> ext.gl: "mesh + markers"
+entry.boot -> ext.gl: "scene"
+entry.files -> ext.clip: "paste"
+state.dist -> ext.host: "upload"
+
+classes: {
+  store: {style.stroke: "#1c7ed6"; style.stroke-width: 2}
+  ext: {style.stroke: "#7048e8"; style.stroke-dash: 3}
+  hot: {style.stroke: "#e8590c"; style.stroke-width: 3}
+  entry: {style.stroke: "#2f9e44"; style.stroke-width: 2}
+}
+
+state.idb.class: store
+state.ls.class: store
+state.diskprof.class: store
+state.bundled.class: store
+state.dist.class: store
+ext.maps.class: ext
+ext.vite.class: ext
+ext.gl.class: ext
+ext.clip.class: ext
+ext.host.class: ext
+ext.gh.class: ext
+core.gap.class: hot
+core.sdk.class: hot
+entry.shell.class: entry
+entry.boot.class: entry
+entry.dev.class: entry
+entry.prod.class: entry
